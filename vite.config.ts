@@ -72,7 +72,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     console.debug("Platform ", PLATFORM);
 
     return {
-        base: viteEnv[getCurrentEnvContext("_PUBLIC_PATH")],
+        // base: viteEnv[getCurrentEnvContext("_PUBLIC_PATH")],
         root,
         envDir: root.concat(`/${ENV_DIR}`),
         envPrefix: ENV_PREFIX,
