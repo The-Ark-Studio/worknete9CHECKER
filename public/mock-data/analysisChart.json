@@ -1,0 +1,31 @@
+{
+    "message": null,
+    "data": {
+        "color": "#FFFFFF",
+        "label": "BP-PPXDK00",
+        "prices": [
+            {
+                "date": "2024-03-04",
+                "price": 200.2
+            },
+            {
+                "date": "2024-03-05",
+                "price": 122.32
+            },
+            {
+                "date": "2024-03-06",
+                "price": 122.32
+            },
+            {
+                "date": "2024-03-07",
+                "price": 122.32
+            },
+            {
+                "date": "2024-03-07",
+                "price": 122.32
+            }
+        ]
+    },
+    "totalPages": null,
+    "success": true
+}

@@ -1,0 +1,319 @@
+{
+    "$schema": "node_modules/eslint-plugin-project-structure/projectStructure.schema.json",
+    "ignorePatterns": ["setup", "typing"],
+    "structure": {
+        "children": [
+            {
+                "name": "public",
+                "children": []
+            },
+            {
+                "name": "src",
+                "children": [
+                    {
+                        "ruleId": "api_rule"
+                    },
+                    {
+                        "ruleId": "hooks_rule"
+                    },
+                    {
+                        "ruleId": "assets_rule"
+                    },
+                    {
+                        "ruleId": "components_rule"
+                    },
+                    {
+                        "ruleId": "constants_rule"
+                    },
+                    {
+                        "ruleId": "context_rule"
+                    },
+                    {
+                        "ruleId": "interface_rule"
+                    },
+                    {
+                        "ruleId": "page_rule"
+                    },
+                    {
+                        "ruleId": "provider_rule"
+                    },
+                    {
+                        "ruleId": "store_rule"
+                    },
+                    {
+                        "ruleId": "route_rule"
+                    },
+                    {
+                        "ruleId": "util_rule"
+                    },
+                    {
+                        "name": "App",
+                        "extension": "css"
+                    },
+                    {
+                        "name": "/^App(\\.test)?$/",
+                        "extension": "tsx"
+                    },
+                    {
+                        "name": "index",
+                        "extension": ["css", "tsx", "ts"]
+                    },
+                    {
+                        "name": "logo",
+                        "extension": "svg"
+                    },
+                    {
+                        "name": "/^(vite-env\\.d|react-app-env\\.d|i18n|reportWebVitals|setupTests)$/",
+                        "extension": "ts"
+                    }
+                ]
+            },
+            {
+                "extension": "*"
+            }
+        ]
+    },
+    "rules": {
+        "assets_rule": {
+            "name": "assets",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_case"
+                },
+                {
+                    "name": "/^${{kebab-case}}/",
+                    "extension": "*"
+                }
+            ]
+        },
+        "api_rule": {
+            "name": "api",
+            "children": [
+                {
+                    "name": "/^${{kebab-case}}-api$/",
+                    "extension": "ts"
+                },
+                {
+                    "name": "axios-instance",
+                    "extension": "ts"
+                }
+            ]
+        },
+
+        "components_rule": {
+            "name": "components",
+            "children": [
+                {
+                    "ruleId": "recursive_pascal_case"
+                },
+                {
+                    "name": "/^${{PascalCase}}|index/",
+                    "extension": "ts"
+                }
+            ]
+        },
+
+        "constants_rule": {
+            "name": "constants",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_case"
+                },
+                {
+                    "ruleId": "constant_file_naming"
+                }
+            ]
+        },
+        "constant_file_naming": {
+            "name": "/^${{kebab-case}}\\.const$/",
+            "extension": "ts"
+        },
+
+        "context_rule": {
+            "name": "contexts",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_case"
+                },
+                {
+                    "ruleId": "context_file_naming"
+                }
+            ]
+        },
+        "context_file_naming": {
+            "name": "/^${{kebab-case}}\\.ctx/",
+            "extension": "ts"
+        },
+
+        "interface_rule": {
+            "name": "interfaces",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_case"
+                },
+                {
+                    "name": "/^${{kebab-case}}/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "page_rule": {
+            "name": "pages",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_case"
+                },
+                {
+                    "name": "/^${{kebab-case}}|index/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "provider_rule": {
+            "name": "providers",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_mix_camel"
+                },
+                {
+                    "name": "/^${{camelCase}}Provider/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "store_rule": {
+            "name": "stores",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_mix_camel_for_store"
+                },
+                {
+                    "name": "/^${{camelCase}}Store/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "util_rule": {
+            "name": "utils",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_case"
+                },
+                {
+                    "name": "/^${{kebab-case}}.util/",
+                    "extension": "ts"
+                }
+            ]
+        },
+
+        "route_rule": {
+            "name": "routes",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_case"
+                },
+                {
+                    "name": "/^${{kebab-case}}|index/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "hooks_folder": {
+            "name": "/^${{camelCase}}Hooks$/",
+            "children": [
+                {
+                    "name": "index",
+                    "extension": ["ts", "tsx"]
+                },
+                {
+                    "ruleId": "hooks_folder"
+                },
+                {
+                    "name": "/^use${{PascalCase}}(\\.(test))?$/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "hooks_rule": {
+            "name": "hooks",
+            "children": [
+                {
+                    "name": "index",
+                    "extension": ["ts", "tsx"]
+                },
+                {
+                    "ruleId": "hooks_folder"
+                },
+                {
+                    "name": "/^use${{PascalCase}}(\\.test)?$/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "recursive_pascal_case": {
+            "name": "/^${{PascalCase}}?$/",
+            "children": [
+                {
+                    "ruleId": "recursive_pascal_case"
+                },
+                {
+                    "name": "index",
+                    "extension": ["ts", "tsx"]
+                },
+                {
+                    "name": "/^${{PascalCase}}/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "recursive_kebab_case": {
+            "name": "/^${{kebab-case}}?$/",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_case"
+                },
+                {
+                    "name": "/^${{kebab-case}}(\\.(const|ctx|d|util))?$/",
+                    "extension": ["ts", "tsx"]
+                }
+            ]
+        },
+
+        "recursive_kebab_mix_camel": {
+            "name": "/^${{kebab-case}}?$/",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_mix_camel"
+                },
+                {
+                    "name": "/^${{camelCase}}Provider/",
+                    "extension": "ts"
+                }
+            ]
+        },
+
+        "recursive_kebab_mix_camel_for_store": {
+            "name": "/^${{kebab-case}}?$/",
+            "children": [
+                {
+                    "ruleId": "recursive_kebab_mix_camel_for_store"
+                },
+                {
+                    "name": "/^${{camelCase}}Store/",
+                    "extension": "ts"
+                }
+            ]
+        }
+    },
+    "regexParameters": {
+        "UPPERCASE": "\\b[A-Z]+[0-9]+\\b"
+    }
+}

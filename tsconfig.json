@@ -1,0 +1,105 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ESNext",
+        "module": "ESNext",
+        "useDefineForClassFields": true,
+        "moduleResolution": "Node",
+        "strict": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "importHelpers": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "incremental": false,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false,
+        "types": [
+            "vite/client"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "allowJs": false,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "@src/*": [
+                "./src/*"
+            ],
+            "@pub/*": [
+                "./public/*"
+            ],
+            "@api/*": [
+                "./src/api/*"
+            ],
+            "@asset/*": [
+                "./src/assets/*"
+            ],
+            "@comp/*": [
+                "./src/components/*"
+            ],
+            "@store/*": [
+                "./src/stores/*"
+            ],
+            "@const/*": [
+                "./src/constants/*"
+            ],
+            "@ctx/*": [
+                "./src/contexts/*"
+            ],
+            "@intf/*": [
+                "./src/interfaces/*"
+            ],
+            "@pg/*": [
+                "./src/pages/*"
+            ],
+            "@pvd/*": [
+                "./src/api/providers/*"
+            ],
+            "@rts/*": [
+                "./src/routes/*"
+            ],
+            "@util/*": [
+                "./src/utils/*"
+            ],
+            "@setup/*": [
+                "./setup/*"
+            ],
+            "@routes": [
+                "./src/routes"
+            ],
+            "@hooks/*": [
+                "./src/hooks/*"
+            ],
+            "tslib": [
+                "./node_modules/tslib/tslib.d.ts"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "typing/**/*.d.ts",
+        "public/**/*.json",
+        "setup/**/*.ts",
+        "vite.config.ts",
+        "package.json"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "message": null,
+    "data": {
+        "version": "1",
+        "unit": 1,
+        "details": [
+            {
+                "id": 6,
+                "grade": {
+                    "id": 3,
+                    "name": "0.1% LSMGO"
+                },
+                "portGroup": {
+                    "id": 3,
+                    "name": "France (LEH)",
+                    "ports": ["FRLEH"]
+                },
+                "frequency": 3,
+                "tiers": [
+                    {
+                        "id": 10,
+                        "code": "tier1",
+                        "frequency": 2,
+                        "min": 20,
+                        "max": 30,
+                        "minFrequency": 1,
+                        "maxFrequency": 1,
+                        "position": 1
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "grade": {
+                    "id": 1,
+                    "name": "0.5% VLSFO"
+                },
+                "portGroup": {
+                    "id": 3,
+                    "name": "France (LEH)",
+                    "ports": ["FRLEH"]
+                },
+                "frequency": 4,
+                "tiers": [
+                    {
+                        "id": 14,
+                        "code": "tier1",
+                        "frequency": 2,
+                        "min": 12,
+                        "max": 22,
+                        "minFrequency": 2,
+                        "maxFrequency": 3,
+                        "position": 1
+                    },
+                    {
+                        "id": 15,
+                        "code": "tier2",
+                        "frequency": 2,
+                        "min": 11,
+                        "max": 22,
+                        "minFrequency": 2,
+                        "maxFrequency": 3,
+                        "position": 2
+                    },
+                    {
+                        "id": 16,
+                        "code": "tier3",
+                        "frequency": 2,
+                        "min": 8,
+                        "max": 14,
+                        "minFrequency": 2,
+                        "maxFrequency": 3,
+                        "position": 3
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "grade": {
+                    "id": 2,
+                    "name": "0.1% ULSFO"
+                },
+                "portGroup": {
+                    "id": 2,
+                    "name": "Spain (BCN, ALG)",
+                    "ports": ["ESALG", "ESBCN"]
+                },
+                "frequency": 4,
+                "tiers": [
+                    {
+                        "id": 17,
+                        "code": "tier1",
+                        "frequency": 2,
+                        "min": 24,
+                        "max": 43,
+                        "minFrequency": 2,
+                        "maxFrequency": 3,
+                        "position": 1
+                    },
+                    {
+                        "id": 18,
+                        "code": "tier2",
+                        "frequency": 2,
+                        "min": 20,
+                        "max": 22,
+                        "minFrequency": 2,
+                        "maxFrequency": 3,
+                        "position": 2
+                    },
+                    {
+                        "id": 19,
+                        "code": "tier3",
+                        "frequency": 2,
+                        "min": 12,
+                        "max": 32,
+                        "minFrequency": 2,
+                        "maxFrequency": 3,
+                        "position": 3
+                    },
+                    {
+                        "id": 20,
+                        "code": "tier4",
+                        "frequency": 3,
+                        "min": 22,
+                        "max": 24,
+                        "minFrequency": 2,
+                        "maxFrequency": 3,
+                        "position": 4
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "grade": {
+                    "id": 1,
+                    "name": "0.5% VLSFO"
+                },
+                "portGroup": {
+                    "id": 1,
+                    "name": "ARA",
+                    "ports": ["JPABU", "BEANR", "NLRTM", "NLAMS"]
+                },
+                "frequency": 1,
+                "tiers": []
+            },
+            {
+                "id": 12,
+                "grade": {
+                    "id": 1,
+                    "name": "0.5% VLSFO"
+                },
+                "portGroup": {
+                    "id": 1,
+                    "name": "ARA",
+                    "ports": ["JPABU", "BEANR", "NLRTM", "NLAMS"]
+                },
+                "frequency": 1,
+                "tiers": []
+            },
+            {
+                "id": 13,
+                "grade": {
+                    "id": 1,
+                    "name": "0.5% VLSFO"
+                },
+                "portGroup": {
+                    "id": 1,
+                    "name": "ARA",
+                    "ports": ["JPABU", "BEANR", "NLRTM", "NLAMS"]
+                },
+                "frequency": 1,
+                "tiers": []
+            }
+        ]
+    },
+    "totalPages": null,
+    "success": true
+}

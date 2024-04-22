@@ -1,0 +1,58 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "composite": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "@mui/styled-engine": [
+                "@mui/styled-engine-sc"
+            ],
+            "@pub/*": [
+                "./public/*"
+            ],
+            "@api/*": [
+                "./src/api/*"
+            ],
+            "@asset/*": [
+                "./src/assets/*"
+            ],
+            "@comp/*": [
+                "./src/components/*"
+            ],
+            "@const/*": [
+                "./src/constants/*"
+            ],
+            "@ctx/*": [
+                "./src/contexts/*"
+            ],
+            "@intf/*": [
+                "./src/interfaces/*"
+            ],
+            "@pg/*": [
+                "./src/pages/*"
+            ],
+            "@pvd/*": [
+                "./src/api/providers/*"
+            ],
+            "@rts/*": [
+                "./src/routes/*"
+            ],
+            "@util/*": [
+                "./src/utils/*"
+            ],
+            "@setup/*": [
+                "./setup/*"
+            ],
+            "tslib": [
+                "./node_modules/tslib/tslib.d.ts"
+            ]
+        }
+    },
+    "include": [
+        "typing/**/*.d.ts",
+        "vite.config.ts",
+        "package.json"
+    ]
+}

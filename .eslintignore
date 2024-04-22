@@ -1,0 +1,14 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/dist
+**/.vite
+.vite-inspect
+.vscode
+.idea
+.pnpm-store
+**/package-lock.json
+pnpm-lock.yaml
+typing/components.d.ts
+typing/dependencies.d.ts

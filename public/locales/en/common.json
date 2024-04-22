@@ -1,0 +1,204 @@
+{
+    "pages": {
+        "login": {
+            "title": "Sign in to your account",
+            "signin": "Sign in",
+            "signup": "Sign up",
+            "divider": "or",
+            "fields": {
+                "email": "Email",
+                "password": "Password"
+            },
+            "errors": {
+                "password": {
+                    "message": "Invalid Password"
+                },
+                "validEmail": "Invalid email address"
+            },
+            "buttons": {
+                "submit": "Login",
+                "forgotPassword": "Forgot password?",
+                "noAccount": "Don’t have an account?",
+                "rememberMe": "Remember me"
+            }
+        },
+        "forgotPassword": {
+            "title": "Forgot your password?",
+            "fields": {
+                "email": "Email"
+            },
+            "errors": {
+                "validEmail": "Invalid email address"
+            },
+            "buttons": {
+                "submit": "Send reset instructions"
+            }
+        },
+        "register": {
+            "title": "Sign up for your account",
+            "fields": {
+                "email": "Email",
+                "password": "Password"
+            },
+            "errors": {
+                "validEmail": "Invalid email address"
+            },
+            "buttons": {
+                "submit": "Register",
+                "haveAccount": "Have an account?"
+            }
+        },
+        "updatePassword": {
+            "title": "Update password",
+            "fields": {
+                "password": "New Password",
+                "confirmPassword": "Confirm new password"
+            },
+            "errors": {
+                "confirmPasswordNotMatch": "Passwords do not match"
+            },
+            "buttons": {
+                "submit": "Update"
+            }
+        },
+        "error": {
+            "info": "You may have forgotten to add the {{action}} component to {{resource}} resource.",
+            "404": "Sorry, the page you visited does not exist.",
+            "resource404": "Are you sure you have created the {{resource}} resource.",
+            "backHome": "Back Home"
+        }
+    },
+    "actions": {
+        "list": "List",
+        "create": "Create",
+        "edit": "Edit",
+        "show": "Show"
+    },
+    "buttons": {
+        "create": "Create",
+        "save": "Save",
+        "logout": "Logout",
+        "delete": "Delete",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "confirm": "Are you sure?",
+        "filter": "Filter",
+        "clear": "Clear",
+        "refresh": "Refresh",
+        "show": "Show",
+        "undo": "Undo",
+        "import": "Import",
+        "clone": "Clone",
+        "notAccessTitle": "You don't have permission to access"
+    },
+    "warnWhenUnsavedChanges": "Are you sure you want to leave? You have unsaved changes.",
+    "notifications": {
+        "success": "Successful",
+        "error": "Error (status code: {{statusCode}})",
+        "undoable": "You have {{seconds}} seconds to undo",
+        "createSuccess": "Successfully created {{resource}}",
+        "createError": "There was an error creating {{resource}} (status code: {{statusCode}})",
+        "deleteSuccess": "Successfully deleted {{resource}}",
+        "deleteError": "Error when deleting {{resource}} (status code: {{statusCode}})",
+        "editSuccess": "Successfully edited {{resource}}",
+        "editError": "Error when editing {{resource}} (status code: {{statusCode}})",
+        "importProgress": "Importing: {{processed}}/{{total}}"
+    },
+    "loading": "Loading",
+    "tags": {
+        "clone": "Clone"
+    },
+    "applications": {
+        "applications": "Applications",
+        "fields": {
+            "id": "Id",
+            "name": "Name",
+            "email": "Email",
+            "gender": "Gender",
+            "date": "Date of Applying",
+            "age": "Age",
+            "hometown": "Hometown",
+            "exptectedSalary": "Expected salary (per month)",
+            "preferredWork": "Preferred work",
+            "academicBackground": "jask"
+        },
+        "titles": {
+            "create": "Create Application",
+            "edit": "Edit Application",
+            "list": "Applications",
+            "show": "Show Application"
+        }
+    },
+    "categories": {
+        "categories": "Categories",
+        "fields": {
+            "id": "Id",
+            "title": "Title",
+            "createdAt": "Created At"
+        },
+        "titles": {
+            "create": "Create Category",
+            "edit": "Edit Category",
+            "list": "Categories",
+            "show": "Show Category"
+        }
+    },
+    "documentTitle": {
+        "default": "Larissa",
+        "suffix": " | ONE - Larissa",
+        "blog_posts": {
+            "list": "Blog Posts | ONE - Larissa",
+            "show": "#{{id}} Show Blog Post | ONE - Larissa",
+            "edit": "#{{id}} Edit Blog Post | ONE - Larissa",
+            "create": "Create new Blog Post | ONE - Larissa",
+            "clone": "#{{id}} Clone Blog Post | ONE - Larissa"
+        },
+        "categories": {
+            "list": "Categories | ONE - Larissa",
+            "show": "#{{id}} Show Category | ONE - Larissa",
+            "edit": "#{{id}} Edit Category | ONE - Larissa",
+            "create": "Create new Category | ONE - Larissa",
+            "clone": "#{{id}} Clone Category | ONE - Larissa"
+        }
+    },
+    "table": {
+        "actions": "Actions"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "deliveryMap": {
+            "title": "Delivery Map"
+        },
+        "orders": {
+            "title": "Orders"
+        },
+        "totalSales": {
+            "title": "Total Sales"
+        },
+        "dailyRevenue": {
+            "title": "Daily Revenue"
+        },
+        "dailyOrders": {
+            "title": "Daily Orders"
+        },
+        "newCustomers": {
+            "title": "New Customers"
+        },
+        "timeline": {
+            "title": "Timeline",
+            "orderStatuses": {
+                "pending": "Preparing order",
+                "ready": "Order is ready",
+                "on the way": "Order is on the way",
+                "delivered": "Order is delivered",
+                "cancelled": "Order is cancelled"
+            }
+        },
+        "recentOrders": {
+            "title": "Recent Orders"
+        },
+        "trendingMenus": {
+            "title": "Daily Trending Menus"
+        }
+    }
+}

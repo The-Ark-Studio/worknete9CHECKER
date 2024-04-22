@@ -1,0 +1,6082 @@
+[
+    {
+        "Port name": "BARRANCABERMEJA",
+        "Port code": "COEJA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT USE LIUHENG",
+        "Port code": "CN01J",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "DO NOT USE KEMEN",
+        "Port code": "CN01K",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "SENBOKU, OSAKA",
+        "Port code": "JPSBK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NORO, NEW GEORGIA",
+        "Port code": "SBNOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAHE",
+        "Port code": "SCMAW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VAVA'U",
+        "Port code": "TOVAV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ISTANBUL - AMBARLI",
+        "Port code": "TRAMB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ABURATSU, MIYAZAKI",
+        "Port code": "JPABU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DARTMOUTH, NS",
+        "Port code": "CADAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DARWIN, NT",
+        "Port code": "AUDRW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KARACHI",
+        "Port code": "PKKHI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KRISTIANSUND",
+        "Port code": "NOKSU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KRONSHTADT",
+        "Port code": "RUKDT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LA PORTE, TX",
+        "Port code": "USUQF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOBATA, FUKUOKA",
+        "Port code": "JPTBT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ANTOFAGASTA",
+        "Port code": "CLANF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUTSAMUDU",
+        "Port code": "KMMUT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ANTWERP",
+        "Port code": "BEANR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ENSENADA",
+        "Port code": "MXESE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KAGOSHIMA, KAGOSHIMA",
+        "Port code": "JPKOJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KAHULUI, HI",
+        "Port code": "USOGG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ISLAMABAD",
+        "Port code": "PKISB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COLON",
+        "Port code": "PAONX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FLORO",
+        "Port code": "NOFRO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANTYLUOTO",
+        "Port code": "FIMTL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NEW HARTFORD, NY",
+        "Port code": "USQND",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CORINTO",
+        "Port code": "NICIO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HIROSHIMA, HIROSHIMA",
+        "Port code": "JPHIJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GEISMAR, LA",
+        "Port code": "USGSM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAWAN, GUANGDONG",
+        "Port code": "CNMWN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUMBAI",
+        "Port code": "INBOM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUSCLE SHOALS, AL",
+        "Port code": "USUSH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUSKEGO, WI",
+        "Port code": "USUSG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAKANOSEKI, YAMAGUCHI",
+        "Port code": "JPNAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAKATSU, OITA",
+        "Port code": "JPNAT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MOBILE, AL",
+        "Port code": "USMOB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO BARRIOS",
+        "Port code": "GTPBR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAKHODKA",
+        "Port code": "RUNJK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MATARANI",
+        "Port code": "PEMRI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SALERNO",
+        "Port code": "ITSAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SVELGEN",
+        "Port code": "NOSVE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MIDDLESBROUGH, NORTH YORKSHIRE",
+        "Port code": "GBMID",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MIZUSHIMA, OKAYAMA",
+        "Port code": "JPMIZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LA GUAIRA",
+        "Port code": "VELAG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NEW PLYMOUTH",
+        "Port code": "NZNPL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BITUNG",
+        "Port code": "IDBIT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUAM",
+        "Port code": "GUGUM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUANGSHUI, HUBEI",
+        "Port code": "CNGNS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUANGZHOU, GUANGDONG",
+        "Port code": "CNCAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUANTA",
+        "Port code": "VEGUT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WEIHAI, SHANDONG",
+        "Port code": "CNWEI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KEHL, BW",
+        "Port code": "DEKEH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KUANTAN",
+        "Port code": "MYKUA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KUCHING",
+        "Port code": "MYKCH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUAYMAS",
+        "Port code": "MXGYM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAKATA, FUKUOKA",
+        "Port code": "JPHKT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAKODATE, HOKKAIDO",
+        "Port code": "JPHKD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YEOSU",
+        "Port code": "KRYOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUSHIKI, TOYAMA",
+        "Port code": "JPFSK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COLOGNE",
+        "Port code": "DECGN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PENANG",
+        "Port code": "MYPEN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MIIKE, FUKUOKA",
+        "Port code": "JPMII",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MINAMI-DAITOJIMA, OKINAWA",
+        "Port code": "JPMMD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HIBIKINADA, FUKUOKA",
+        "Port code": "JPHBI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAO MIGUEL, AZORES",
+        "Port code": "PTSTM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAACUPEMI",
+        "Port code": "PYCCP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO FENIX",
+        "Port code": "PYFNX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAINAN ISLAND",
+        "Port code": "CNHNI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NADAHAMA, HYOGO",
+        "Port code": "JPNAD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAGAHAMA, SHIMANE",
+        "Port code": "JPNAG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PULMODDAI",
+        "Port code": "LKPUL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GJEMNES",
+        "Port code": "NOGJM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GLOMFJORD",
+        "Port code": "NOGLO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BILBAO",
+        "Port code": "ESBIO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DIEGO SUAREZ (ANTSIRANA, ANTSIRANE)",
+        "Port code": "MGDIE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VOHEMAR",
+        "Port code": "MGVOH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAIZURU, KYOTO",
+        "Port code": "JPMAI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PILAR",
+        "Port code": "PYPIL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POINTE DES GALETS",
+        "Port code": "REPDG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOBE, HYOGO",
+        "Port code": "JPUKB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NORTH, SC",
+        "Port code": "USNOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAAVIK (HAVIK)",
+        "Port code": "NOHVI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALOTAU",
+        "Port code": "PGGUR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KIMBE",
+        "Port code": "PGKIM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KAVIENG",
+        "Port code": "PGKVG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ORO BAY",
+        "Port code": "PGROR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT CASTRIES",
+        "Port code": "LCSL1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT CHALMERS",
+        "Port code": "NZPOE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAS PALMAS",
+        "Port code": "ARLPS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COEGA",
+        "Port code": "ZAZBA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PECEM",
+        "Port code": "BRPEC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MALTA",
+        "Port code": "MTDIS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HEERENVEEN",
+        "Port code": "NLHRV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POINT LISAS",
+        "Port code": "TTPTS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUNAFUTI",
+        "Port code": "TVFUN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MOJI KANMON KAIKYO(STRAIT)",
+        "Port code": "JPKAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KINUURA, AICHI",
+        "Port code": "JPKNU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ILOILO",
+        "Port code": "PHILO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SASEBO, NAGASAKI",
+        "Port code": "JPSSB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KWANGYANG",
+        "Port code": "KRKAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BEAVER, OR",
+        "Port code": "USEER",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ARICA, MUELLE 7",
+        "Port code": "PEAM7",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ROB GEAR BOX",
+        "Port code": "XXVSL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DONGJIAOTOU",
+        "Port code": "CNDJT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUANGAO, GUANGDONG",
+        "Port code": "CNGNA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANGER MED",
+        "Port code": "MAPTM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUSAN",
+        "Port code": "KRBUS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "THILAWA",
+        "Port code": "MMTLA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAKASSAR",
+        "Port code": "IDMAK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SALDANHA BAY",
+        "Port code": "ZASDB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KING ABDULLAH CITY",
+        "Port code": "SAKAC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KALAJOKI",
+        "Port code": "FIKJO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RODMAN",
+        "Port code": "PAROD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PRONY",
+        "Port code": "NCPNY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VAVOUTO",
+        "Port code": "NCVAV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BRANSON, MO",
+        "Port code": "USPLK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SOUTH SHIELDS, TYNE AND WEAR",
+        "Port code": "GBSSH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KINGSTOWN",
+        "Port code": "VCKTN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MURORAN, HOKKAIDO",
+        "Port code": "JPMUR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KHORRAMSHAHR",
+        "Port code": "IRKHO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAPLES",
+        "Port code": "ITNAP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MESAIEED",
+        "Port code": "QAUMS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SOHAR",
+        "Port code": "OMSOH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GAVLE",
+        "Port code": "SEGVX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CIREBON",
+        "Port code": "IDCBN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NEWARK, NJ",
+        "Port code": "USEWR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DA NANG",
+        "Port code": "VNDAD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DACHAN BAY, GUANGDONG",
+        "Port code": "CNDCB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KANSAS CITY, MO",
+        "Port code": "USMKC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KANSAS CITY, KS",
+        "Port code": "USKCK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CACTUS, TX",
+        "Port code": "USCAC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN PEDRO, CA",
+        "Port code": "USSPQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CORK",
+        "Port code": "IEORK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "QUANZHOU, FUJIAN",
+        "Port code": "CNQZJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HALDEN",
+        "Port code": "NOHAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HALDIA",
+        "Port code": "INHAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ANCHORAGE, AK",
+        "Port code": "USANC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAT KRABANG",
+        "Port code": "THLKR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "INNOSHIMA, HIROSHIMA",
+        "Port code": "JPINS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KANMON STRAITS, FUKUOKA",
+        "Port code": "JPKST",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KAOHSIUNG CITY",
+        "Port code": "TWKHH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MOMBASA, KENYA",
+        "Port code": "KEMBA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUNDRA",
+        "Port code": "INMUN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KASHIMA, IBARAKI",
+        "Port code": "JPKSM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RIGA",
+        "Port code": "LVRIX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RIJEKA",
+        "Port code": "HRRJK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PAPEETE",
+        "Port code": "PFPPT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GOTHENBURG",
+        "Port code": "SEGOT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KEELUNG",
+        "Port code": "TWKEL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LE HAVRE, SEINE-MARITIME",
+        "Port code": "FRLEH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SODERTALJE",
+        "Port code": "SESOE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ST MAARTEN",
+        "Port code": "ANSXM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LANSHI, GUANGDONG",
+        "Port code": "CNLSI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORTO SANTO",
+        "Port code": "PTPXO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KINGSTON",
+        "Port code": "JMKIN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PALEMBANG",
+        "Port code": "IDPLM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAYTON, NJ",
+        "Port code": "USDYT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT AU PRINCE",
+        "Port code": "HTPAP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HALIFAX, NS",
+        "Port code": "CAHAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAKATA, YAMAGATA",
+        "Port code": "JPSKT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LA PLATA",
+        "Port code": "ARLPG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOLKATA",
+        "Port code": "INCCU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALGIERS",
+        "Port code": "DZALG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KANKAKEE, IL",
+        "Port code": "USIKK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COTONOU",
+        "Port code": "BJCOO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAUTOKA",
+        "Port code": "FJLTK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORTO VELHO",
+        "Port code": "BRPTV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JUNEAU, AK",
+        "Port code": "USJNU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PESHAWAR",
+        "Port code": "PKPEW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CIVITAVECCHIA",
+        "Port code": "ITCVV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TIANJIN, TIANJIN",
+        "Port code": "CNTSN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RECIFE",
+        "Port code": "BRREC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HANNAN, OSAKA",
+        "Port code": "JPHAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAZIRA",
+        "Port code": "INHZA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WUXI, JIANGSU",
+        "Port code": "CNWUX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ENFIELD, GREATER LONDON",
+        "Port code": "GBENF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SALVADOR",
+        "Port code": "BRSSA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GRIMSBY, LINCOLNSHIRE",
+        "Port code": "GBGSY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EVRY, ESSONNE",
+        "Port code": "FREVR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MACAPA, AP",
+        "Port code": "BRMCP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SPRING BAY, TAS",
+        "Port code": "AUSPB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GATEWAY TERMINALS INDIA",
+        "Port code": "INGTI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUARA BERAU, KALIMANTAN",
+        "Port code": "IDMUB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAWITAWI",
+        "Port code": "PHTWT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SOUTH ASIA PAKISTAN TML, KARACHI",
+        "Port code": "PKSAP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BAHRAIN INTERNATIONAL AIRPORT",
+        "Port code": "BHBA1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DEHRI",
+        "Port code": "INHRI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LUDERITZ (ANGRA PEQUENA)",
+        "Port code": "NALUD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WALVIS BAY",
+        "Port code": "NAWVB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CURACAO",
+        "Port code": "CWCUR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUARA PEGAH, KALIMANTAN",
+        "Port code": "IDMUP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PERAWANG, SUMATRA",
+        "Port code": "IDPWG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FRIESWIL (VILLAGE - NOT TOWN)",
+        "Port code": "CHAGK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EL DIKHEILA (EL DEKHEILA)",
+        "Port code": "EGEDK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANGGUH",
+        "Port code": "ID75E",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HOECHST",
+        "Port code": "DEHCS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARDAS",
+        "Port code": "TRMAD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAFENG, JIANGSU",
+        "Port code": "CNDFG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NELSON",
+        "Port code": "NZNSN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MONTREAL, QC",
+        "Port code": "CAMTR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JIJEL",
+        "Port code": "DZJIJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT USE LUO YUAN WAN",
+        "Port code": "CNJLY",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "SAN ANTONIO",
+        "Port code": "VESVZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BINH DUONG",
+        "Port code": "VNBHD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DONG NAI",
+        "Port code": "VNDNA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BUETSCHWIL",
+        "Port code": "CHBSW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO ANGAMOS",
+        "Port code": "CLPAG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO CHACABUCO (CHACABUCO)",
+        "Port code": "CLPCH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ARRECIFE DE LANZAROTE",
+        "Port code": "ESACE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO DEL ROSARIO",
+        "Port code": "ESPDR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT WALCOTT, WA",
+        "Port code": "AUPWL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "UMM AL QUWAIN",
+        "Port code": "AEQIW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "UMM QASR",
+        "Port code": "IQUQR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "QUI NHON",
+        "Port code": "VNUIH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SONGKHLA",
+        "Port code": "THSGZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BAHRAIN ISLAND",
+        "Port code": "BHBAH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WASHINGTON D.C., DC",
+        "Port code": "USWAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ILIGAN",
+        "Port code": "PHIGN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ARUBA ISLAND",
+        "Port code": "AWAUA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TUTICORIN",
+        "Port code": "INTUT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TUXPAN",
+        "Port code": "MXTUX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ST AMARIN, HAUT-RHIN",
+        "Port code": "FRSTN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ILKESTON, DERBYSHIRE",
+        "Port code": "GBIKS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SURAT",
+        "Port code": "INSTV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LEIXOES",
+        "Port code": "PTLEI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LELIU, GUANGDONG",
+        "Port code": "CNLUU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GEORGETOWN, MA",
+        "Port code": "USGXT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WILLEBROEK",
+        "Port code": "BEWLB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WILLEMSTAD",
+        "Port code": "NLWIS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AUBURN, NE",
+        "Port code": "USQAE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BALBOA",
+        "Port code": "PABLB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANAUS",
+        "Port code": "BRMAO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CARLETON, NE",
+        "Port code": "USCAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TUNIS",
+        "Port code": "TNTUN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TSURUGA, FUKUI",
+        "Port code": "JPTRG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WELLINGTON",
+        "Port code": "NZWLG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BOURGAS",
+        "Port code": "BGBOJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LUZHOU, SICHUAN",
+        "Port code": "CNLZU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN VICENTE",
+        "Port code": "CLSVE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SABINAL, TX",
+        "Port code": "USUSJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WEST SENECA, NY",
+        "Port code": "USWSA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TIMARU",
+        "Port code": "NZTIU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GENK",
+        "Port code": "BEGNK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KIEL, SH",
+        "Port code": "DEKEL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LONDON, GREATER LONDON",
+        "Port code": "GBLON",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AAHUS",
+        "Port code": "SEAHU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "INCHEON",
+        "Port code": "KRINC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BEIHAI, GUANGXI",
+        "Port code": "CNBHY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BEIJIAO, GUANGDONG",
+        "Port code": "CNYQS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN SALVADOR",
+        "Port code": "SVSAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KANDA-MACHI, FUKUOKA",
+        "Port code": "JPKND",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KANDLA",
+        "Port code": "INIXY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SALONICA",
+        "Port code": "GRSNK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BANNER ELK, NC",
+        "Port code": "USBAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARIUPOL",
+        "Port code": "UAMPW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BEIRA",
+        "Port code": "MZBEW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANCHESTER, GREATER MANCHESTER",
+        "Port code": "GBMNC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BENICIA, CA",
+        "Port code": "USBNC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MEXICO CITY",
+        "Port code": "MXMEX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAOETSU, NIIGATA",
+        "Port code": "JPNAO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MOERDIJK",
+        "Port code": "NLMOE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHUAIBA",
+        "Port code": "KWSAA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHONGQING, CHONGQING",
+        "Port code": "CNCKG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RICHMOND, CA",
+        "Port code": "USRCH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT OF SPAIN",
+        "Port code": "TTPOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HESHAN, GUANGDONG",
+        "Port code": "CNHSN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAUCEDO",
+        "Port code": "DOCAU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAHORE",
+        "Port code": "PKLHE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IPOJUCA",
+        "Port code": "BRIPO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SURABAYA",
+        "Port code": "IDSUB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LUDWIGSHAFEN AM RHEIN, RP",
+        "Port code": "DELUH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHORNOMORSK",
+        "Port code": "UAILK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KANAZAWA, ISHIKAWA",
+        "Port code": "JPKNZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ULAN BATOR",
+        "Port code": "MNULN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ULSAN",
+        "Port code": "KRUSN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HOSOSHIMA, MIYAZAKI",
+        "Port code": "JPHSM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BAOJI, SHAANXI",
+        "Port code": "CNBAJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIMASSOL",
+        "Port code": "CYLMS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANILA",
+        "Port code": "PHMNL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "UMEA",
+        "Port code": "SEUME",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HERSELT",
+        "Port code": "BEHES",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LONGVIEW, WA",
+        "Port code": "USLOG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO SUCRE",
+        "Port code": "VEPSU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT USE - DUNKIRK, NORD",
+        "Port code": "FRIRK",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "SHIMIZU, SHIZUOKA",
+        "Port code": "JPSMZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SIHUI, GUANGDONG",
+        "Port code": "CNSIH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOCHI, KOCHI",
+        "Port code": "JPKCZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WUZHOU, GUANGXI",
+        "Port code": "CNWUZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SIBU",
+        "Port code": "MYSBW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SZCZECIN",
+        "Port code": "PLSZZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAMIETTA, EGYPT",
+        "Port code": "EGDAM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CORONEL",
+        "Port code": "CLCNL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ITAJAI",
+        "Port code": "BRITJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SKIEN",
+        "Port code": "NOSKE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HONG KONG",
+        "Port code": "HKHKG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHANGHAI, SHANGHAI",
+        "Port code": "CNSHA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHANGHANG, FUJIAN",
+        "Port code": "CNSNH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KALININGRAD",
+        "Port code": "RUKGD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHUIDONG, GUANGDONG",
+        "Port code": "CNSDG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IRLAM, GREATER MANCHESTER",
+        "Port code": "GBIRL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HUNTINGTON, IN",
+        "Port code": "USHUN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANSON, IA",
+        "Port code": "USMON",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HARLINGEN",
+        "Port code": "NLHAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GDYNIA",
+        "Port code": "PLGDY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAPUTO",
+        "Port code": "MZMPM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PYEONGTAEK",
+        "Port code": "KRPTK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RONGQI, GUANGDONG",
+        "Port code": "CNROQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALIAGA",
+        "Port code": "TRALI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTA MARTA",
+        "Port code": "COSMR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RONNE",
+        "Port code": "DKRNN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TRUK",
+        "Port code": "FMTKK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAR ES SALAAM",
+        "Port code": "TZDAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHAFTER, CA",
+        "Port code": "USMIT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ISHIGAKI, OKINAWA",
+        "Port code": "JPISG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TRIER, RP",
+        "Port code": "DETRI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GINSHEIM-GUSTAVSBURG, HE",
+        "Port code": "DEGIN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GIOIA TAURO",
+        "Port code": "ITGIT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SEKISAKI, OITA",
+        "Port code": "JPSEK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "STRASBOURG, BAS-RHIN",
+        "Port code": "FRSXB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SOKHNA, EGYPT",
+        "Port code": "EGSOK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PISCO",
+        "Port code": "PEPIO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARIANO ROQUE ALONSO",
+        "Port code": "PYMRN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JIANGMEN, GUANGDONG",
+        "Port code": "CNJMN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SETUBAL",
+        "Port code": "PTSET",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GENT",
+        "Port code": "BEGNE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALPHEN AAN DEN RIJN",
+        "Port code": "NLAPN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TRANG",
+        "Port code": "THTRG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOMOGASHIMA, WAKAYAMA",
+        "Port code": "JPTGS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LOME",
+        "Port code": "TGLFW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAINT JOHN, NB",
+        "Port code": "CASJB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TUZLA",
+        "Port code": "TRTUZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BRISBANE, QLD",
+        "Port code": "AUBNE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BRISTOL, BRISTOL",
+        "Port code": "GBBRS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DOUGLAS, ISLE OF MAN",
+        "Port code": "GBDGS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DOUMEN, GUANGDONG",
+        "Port code": "CNDOU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TORNIO",
+        "Port code": "FITOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VISAKHAPATNAM",
+        "Port code": "INVTZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAURANGA",
+        "Port code": "NZTRG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "STRAUMEN",
+        "Port code": "NOSTM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHANJIANG, GUANGDONG",
+        "Port code": "CNZHA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN FRANCISCO, CA",
+        "Port code": "USSFO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BENOA",
+        "Port code": "IDBOA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "STUTTGART, BW",
+        "Port code": "DESTR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ISTANBUL",
+        "Port code": "TRIST",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORTSMOUTH, VA",
+        "Port code": "USPTM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RUSSELL, MA",
+        "Port code": "USUSL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARIN",
+        "Port code": "ESMAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VLADIVOSTOK, NORTH OSSETIA-ALANIA REPUBLIC",
+        "Port code": "RUVLA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VLADIVOSTOK, PRIMORSKY KRAI",
+        "Port code": "RUVVO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FELIXSTOWE, SUFFOLK",
+        "Port code": "GBFXT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTA ISABEL",
+        "Port code": "BRSTS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XINTANG, GUANGDONG",
+        "Port code": "CNXIT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IZUMIOTSU, OSAKA",
+        "Port code": "JPSSS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SIHANOUKVILLE",
+        "Port code": "KHKOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TEESPORT, NORTH YORKSHIRE",
+        "Port code": "GBTEE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHIMONOSEKI, YAMAGUCHI",
+        "Port code": "JPSHS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EL PASO, TX",
+        "Port code": "USELP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LUXEMBOURG",
+        "Port code": "LULUX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANSHAN, GUANGDONG",
+        "Port code": "CNSHG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANSHUI, GUANGDONG",
+        "Port code": "CNSJQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PITT MEADOWS, BC",
+        "Port code": "CAPIM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HANKO",
+        "Port code": "FIHKO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HANGZHOU, ZHEJIANG",
+        "Port code": "CNHGH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MERSIN",
+        "Port code": "TRMER",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANBU, GUANGDONG",
+        "Port code": "CNSBU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN LORENZO",
+        "Port code": "HNSLO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MOSS",
+        "Port code": "NOMSS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAINT PAUL, MN",
+        "Port code": "USSTP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IWAKUNI, YAMAGUCHI",
+        "Port code": "JPIWK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CLARINGTON, ON",
+        "Port code": "CACTN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "REDDIT, ON",
+        "Port code": "CARDT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARACAIBO",
+        "Port code": "VEMAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VEGHEL",
+        "Port code": "NLVEG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VANCOUVER - USA, WA",
+        "Port code": "USVAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAWAU",
+        "Port code": "MYTWU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YANGJIANG, GUANGDONG",
+        "Port code": "CNYJI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YANGON",
+        "Port code": "MMRGN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YANGPU, HAINAN",
+        "Port code": "CNYPG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN JUAN",
+        "Port code": "PRSJU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHIZHOU, ANHUI",
+        "Port code": "CNCZO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAGAYAN DE ORO",
+        "Port code": "PHCGY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAGLIARI",
+        "Port code": "ITCAG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ISHIKARI, HOKKAIDO",
+        "Port code": "JPISI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BOSPORUS STRAITS",
+        "Port code": "TRBPO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARMAGAO",
+        "Port code": "INMRM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PHILADELPHIA, PA",
+        "Port code": "USPHL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAICANG, JIANGSU",
+        "Port code": "CNTAG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAICHUNG CITY",
+        "Port code": "TWTXG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAIPEI",
+        "Port code": "TWTPE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAIPING, GUANGDONG",
+        "Port code": "CNTAP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ANDERNACH, RP",
+        "Port code": "DEAND",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TEMA",
+        "Port code": "GHTEM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AKITA, AKITA",
+        "Port code": "JPAXT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHEMOR",
+        "Port code": "MYCMO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAN THO",
+        "Port code": "VNVCA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BOSTON, MA",
+        "Port code": "USBOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUTIAN, FUJIAN",
+        "Port code": "CNPUT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAHEJ",
+        "Port code": "INDAH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAKAR",
+        "Port code": "SNDKR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PIPAVAV",
+        "Port code": "INPAV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PIRAEUS",
+        "Port code": "GRPIR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WUHAN, HUBEI",
+        "Port code": "CNWUH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WUHU, ANHUI",
+        "Port code": "CNWHI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WUJIANG, JIANGSU",
+        "Port code": "CNWUJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTO TOMAS DE CASTILLA",
+        "Port code": "GTSTC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SALALAH",
+        "Port code": "OMSLL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JAMBI",
+        "Port code": "IDDJB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WINNIPEG, MB",
+        "Port code": "CAWNP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WINSCHOTEN",
+        "Port code": "NLWSC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EDMONTON, AB",
+        "Port code": "CAEDM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUNSAN",
+        "Port code": "KRKUV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KUNSHAN, JIANGSU",
+        "Port code": "CNKUS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CASABLANCA",
+        "Port code": "MACAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JUBAIL",
+        "Port code": "SAJUB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTO DOMINGO",
+        "Port code": "DOSDQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTO DOMINGO ESTE",
+        "Port code": "DOSND",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GIJON",
+        "Port code": "ESGIJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SINGAPORE",
+        "Port code": "SGSIN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ITAGUAI - SEPETIBA",
+        "Port code": "BRSPB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUSAN",
+        "Port code": "KRPUS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAMMAM",
+        "Port code": "SADMM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VASCO DA GAMA",
+        "Port code": "INVGM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BREMEN, HB",
+        "Port code": "DEBRE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BREMERHAVEN, HB",
+        "Port code": "DEBRV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WANSSUM",
+        "Port code": "NLWAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SEMARANG",
+        "Port code": "IDSRG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SERAING",
+        "Port code": "BEZER",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SERAM IS.",
+        "Port code": "IDSRM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VALENCIA",
+        "Port code": "ESVLC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LJUBLJANA",
+        "Port code": "SILJU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HEFEI, ANHUI",
+        "Port code": "CNHFE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BORDEAUX, GIRONDE",
+        "Port code": "FRBOD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SENDAI, MIYAGI",
+        "Port code": "JPSDJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SATSUMASENDAI, KAGOSHIMA",
+        "Port code": "JPSEN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GENERAL SANTOS",
+        "Port code": "PHGES",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RICHMOND, VA",
+        "Port code": "USRIC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAUDA",
+        "Port code": "NOSAU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TRIESTE",
+        "Port code": "ITTRS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAINT GEORGE",
+        "Port code": "GDSTG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAVONA",
+        "Port code": "ITSVN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KURE, HIROSHIMA",
+        "Port code": "JPKRE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BANJARMASIN",
+        "Port code": "IDBDJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MIRI",
+        "Port code": "MYMYY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RAVENNA",
+        "Port code": "ITRAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHUZHOU, HUNAN",
+        "Port code": "CNZUU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "USHUAIA",
+        "Port code": "ARUSH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VITORIA",
+        "Port code": "BRVIX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GENOA",
+        "Port code": "ITGOA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COLOMBO",
+        "Port code": "LKCMB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EMMERICH, NW",
+        "Port code": "DEEMM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHANGSHA, HUNAN",
+        "Port code": "CNCSX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHANGSHU, JIANGSU",
+        "Port code": "CNCGU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHANGWON",
+        "Port code": "KRCHW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHANGZHOU, JIANGSU",
+        "Port code": "CNCZX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EUROPA, MO",
+        "Port code": "USERP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANDAKAN",
+        "Port code": "MYSDK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANTA",
+        "Port code": "ECMEC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GERMERSHEIM, RP",
+        "Port code": "DEGER",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GIBRALTAR",
+        "Port code": "GIGIB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIUZHOU, GUANGXI",
+        "Port code": "CNLZH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAMINA",
+        "Port code": "FIHMN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT MORESBY",
+        "Port code": "PGPOM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OMAEZAKI, SHIZUOKA",
+        "Port code": "JPOMZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IYOMISHIMA, EHIME",
+        "Port code": "JPIYM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GERNSHEIM, HE",
+        "Port code": "DEGHM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GAOMING, GUANGDONG",
+        "Port code": "CNGOM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OTTMARSHEIM, HAUT RHIN",
+        "Port code": "FROTM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAUPAHOEHOE, HI",
+        "Port code": "USLPH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HANOI",
+        "Port code": "VNHAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT NEWARK, NJ",
+        "Port code": "USPNJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ONAHAMA, FUKUSHIMA",
+        "Port code": "JPONA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JAKARTA",
+        "Port code": "IDJKT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ROSEAU",
+        "Port code": "DMRSU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ONSAN",
+        "Port code": "KRONS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FANGCHENG, GUANGXI",
+        "Port code": "CNFAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DORTMUND, NW",
+        "Port code": "DEDTM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EAST LONDON",
+        "Port code": "ZAELS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANNHEIM, BW",
+        "Port code": "DEMHG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAO FRANCISCO DO SUL",
+        "Port code": "BRSFS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOKURA, FUKUOKA",
+        "Port code": "JPKOK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BRUNSWICK, GA",
+        "Port code": "USSSI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HELSINGBORG",
+        "Port code": "SEHEL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HELSINKI",
+        "Port code": "FIHEL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAKE CHARLES, LA",
+        "Port code": "USLCH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LISBON",
+        "Port code": "PTLIS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BONAIRE ISLAND",
+        "Port code": "ANBON",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WORTH AM RHEIN, RP",
+        "Port code": "DEWOE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ST PETERSBURG",
+        "Port code": "RULED",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTA CRUZ DE TENERIFE",
+        "Port code": "ESSCT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHUWAIKH",
+        "Port code": "KWSWK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SIALKOT",
+        "Port code": "PKSKT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NACALA",
+        "Port code": "MZMNC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KIEL CANAL",
+        "Port code": "DECKL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOSRAE",
+        "Port code": "FMKSA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BRUAY-SUR-LESCAUT, NORD",
+        "Port code": "FRBLU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAIZHOU, JIANGSU",
+        "Port code": "CNTZO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VOSTOCHNY",
+        "Port code": "RUVYP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GREENOCK, INVERCLYDE",
+        "Port code": "GBGRK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAKAMATSU, KAGAWA",
+        "Port code": "JPTAK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUYONG, GUANGDONG",
+        "Port code": "CNFNG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUZHOU, FUJIAN",
+        "Port code": "CNFOC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUZHOU, JIANGXI",
+        "Port code": "CNFZH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CRISTOBAL",
+        "Port code": "PACTB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EMDEN, NI",
+        "Port code": "DEEME",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN FERNANDO",
+        "Port code": "PHSFE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ENNS",
+        "Port code": "ATENA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DUSSELDORF, NW",
+        "Port code": "DEDUS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BOURBONNAIS, IL",
+        "Port code": "USUSA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BORN",
+        "Port code": "NLBON",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DURBAN",
+        "Port code": "ZADUR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KUSHIRO, HOKKAIDO",
+        "Port code": "JPKUH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HUNTSVILLE, AL",
+        "Port code": "USHSV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NHAVA SHEVA",
+        "Port code": "INNSA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHAOQING, GUANGDONG",
+        "Port code": "CNZQG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT KEMBLA, NSW",
+        "Port code": "AUPKL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT KLANG",
+        "Port code": "MYPKG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BEIRUT",
+        "Port code": "LBBEY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BEKASI",
+        "Port code": "IDBKA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BELAWAN",
+        "Port code": "IDBLW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YUKUHASHI, FUKUOKA",
+        "Port code": "JPYKH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VENLO",
+        "Port code": "NLVEN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VERACRUZ",
+        "Port code": "MXVER",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "QINGDAO, SHANDONG",
+        "Port code": "CNTAO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ANQING, ANHUI",
+        "Port code": "CNAQG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AJMAN",
+        "Port code": "AEAJM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ASHBURN, GA",
+        "Port code": "USABN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ASHDOD",
+        "Port code": "ILASH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORTES LES VALENCE, DROME",
+        "Port code": "FRPLV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT ELIZABETH",
+        "Port code": "ZAPLZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HOUSTON, TX",
+        "Port code": "USHOU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MALMO",
+        "Port code": "SEMMA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MALOY",
+        "Port code": "NOMAY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TROMSO",
+        "Port code": "NOTOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TRONDHEIM",
+        "Port code": "NOTRD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ASCHAFFENBURG, BY",
+        "Port code": "DEASC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAINT LOUIS, MO",
+        "Port code": "USSTL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "QINGXI, GUANGDONG",
+        "Port code": "CNQIN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "QINGYUAN, GUANGDONG",
+        "Port code": "CNQYN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "QINHUANGDAO, HEBEI",
+        "Port code": "CNSHP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "QINZHOU, GUANGXI",
+        "Port code": "CNQZH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JOHORE BAHRU",
+        "Port code": "MYJHB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LUANDA",
+        "Port code": "AOLAD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MESSINA",
+        "Port code": "ITMSN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RIO TUBA",
+        "Port code": "PHRTB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT EVERGLADES, FL",
+        "Port code": "USPEF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT HUENEME, CA",
+        "Port code": "USNTD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FORTALEZA",
+        "Port code": "BRFOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YORK, SC",
+        "Port code": "USYOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WEST THURROCK, ESSEX",
+        "Port code": "GBLWT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUSCAT",
+        "Port code": "OMMCT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HENGELO",
+        "Port code": "NLHGL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUNE",
+        "Port code": "INPNQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUNTA ARENAS",
+        "Port code": "CLPUQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUNTA CARDON",
+        "Port code": "VEPCN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUNTARENAS",
+        "Port code": "CRPAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTO",
+        "Port code": "VUSAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POINTE A PITRE",
+        "Port code": "GPPTP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POINTE NOIRE",
+        "Port code": "CGPNR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BASSE TERRE",
+        "Port code": "GPBBR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BASSETERRE",
+        "Port code": "KNBAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LONG BEACH, CA",
+        "Port code": "USLGB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LONG HANBOROUGH, OXFORDSHIRE",
+        "Port code": "GBLGB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LEVERKUSEN, NW",
+        "Port code": "DELEV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTANDER",
+        "Port code": "ESSDR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTIAGO",
+        "Port code": "CUSCU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SINJHUANG (REGISTERED AS CITY DISTRICT)",
+        "Port code": "TWSJU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TARANTO",
+        "Port code": "ITTAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TARAWA",
+        "Port code": "KITRW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LOS ANGELES, CA",
+        "Port code": "USLAX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BELROSE, NSW",
+        "Port code": "AUBRS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHENYANG, LIAONING",
+        "Port code": "CNSHE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHENZHEN, GUANGDONG",
+        "Port code": "CNSZX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VALLETTA",
+        "Port code": "MTMLA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BELEM",
+        "Port code": "BRBEL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BELFAST, BELFAST",
+        "Port code": "GBBEL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HALMSTAD",
+        "Port code": "SEHAD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT LOUIS",
+        "Port code": "MUPLU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BASEL",
+        "Port code": "CHBSL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "THU DAU MOT",
+        "Port code": "VNTHD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FOS-SUR-MER, BOUCHES DU RHONE",
+        "Port code": "FRFOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FOSHAN, GUANGDONG",
+        "Port code": "CNFOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHAPU, ZHEJIANG",
+        "Port code": "CNZAP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHENJIANG, JIANGSU",
+        "Port code": "CNZHE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHONGSHAN, GUANGDONG",
+        "Port code": "CNZSN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHOUSHAN, ZHEJIANG",
+        "Port code": "CNZOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XIANGZHOU, GUANGDONG",
+        "Port code": "CNXGZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MA ANSHAN, ANHUI",
+        "Port code": "CNMAA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SUEZ, EGYPT",
+        "Port code": "EGSUZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SUEZ CANAL, EGYPT",
+        "Port code": "EGSCA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FREDERICIA",
+        "Port code": "DKFRC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FORT DE FRANCE",
+        "Port code": "MQFDF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IQUIQUE",
+        "Port code": "CLIQQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SIOUX CITY, IA",
+        "Port code": "USSUX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAO TOME",
+        "Port code": "STSAO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SOPRON",
+        "Port code": "HUSOP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XINHUI, GUANGDONG",
+        "Port code": "CNXIN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XIAOLAN, GUANGDONG",
+        "Port code": "CNXIL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XINGANG, TIANJIN",
+        "Port code": "CNTXG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SUAPE",
+        "Port code": "BRSUA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SUBIC BAY",
+        "Port code": "PHSFS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PARIS, PARIS",
+        "Port code": "FRPAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHAPEL HILL, NC",
+        "Port code": "USCHE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CATANIA",
+        "Port code": "ITCTA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CARTAGENA",
+        "Port code": "COCTG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VARNA",
+        "Port code": "BGVAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WILMINGTON, DE",
+        "Port code": "USILG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WILMINGTON, NC",
+        "Port code": "USILM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SCHILLER PARK, IL",
+        "Port code": "USSID",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IZMIR",
+        "Port code": "TRIZM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IZMIT",
+        "Port code": "TRIZT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT USE CAT LAI",
+        "Port code": "VNCLI",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "YUNFU, GUANGDONG",
+        "Port code": "CNYNF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VANCOUVER, BC",
+        "Port code": "CAVAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ONNE",
+        "Port code": "NGONN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHANGDE, HUNAN",
+        "Port code": "CNCDE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YURA-CHO, WAKAYAMA",
+        "Port code": "JPYUR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KATHIAWAR",
+        "Port code": "INKAT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZEEBRUGGE",
+        "Port code": "BEZEE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "UPPER SADDLE RIVER, NJ",
+        "Port code": "USUSR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VENICE",
+        "Port code": "ITVCE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MIPO",
+        "Port code": "KRMIP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LYTTELTON",
+        "Port code": "NZLYT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORTLAND, ME",
+        "Port code": "USPWM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORTLAND, OR",
+        "Port code": "USPDX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YANGSHAN, ZHEJIANG",
+        "Port code": "CNYAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YANGZHOU, JIANGSU",
+        "Port code": "CNYZH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YANTAI, SHANDONG",
+        "Port code": "CNYNT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YANTIAN, GUANGDONG",
+        "Port code": "CNYTN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YAP ISLAND",
+        "Port code": "FMYAP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XIAMEN, FUJIAN",
+        "Port code": "CNXMN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BINTULU",
+        "Port code": "MYBTU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOMAKOMAI, HOKKAIDO",
+        "Port code": "JPTMK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARUGAME, KAGAWA",
+        "Port code": "JPMAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LONG THANH",
+        "Port code": "VNLTH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARSEILLE, BOUCHES DU RHONE",
+        "Port code": "FRMRS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LOMPOC, CA",
+        "Port code": "USLPC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MADAWASKA, ME",
+        "Port code": "USMAD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CARLISLE, CUMBRIA",
+        "Port code": "GBCAX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MEERHOUT",
+        "Port code": "BEMEH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WENZHOU, ZHEJIANG",
+        "Port code": "CNWNZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAMADA, SHIMANE",
+        "Port code": "JPHMD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ROSARIO",
+        "Port code": "ARROS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "REGINA, SK",
+        "Port code": "CAREG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ITAPOA",
+        "Port code": "BRIOA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ITAQUI",
+        "Port code": "BRITQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "UBE, YAMAGUCHI",
+        "Port code": "JPUBJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GORINCHEM",
+        "Port code": "NLGOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TULSA, OK",
+        "Port code": "USTUL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FALLBROOK, CA",
+        "Port code": "USFOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CUXHAVEN, NI",
+        "Port code": "DECUX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BREVIK",
+        "Port code": "NOBVK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OTAKE, HIROSHIMA",
+        "Port code": "JPOTK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OTARU, HOKKAIDO",
+        "Port code": "JPOTR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BELIZE CITY",
+        "Port code": "BZBZE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BERGEN",
+        "Port code": "NOBGO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BERGEN OP ZOOM",
+        "Port code": "NLBZM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XIANGCHENG, HENAN",
+        "Port code": "CNXNG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHANGJIAGANG, JIANGSU",
+        "Port code": "CNZJG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUNCHAL",
+        "Port code": "PTFNC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AQABA",
+        "Port code": "JOAQJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUQING, FUJIAN",
+        "Port code": "CNFUG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "STOCKHOLM",
+        "Port code": "SESTO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ANGLEUR",
+        "Port code": "BEANB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JIANGYIN, JIANGSU",
+        "Port code": "CNJIA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHIBA, CHIBA",
+        "Port code": "JPCHB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHICAGO, IL",
+        "Port code": "USCHI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MASSAWA",
+        "Port code": "ERMSW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ARAGUARI",
+        "Port code": "BRRGR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GOOLE, EAST YORKSHIRE",
+        "Port code": "GBGOO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHATIAN, GUANGDONG",
+        "Port code": "CNSIN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CANNON FALLS, MN",
+        "Port code": "USCFS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NANJING, JIANGSU",
+        "Port code": "CNNKG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NANNING, GUANGXI",
+        "Port code": "CNNNG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOKYO, TOKYO",
+        "Port code": "JPTYO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAPE TOWN",
+        "Port code": "ZACPT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ROCHESTER, NY",
+        "Port code": "USROC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PANJANG",
+        "Port code": "IDPNJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MALE",
+        "Port code": "MVMLE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ESMERALDAS",
+        "Port code": "ECESM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HENIN BEAUMONT, PAS DE CALAIS",
+        "Port code": "FRHEB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAIKOU, HAINAN",
+        "Port code": "CNHAK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAASVLAKTE",
+        "Port code": "NLMSV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BOTLEK",
+        "Port code": "NLBOT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EBINA, KANAGAWA",
+        "Port code": "JPEBN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TURKU",
+        "Port code": "FITKU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CALLAO",
+        "Port code": "PECLL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NEUSS, NW",
+        "Port code": "DENSS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LONDON GATEWAY PORT, ESSEX",
+        "Port code": "GBLGP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NOUMEA",
+        "Port code": "NCNOU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HUADU, GUANGDONG",
+        "Port code": "CNHDU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MALAGA",
+        "Port code": "ESAGP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YATSUSHIRO, KUMAMOTO",
+        "Port code": "JPYAT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POTI",
+        "Port code": "GEPTI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NOUAKCHOTT",
+        "Port code": "MRNKC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARGARITA ISLAND",
+        "Port code": "VEMRT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHARLESTON, SC",
+        "Port code": "USCHS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAJURO",
+        "Port code": "MHMAJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KALUNDBORG",
+        "Port code": "DKKAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALBLASSERDAM",
+        "Port code": "NLABL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NANCHANG, JIANGXI",
+        "Port code": "CNKHN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARSAXLOKK",
+        "Port code": "MTMAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XIAHE, FUJIAN",
+        "Port code": "CNXIA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TILBURG",
+        "Port code": "NLTLB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TILBURY, ESSEX",
+        "Port code": "GBTIL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MONGLA",
+        "Port code": "BDMGL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MONROVIA",
+        "Port code": "LRMLW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHENGHAI, GUANGDONG",
+        "Port code": "CNCHG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHENGLINGJI, HUNAN",
+        "Port code": "CNCLJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHENNAI",
+        "Port code": "INMAA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PENAPOLIS",
+        "Port code": "BRPNP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAIFA",
+        "Port code": "ILHFA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SEATTLE, WA",
+        "Port code": "USSEA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AUCKLAND",
+        "Port code": "NZAKL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SWINOUJSCIE",
+        "Port code": "PLSWI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SYDNEY, NSW",
+        "Port code": "AUSYD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FALMOUTH, CORNWALL",
+        "Port code": "GBFAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SOUTHAMPTON, HAMPSHIRE",
+        "Port code": "GBSOU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHIBUSHI, KAGOSHIMA",
+        "Port code": "JPSBS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHANTOU, GUANGDONG",
+        "Port code": "CNSWA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VILA DO CONDE",
+        "Port code": "BRVLD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VILA DO PORTO",
+        "Port code": "PTVDP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ABIDJAN",
+        "Port code": "CIABJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SITKA, AK",
+        "Port code": "USSIT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DUTCH HARBOR, AK",
+        "Port code": "USDUT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AVELGEM",
+        "Port code": "BEAVL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAGANITO",
+        "Port code": "PHTNT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POHANG",
+        "Port code": "KRKPO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POHNPEI",
+        "Port code": "FMPNI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EILAT",
+        "Port code": "ILETH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MACHONG, GUANGDONG",
+        "Port code": "CNMCH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TENERIFE",
+        "Port code": "ESTCI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHARJAH",
+        "Port code": "AESHJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TONGLING, ANHUI",
+        "Port code": "CNTOL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN DIEGO, CA",
+        "Port code": "USSAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GRANGEMOUTH, FALKIRK",
+        "Port code": "GBGRG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHIWAN, GUANGDONG",
+        "Port code": "CNSWN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NEW YORK, NY",
+        "Port code": "USNYC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POLLOC",
+        "Port code": "PHPLC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RUDERTING, BY",
+        "Port code": "DERRT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ST JOHNS",
+        "Port code": "AGSJO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAINT JOHNS, NL",
+        "Port code": "CASJF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AUSTIN, TX",
+        "Port code": "USAUS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KARLSRUHE, BW",
+        "Port code": "DEKAE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NIIGATA, NIIGATA",
+        "Port code": "JPKIJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUSKEGON, MI",
+        "Port code": "USMKG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BARRANQUILLA",
+        "Port code": "COBAQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BANDAR ABBAS",
+        "Port code": "IRBND",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WAKAYAMA, WAKAYAMA",
+        "Port code": "JPWAK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "STAVANGER",
+        "Port code": "NOSVG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAMBURG, HH",
+        "Port code": "DEHAM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAMILTON",
+        "Port code": "BMBDA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GAMAGORI, AICHI",
+        "Port code": "JPGAM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YAWATA, FUKUOKA",
+        "Port code": "JPYWT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANJUNG PELEPAS",
+        "Port code": "MYTPP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANJUNG PRIOK",
+        "Port code": "IDTPP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAMAD PORT",
+        "Port code": "QAHMD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BODO",
+        "Port code": "NOBOO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COLCHESTER, VT",
+        "Port code": "USCCV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "POLKTON, NC",
+        "Port code": "USPTN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TRIPOLI",
+        "Port code": "LYTIP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOWNSVILLE, QLD",
+        "Port code": "AUTSV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOYAMA, TOYAMA",
+        "Port code": "JPTOY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOYAMA SHINKO, TOYAMA",
+        "Port code": "JPTOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOYO, EHIME",
+        "Port code": "JPTOU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOYOHASHI, AICHI",
+        "Port code": "JPTHS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ASUNCION",
+        "Port code": "PYASU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ATLANTA, GA",
+        "Port code": "USATL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ATLANTIC, NC",
+        "Port code": "USATG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUKUYAMA, HIROSHIMA",
+        "Port code": "JPFKY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DUMMY PORT FOR PARTNERS TDR",
+        "Port code": "XXXXX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DUISBURG, NW",
+        "Port code": "DEDUI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHITTAGONG",
+        "Port code": "BDCGP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SUVA",
+        "Port code": "FJSUV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SUZHOU, JIANGSU",
+        "Port code": "CNSZH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GDANSK",
+        "Port code": "PLGDN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FREEPORT",
+        "Port code": "BSFPO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BALIKPAPAN",
+        "Port code": "IDBPN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BALL GROUND, GA",
+        "Port code": "USBBN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RUWAIS",
+        "Port code": "AERUW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GORDON, GA",
+        "Port code": "USGOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAZATLAN",
+        "Port code": "MXMZT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAZEROLLES, PYRENEES ATLANTIQUES",
+        "Port code": "FRAZS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIMAY, YVELINES",
+        "Port code": "FRLMY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BALTIMORE, MD",
+        "Port code": "USBAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BAYUQUAN, LIAONING",
+        "Port code": "CNBAY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAINZ, RP",
+        "Port code": "DEMAI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ROTTERDAM",
+        "Port code": "NLRTM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YICHANG, HUBEI",
+        "Port code": "CNYIC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHANARAL",
+        "Port code": "CLCNR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LYON, RHONE",
+        "Port code": "FRLIO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LEER, NI",
+        "Port code": "DELEE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAI PHONG",
+        "Port code": "VNHPH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAMPA, FL",
+        "Port code": "USTPA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PADANG",
+        "Port code": "IDPDG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JEBEL ALI",
+        "Port code": "AEJEA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JEDDAH",
+        "Port code": "SAJED",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IMMINGHAM, LINCOLNSHIRE",
+        "Port code": "GBIMM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANGALORE",
+        "Port code": "INIXE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MIDDLETOWN, PA",
+        "Port code": "USUQT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT SUDAN",
+        "Port code": "SDPZU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT SULTAN QABOOS",
+        "Port code": "OMOPQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LEXINGTON, KY",
+        "Port code": "USLEX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PELHRIMOV",
+        "Port code": "CZPEL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PHNOM PENH",
+        "Port code": "KHPNH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PEKANBARU",
+        "Port code": "IDPKU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HOBART, IN",
+        "Port code": "USHBA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TONSBERG",
+        "Port code": "NOTON",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOOELE, UT",
+        "Port code": "USTOO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ORKANGER",
+        "Port code": "NOORK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OOSTERHOUT",
+        "Port code": "NLOOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HO CHI MINH",
+        "Port code": "VNSGN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HOBART, TAS",
+        "Port code": "AUHBA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OAKLAND, CA",
+        "Port code": "USOAK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOKUSHIMA, TOKUSHIMA",
+        "Port code": "JPTKS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOKUYAMA, YAMAGUCHI",
+        "Port code": "JPTKY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NUKU'ALOFA",
+        "Port code": "TOTBU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAOJIANG, HUNAN",
+        "Port code": "CNTJN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAOYUAN",
+        "Port code": "TWTYN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TACOMA, WA",
+        "Port code": "USTIW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LONGKOU, SHANDONG",
+        "Port code": "CNLKU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUHAMMAD BIN QASIM",
+        "Port code": "PKBQM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT RASHID",
+        "Port code": "AEPRA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT SAID, EGYPT",
+        "Port code": "EGPSD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT SAINT LOUIS DU RHONE, BOUCHES DU RHONE",
+        "Port code": "FRPSL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANGIER",
+        "Port code": "MATNG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LEKKI",
+        "Port code": "NGLKK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUARA",
+        "Port code": "BNMUA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ST. ANNA BAY",
+        "Port code": "ANSAY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TERNEUZEN",
+        "Port code": "NLTNZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GEMLIK",
+        "Port code": "TRGEM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MIAMI, FL",
+        "Port code": "USMIA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOROR",
+        "Port code": "PWROR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BUCHANAN, MI",
+        "Port code": "USBUC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TIN CAN",
+        "Port code": "NGTIN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PATERSON, NJ",
+        "Port code": "USPAT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VIGO",
+        "Port code": "ESVGO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "USTI NAD LABEM",
+        "Port code": "CZULN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANDNES",
+        "Port code": "NOSAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PRINCE RUPERT, BC",
+        "Port code": "CAPRR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PRAIA DA VITORIA",
+        "Port code": "PTPRV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PAITA",
+        "Port code": "PEPAI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NUERNBERG",
+        "Port code": "DENUE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SUNDSVALL",
+        "Port code": "SESDL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WAYNESBURG, PA",
+        "Port code": "USWAY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SALT LAKE CITY, UT",
+        "Port code": "USSLC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LA LIBERTAD",
+        "Port code": "ECLLD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TALLINN",
+        "Port code": "EETLL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIVORNO",
+        "Port code": "ITLIV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LILLE, NORD",
+        "Port code": "FRLLE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIANHUASHAN, GUANGDONG",
+        "Port code": "CNLIH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIANYUNGANG, JIANGSU",
+        "Port code": "CNLYG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT VILA",
+        "Port code": "VUVLI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VICTORIA",
+        "Port code": "SCPOV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TEXARKANA, AR",
+        "Port code": "USTXK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NASSAU",
+        "Port code": "BSNAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PANAMA CANAL",
+        "Port code": "PAPCA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PANAMA CITY",
+        "Port code": "PAPTY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "THEODORE, AL",
+        "Port code": "USTEO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LARKSPUR, CO",
+        "Port code": "USLAK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NEWPORT NEWS, VA",
+        "Port code": "USNNS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAWILIWILI, HI",
+        "Port code": "USNIJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KAWANOE, EHIME",
+        "Port code": "JPKWN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KAWASAKI, KANAGAWA",
+        "Port code": "JPKWS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANZANILLO",
+        "Port code": "MXZLO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MANZANILLO",
+        "Port code": "PAMIT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NOVOROSSIYSK",
+        "Port code": "RUNVS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MACAU",
+        "Port code": "MOMFM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DRAMMEN",
+        "Port code": "NODRM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LA SPEZIA",
+        "Port code": "ITSPE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RABAUL",
+        "Port code": "PGRAB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KEMI",
+        "Port code": "FIKEM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALDRIDGE, WEST MIDLANDS",
+        "Port code": "GBADG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAE",
+        "Port code": "PGLAE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAEM CHABANG",
+        "Port code": "THLCH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHEERNESS, KENT",
+        "Port code": "GBSHS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SHEKOU, GUANGDONG",
+        "Port code": "CNSHK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZAANDAM",
+        "Port code": "NLZAA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAGASAKI, NAGASAKI",
+        "Port code": "JPNGS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAZARO CARDENAS",
+        "Port code": "MXLZC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DALLAS, TX",
+        "Port code": "USDAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NORTH BILLERICA, MA",
+        "Port code": "USNBA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAVEGANTES",
+        "Port code": "BRNVT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HACHINOHE, AOMORI",
+        "Port code": "JPHHE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAIROBI, KENYA",
+        "Port code": "KENBO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAZARIBAGH",
+        "Port code": "INHZR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MATSUYAMA, EHIME",
+        "Port code": "JPMYJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MINSTER, OH",
+        "Port code": "USMZO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OITA, OITA",
+        "Port code": "JPOIT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CANICAL",
+        "Port code": "PTCDB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TEBING TINGGI",
+        "Port code": "IDTTI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAIMEN, ZHEJIANG",
+        "Port code": "CNHME",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PAGO PAGO",
+        "Port code": "ASPPG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FAISALABAD",
+        "Port code": "PKLYP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BUENAVENTURA",
+        "Port code": "COBUN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BUENOS AIRES",
+        "Port code": "ARBUE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PARANA",
+        "Port code": "ARPRA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PARANAGUA",
+        "Port code": "BRPNG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MEJILLONES",
+        "Port code": "CLMJS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ELSFLETH, NI",
+        "Port code": "DEELS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FRANKFURT, HE",
+        "Port code": "DEFRA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MOIN",
+        "Port code": "CRMOB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ODENSE",
+        "Port code": "DKODE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FREDERIKSTED",
+        "Port code": "VIFRD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OKI, SOUTH SUMATERA",
+        "Port code": "IDOKI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MEMPHIS, TN",
+        "Port code": "USMEM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALDEBURGH, SUFFOLK",
+        "Port code": "GBALB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTO STEFANO DI MAGRA",
+        "Port code": "ITQGO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MOJI, FUKUOKA",
+        "Port code": "JPMOJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ADELAIDE, SA",
+        "Port code": "AUADL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ADEN",
+        "Port code": "YEADE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DJIBOUTI",
+        "Port code": "DJJIB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OXELOSUND",
+        "Port code": "SEOXE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OFUNATO, IWATE",
+        "Port code": "JPOFT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ODESSA",
+        "Port code": "UAODS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VADO LIGURE",
+        "Port code": "ITVDL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PARAMARIBO",
+        "Port code": "SRPBM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DALIAN, LIAONING",
+        "Port code": "CNDLC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ABU DHABI",
+        "Port code": "AEAUH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ACAJUTLA",
+        "Port code": "SVAQJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ACAPULCO",
+        "Port code": "MXACA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAHA, OKINAWA",
+        "Port code": "JPNAH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MUTSURE, YAMAGUCHI",
+        "Port code": "JPMTR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MOKPO",
+        "Port code": "KRMOK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TAMATAVE",
+        "Port code": "MGTMM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORT SAID WEST TERMINAL",
+        "Port code": "EGPSW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALESUND",
+        "Port code": "NOAES",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JAKARTA, UTC1",
+        "Port code": "IDJK1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JAKARTA, UTC2",
+        "Port code": "IDJK2",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JAKARTA, UTC 3 TERMINAL",
+        "Port code": "IDUTE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OPTIONAL CARGO",
+        "Port code": "XXOPT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TARRAGONA",
+        "Port code": "ESTAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "THAMESPORT, KENT",
+        "Port code": "GBTHP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DOHA",
+        "Port code": "QADOH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AMBON",
+        "Port code": "IDAMQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CURACAO",
+        "Port code": "ANCUR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MASAN",
+        "Port code": "KRMAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DILI",
+        "Port code": "TLDIL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HELSINGBORG, ANGELHOLM APT",
+        "Port code": "SEAGH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SIAM SEAPORT",
+        "Port code": "TH71Z",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAGOYA, AICHI",
+        "Port code": "JPNGO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MELBOURNE, VIC",
+        "Port code": "AUMEL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IPIL/ZAMBOANGA",
+        "Port code": "PHIPE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DUNKERQUE",
+        "Port code": "FRDKK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DONGJIANGKOU",
+        "Port code": "CNDJK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PAKISTAN INTL CTNR TML, KARACHI",
+        "Port code": "PKPCT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IMABARI, EHIME",
+        "Port code": "JPIMB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IMARI, SAGA",
+        "Port code": "JPIMI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VILLAGARCIA DE AROSA",
+        "Port code": "ESVIL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "IMBITUBA",
+        "Port code": "BRIBB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZZZ DO NOT USE - SHUIDONG, ANHUI",
+        "Port code": "CNSD1",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "PORT SAID EAST TERMINAL",
+        "Port code": "EGPSE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BATU AMPAR TERMINAL, BATAM",
+        "Port code": "IDBAP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KUDAT, SABAH",
+        "Port code": "MYKUD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PONTA DA MADEIRA",
+        "Port code": "BRPDM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LONGONI",
+        "Port code": "YTLNG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HITACHI, IBARAKI",
+        "Port code": "JPHTC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HITACHINAKA, IBARAKI",
+        "Port code": "JPHIC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EL JOSE",
+        "Port code": "VEELJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MARGHERA",
+        "Port code": "ITPMA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EVYAP",
+        "Port code": "TREVY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT USE HO CHI MINH CITY,TAN THUAN",
+        "Port code": "VN72F",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "T S TRANSPORT AND LOGISTICS",
+        "Port code": "THI6C",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAUGESUND",
+        "Port code": "NOHAU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LARNACA",
+        "Port code": "CYLCA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YINGKOU, LIAONING",
+        "Port code": "CNYIK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAN ANTONIO",
+        "Port code": "CLSAI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KETCHIKAN, AK",
+        "Port code": "USKTN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ANCONA",
+        "Port code": "ITAOI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KAILUA KONA, HI",
+        "Port code": "USKHH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JINZHOU, LIAONING",
+        "Port code": "CNJNZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JIUJIANG, GUANGDONG",
+        "Port code": "CNJJG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JIUJIANG, JIANGXI",
+        "Port code": "CNJIU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZAMBOANGA",
+        "Port code": "PHZAM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AARHUS",
+        "Port code": "DKAAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NORTHBOROUGH, MA",
+        "Port code": "USNBO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BANGKOK, TPT TERMINAL",
+        "Port code": "THTPT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COLUMBIA RIVER, WA",
+        "Port code": "US006",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HATSUKAICHI, HIROSHIMA",
+        "Port code": "JPHTK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KALIMANTAN",
+        "Port code": "ID004",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OSAKA HOKKO",
+        "Port code": "JP022",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAILAO",
+        "Port code": "TW01C",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JINGZHOU, HUBEI",
+        "Port code": "CNJGZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YOKKAICHI, MIE",
+        "Port code": "JPYKK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YOKOHAMA, KANAGAWA",
+        "Port code": "JPYOK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KALTAG, AK",
+        "Port code": "USKAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MENASHA, WI",
+        "Port code": "USMEZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GALVESTON, TX",
+        "Port code": "USGLS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RAROTONGA",
+        "Port code": "CKRAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHACABUCO",
+        "Port code": "CLCHB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUAYACAN",
+        "Port code": "CLGYC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANJUNG BARA",
+        "Port code": "IDTBA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANJONG BARAN",
+        "Port code": "MYTBA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "THESSALONIKI",
+        "Port code": "GRSKG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTA CRUZ DE LA PALMA",
+        "Port code": "ESSPC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GARFIELD, NJ",
+        "Port code": "USGAF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NEW ORLEANS, LA",
+        "Port code": "USMSY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUAYAQUIL",
+        "Port code": "ECGYE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CEBU",
+        "Port code": "PHCEB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GRIMSTAD",
+        "Port code": "NOGTD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PROVIDENCE, RI",
+        "Port code": "USPVD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COCO SOLO",
+        "Port code": "PACSO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LOWER COVE, NL",
+        "Port code": "CALC1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COPENHAGEN",
+        "Port code": "DKCPH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ARICA",
+        "Port code": "CLARI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PORTAGE CREEK, AK",
+        "Port code": "USPC1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAOFEIDIAN",
+        "Port code": "CN01A",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIANG YOU",
+        "Port code": "CN01H",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAJISHAN",
+        "Port code": "CN81C",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LUHUASHAN",
+        "Port code": "CN81F",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALEXANDRIA OLD PORT",
+        "Port code": "EG39R",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SU TU DEN",
+        "Port code": "VN73Q",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "YOKOSUKA, KANAGAWA",
+        "Port code": "JPYOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHENSHAN",
+        "Port code": "CN82S",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CN81G",
+        "Port code": "CN81G",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JINGTANG",
+        "Port code": "CNJI1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PHILIPSBURG",
+        "Port code": "ANPHI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JINSHAN",
+        "Port code": "CNJN1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "QIANWAN,CHINA",
+        "Port code": "CNQAW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GONGYI, TAISHAN",
+        "Port code": "CNTIS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "XIUYU PT",
+        "Port code": "CNXY1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BAOSHANMATOU",
+        "Port code": "CNBA1",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TIESHAN",
+        "Port code": "CNBHT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BEILU, GUANGXI",
+        "Port code": "CNBLU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHANGJIAGANG - FOR SEAMAN ONLY",
+        "Port code": "CNC91",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHENJIAGANG",
+        "Port code": "CNCIG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COCHIN",
+        "Port code": "INCOK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BANGKOK",
+        "Port code": "THBKK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RIO HAINA",
+        "Port code": "DOHAI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KRISHNAPATNAM",
+        "Port code": "INKRI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KRISTIANSAND S.",
+        "Port code": "NOKRS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOTA KINABALU",
+        "Port code": "MYBKI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GRONINGEN",
+        "Port code": "NLGRQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GONGYI, GUANGDONG",
+        "Port code": "CNGGY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAKAI, OSAKA",
+        "Port code": "JPSAK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALEXANDRIA, EGYPT",
+        "Port code": "EGALY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JPOSK",
+        "Port code": "JPOSK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BLANR",
+        "Port code": "BLANR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NEWARK, NY",
+        "Port code": "USNNY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NANSHA, GUANGDONG",
+        "Port code": "CNNSA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NANSHAN, GUANGDONG",
+        "Port code": "CNNSH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HAREN, NI",
+        "Port code": "DEHRN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "EL GUAMACHE",
+        "Port code": "VEEGU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OULU",
+        "Port code": "FIOUL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MIHARA SHIPYARD",
+        "Port code": "JPMIH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HUARUN DADONG SHIPYARD",
+        "Port code": "CNHRD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NANTONG, JIANGSU",
+        "Port code": "CNNTG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DERINCE",
+        "Port code": "TRDRC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BRIDGETOWN",
+        "Port code": "BBBGI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NANGANG, GUANGDONG",
+        "Port code": "CNNGG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PERAWANG",
+        "Port code": "IDPER",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CARTAGENA",
+        "Port code": "COCNR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "Wuhujiao Shipyard Anchorage",
+        "Port code": "CNWHJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DANA POINT, CA",
+        "Port code": "USDPT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BARI (AP)",
+        "Port code": "ITBRI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BONN, NW",
+        "Port code": "DEBON",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GROBBENDONK",
+        "Port code": "BEGBB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SANTOS",
+        "Port code": "BRSSZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FUJAIRAH",
+        "Port code": "AEFJR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CLEVELAND, OH",
+        "Port code": "USCLE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZARATE",
+        "Port code": "ARZAE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAPIER",
+        "Port code": "NZNPE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DUBAI",
+        "Port code": "AEDXB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DUBLIN",
+        "Port code": "IEDUB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHUHAI, GUANGDONG",
+        "Port code": "CNZUH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZHUJI, ZHEJIANG",
+        "Port code": "CNZHU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MONTEVIDEO",
+        "Port code": "UYMVD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DOURGES, PAS DE CALAIS",
+        "Port code": "FRDGS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DOUSMAN, WI",
+        "Port code": "USUSM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAVISVILLE, RI",
+        "Port code": "USDVV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ERROL, NH",
+        "Port code": "USERR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BANGKOK, BMTP",
+        "Port code": "THBMT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TOLSTOI, AK",
+        "Port code": "US29Q",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KULTUS COVE, BC",
+        "Port code": "CA01A",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FREDRIKSTAD",
+        "Port code": "NOFRK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "FREMANTLE, WA",
+        "Port code": "AUFRE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIRQUEN",
+        "Port code": "CLLQN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DI AN, BINH DUONG",
+        "Port code": "VNDIA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MULTAN",
+        "Port code": "PKMUX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GAOLAN, GUANGDONG",
+        "Port code": "CNGON",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LIVERPOOL, MERSEYSIDE",
+        "Port code": "GBLIV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LUMUT",
+        "Port code": "MYLUM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAVANNAH, GA",
+        "Port code": "USSAV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANJUNG MANIS",
+        "Port code": "MYTMP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MAP TA PHUT (MAB TAPUD)",
+        "Port code": "THMAT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DHAKA",
+        "Port code": "BDDAC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HUANGPU, GUANGDONG",
+        "Port code": "CNHUA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "UST LUGA",
+        "Port code": "RUULU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JACKSONVILLE, FL",
+        "Port code": "USJAX",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GEORGETOWN",
+        "Port code": "KYGEC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAI LAN",
+        "Port code": "VNCLN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CAI MEP",
+        "Port code": "VNCMP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BOLUO, GUANGDONG",
+        "Port code": "CNBOO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HUANGSHI, HUBEI",
+        "Port code": "CNHSI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO CALDERA",
+        "Port code": "CRCAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO CORTES",
+        "Port code": "HNPCR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO LIMON",
+        "Port code": "COPNM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO LIMON",
+        "Port code": "CRLIO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO MONTT",
+        "Port code": "CLPMC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OSAKA, OSAKA",
+        "Port code": "JPOSA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOPER",
+        "Port code": "SIKOP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PONTA DELGADA",
+        "Port code": "PTPDL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "URAGA, KANAGAWA",
+        "Port code": "JPURG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VALPARAISO",
+        "Port code": "CLVAP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VERSAILLES, IN",
+        "Port code": "USVSL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NINGBO, ZHEJIANG",
+        "Port code": "CNNGB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOKKOLA",
+        "Port code": "FIKOK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RIZHAO, SHANDONG",
+        "Port code": "CNRZH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO QUETZAL",
+        "Port code": "GTPRQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OSKARSHAMN",
+        "Port code": "SEOSK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "OSLO",
+        "Port code": "NOOSL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GEORGETOWN",
+        "Port code": "GYGEO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NAMIBE",
+        "Port code": "AOMSZ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NICHINAN, MIYAZAKI",
+        "Port code": "JPNIC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOBLENZ, RP",
+        "Port code": "DEKOB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DANDONG, LIAONING",
+        "Port code": "CNDDG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TANANGER",
+        "Port code": "NOTAE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ISKENDERUN",
+        "Port code": "TRISK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VASTERAS",
+        "Port code": "SEVST",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VAUGHAN, ON",
+        "Port code": "CAVGN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RAS AL KHAIMAH",
+        "Port code": "AERKT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KARLSHAMN",
+        "Port code": "SEKAN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RAUMA",
+        "Port code": "FIRAU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "APIA",
+        "Port code": "WSAPW",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAGOS",
+        "Port code": "NGLOS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KUWAIT",
+        "Port code": "KWKWI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TORONTO, ON",
+        "Port code": "CATOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HILO, HI",
+        "Port code": "USITO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KODIAK, AK",
+        "Port code": "USADQ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HIKOSHIMA, YAMAGUCHI",
+        "Port code": "JPHIS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HODEIDAH",
+        "Port code": "YEHOD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HONIARA",
+        "Port code": "SBHIR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HONOLULU, HI",
+        "Port code": "USHNL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LABUAN",
+        "Port code": "MYLBU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT USE VUNG TAU",
+        "Port code": "VNVUT",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "HIBBING, MN",
+        "Port code": "USIBB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PONTIANAK",
+        "Port code": "IDPNK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HORTA",
+        "Port code": "PTHOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HUIZHOU, GUANGDONG",
+        "Port code": "CNHUI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "JAMUL, CA",
+        "Port code": "USJAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KLAIPEDA",
+        "Port code": "LTKLJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PASIR GUDANG",
+        "Port code": "MYPGU",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO AYSEN",
+        "Port code": "CLWPA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PUERTO CABELLO",
+        "Port code": "VEPBL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAMARINDA",
+        "Port code": "IDSRI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KATTUPALLI PORT",
+        "Port code": "INKTP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "WILHELMSHAVEN, NI",
+        "Port code": "DEWVN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PEKAN",
+        "Port code": "MYPKN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AALBORG",
+        "Port code": "DKAAL",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BATAM",
+        "Port code": "IDBTM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BATANGAS",
+        "Port code": "PHBTG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAKAIDE, KAGAWA",
+        "Port code": "JPSKD",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAKAIMINATO, TOTTORI",
+        "Port code": "JPSMN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KHOR FAKKAN",
+        "Port code": "AEKLF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DONGGUAN, GUANGDONG",
+        "Port code": "CNDGG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "MISURATA",
+        "Port code": "LYMRA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NORFOLK, VA",
+        "Port code": "USORF",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RIO DE JANEIRO",
+        "Port code": "BRRIO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PITEA",
+        "Port code": "SEPIT",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALGECIRAS",
+        "Port code": "ESALG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KUMAMOTO, KUMAMOTO",
+        "Port code": "JPKMJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOTKA",
+        "Port code": "FIKTK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KAWAIHAE, HI",
+        "Port code": "USKWH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ALTAMIRA",
+        "Port code": "MXATM",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LARVIK",
+        "Port code": "NOLAR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAS PALMAS",
+        "Port code": "ESLPA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LAS PALMAS DE GRAN CANARIA",
+        "Port code": "ESLSP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CONSTANTA",
+        "Port code": "ROCND",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "S-HERTOGENBOSCH",
+        "Port code": "NLHTB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KOJE",
+        "Port code": "KRKJE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUIGANG, GUANGXI",
+        "Port code": "CNGUG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NORRKOPING",
+        "Port code": "SENRK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "RIO GRANDE",
+        "Port code": "BRRIG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NHA TRANG",
+        "Port code": "VNNHA",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HA LONG",
+        "Port code": "VNHLG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BARCELONA",
+        "Port code": "ESBCN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAVAO",
+        "Port code": "PHDVO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "NIJMEGEN",
+        "Port code": "NLNIJ",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CINCINNATI, OH",
+        "Port code": "USCVG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DETROIT, MI",
+        "Port code": "USDET",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CHIWAN, GUANGDONG",
+        "Port code": "CNCWN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "PETERSBURG, AK",
+        "Port code": "USPSG",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SAIPAN ISLAND",
+        "Port code": "MPSPN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AMSTERDAM",
+        "Port code": "NLAMS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GROVE CITY, PA",
+        "Port code": "USGRO",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DAVENTRY, NORTHAMPTONSHIRE",
+        "Port code": "GBDVY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "APAPA",
+        "Port code": "NGAPP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GUARULHOS",
+        "Port code": "BRQCV",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "AVCILAR",
+        "Port code": "TRAVC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "KIIRE, KAGOSHIMA",
+        "Port code": "JPKII",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "GEBZE",
+        "Port code": "TRGEB",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VLISSINGEN",
+        "Port code": "NLVLI",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "VI THANH",
+        "Port code": "VNVTH",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TRIPOLI",
+        "Port code": "LBKYE",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "HASSELT",
+        "Port code": "NLHAS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "CONAKRY",
+        "Port code": "GNCKY",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "SOCIEDAD PORTUARIA REGIONAL CARTAGENA",
+        "Port code": "COSPC",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "TORRES STRAIT",
+        "Port code": "AUTOR",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "BAD SALZUFLEN, NW",
+        "Port code": "DEBFN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "COSTA AZUL - DELETED",
+        "Port code": "MX04A",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ARGENTIA, NL",
+        "Port code": "CANWP",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ISHIKARIWAN-SHINKO, HOKKAIDO",
+        "Port code": "JPISS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "LATTAKIA",
+        "Port code": "SYLTK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ORAN",
+        "Port code": "DZORN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT USE XINAN",
+        "Port code": "CNXI1",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "DO NOT USE - WANZAI, GUANGDONG",
+        "Port code": "CNWAZ",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "DO NOT USE CHEJU",
+        "Port code": "KRCHA",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "MO I RANA",
+        "Port code": "NOMQN",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT - USE IRAGO, AICHI",
+        "Port code": "JPIRK",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "DO NOT USE XINFENG, GUANGDONG",
+        "Port code": "CNXAB",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "YAKUTAT, AK",
+        "Port code": "USYAK",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "DO NOT USE MAKASSAR",
+        "Port code": "IDUPG",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "TARTOUS",
+        "Port code": "SYTTS",
+        "Do Not Use": "N/A"
+    },
+    {
+        "Port name": "ZZZ DO NOT USE - HAIMEN, GUANGDONG",
+        "Port code": "CNHMG",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "DO NOT USE - HO CHI MINH CITY, VICT PORT",
+        "Port code": "VNVIC",
+        "Do Not Use": "Yes"
+    },
+    {
+        "Port name": "DO NOT USE ISTANBUL - HAYDARPASA",
+        "Port code": "TRHAY",
+        "Do Not Use": "Yes"
+    }
+]
