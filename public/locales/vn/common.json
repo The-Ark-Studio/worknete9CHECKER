@@ -162,5 +162,29 @@
     },
     "table": {
         "actions": "Aktionen"
+    },
+    "FOOTER": {
+        "MANAGE_BY": "Quản lý bởi",
+        "MANAGER_NAME": "Lee Hyun Seung",
+        "MAKE_BY": "Sản xuất và quản lý bởi",
+        "COMPANY_NAME": "The Ark Studio",
+        "COMPANY_ADDRESS": "Mã số thuế: 0317131594 | Địa chỉ: 145 Trần Đình Xu, P.Nguyễn Cư Trinh, Quận 1, HCM City | Số điện thoại: +84 974 602 424",
+        "COPY_RIGHT": "Copyright: Worknet E9 System, 2024"
+    },
+    "BUTTONS": {
+        "SIGNUP": "Đăng ký",
+        "LOGOUT": "Đăng xuất",
+        "APPROVE": "Chấp nhận",
+        "REJECT": "Từ chối",
+        "VERIFY_NOW": "Kiểm tra ngay!",
+        "LEARN_MORE": "Tìm hiểu thêm",
+        "SUBSCRIBE": "Đăng ký",
+        "PRIVACY": "Quyền riêng tư",
+        "ABOUT_US": "Về chúng tôi",
+        "TERMS": "Điều khoản",
+        "HELP_CENTER": "Trợ giúp",
+        "CONTACT_US": "Liên hệ",
+        "FAQS": "Hỏi đáp",
+        "SITEMAP": "Hệ thống"
     }
 }

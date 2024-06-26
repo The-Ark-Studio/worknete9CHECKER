@@ -1,0 +1,24 @@
+{
+    "SUB_TITLE": "Visa Professional Manager Portal",
+    "SYSTEM_NAME": "WORKNET E9 SYSTEM",
+    "SEARCH": "Search",
+    "KOREAN": "KOREAN",
+    "MINISTRY": "MINISTRY OF JUSTICE",
+    "APPLICATION": "MY APPLICATION",
+    "VISA": "VISA",
+    "E_SERVICES": "E-SERVICES",
+    "INFORMATION": "INFORMATION",
+    "EPS": "EPS ONLINE SCHOOL",
+    "ONLINE_FORM": {
+        "TITLE": "WORKNET E9 SYSTEM PROFILE: ONLINE FORM",
+        "STEP1": "1. Follow the instructions to create an account",
+        "STEP2": "2. Fill out the online form",
+        "STEP3": "3. Enter your personal reference",
+        "STEP4": "4. Information from certain documents",
+        "STEP5": "5. Submit your profile"
+    },
+    "TOPIC": {
+        "TITLE": "WHO IS ELIGIBLE FOR THE E-9 VISA IN KOREA?",
+        "TEXT": "Nationality is the primary criterion for the E-9 visa in South Korea: The country has extended this visa category to 16 different nations, resulting in a diverse workforce. In the following sections, we'll explore specific eligibility requirements for each category, but there are some common threads:\n \nProfessional Job Exclusion: Applicants should not be seeking professional roles that require specialized qualifications, certificates, or extensive work experience.\n \n Clean Record: Applicants must have a clean criminal background and no past immigration issues with South Korea."
+    }
+}

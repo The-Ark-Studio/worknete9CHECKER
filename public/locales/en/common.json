@@ -200,5 +200,29 @@
         "trendingMenus": {
             "title": "Daily Trending Menus"
         }
+    },
+    "FOOTER": {
+        "MANAGE_BY": "Managed by",
+        "MANAGER_NAME": "Lee Hyun Seung",
+        "MAKE_BY": "Produced and managed by",
+        "COMPANY_NAME": "The Ark Studio",
+        "COMPANY_ADDRESS": "Tax number: 0317131594 | Address: 145 Tran Dinh Xu str, Nguyen Cu Trinh Ward, District 1, HCM City | Phone number: +84 974 602 424",
+        "COPY_RIGHT": "Copyright: Worknet E9 System, 2024"
+    },
+    "BUTTONS": {
+        "SIGNUP": "Sign up",
+        "LOGOUT": "Logout",
+        "APPROVE": "Approve",
+        "REJECT": "Reject",
+        "VERIFY_NOW": "Verify Now!",
+        "LEARN_MORE": "Learn more",
+        "SUBSCRIBE": "Subscribe",
+        "PRIVACY": "Privacy",
+        "ABOUT_US": "About us",
+        "TERMS": "Terms",
+        "HELP_CENTER": "Help Center",
+        "CONTACT_US": "Contact us",
+        "FAQS": "FAQs",
+        "SITEMAP": "Sitemap"
     }
 }

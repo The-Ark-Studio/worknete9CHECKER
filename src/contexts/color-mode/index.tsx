@@ -49,7 +49,7 @@ export const ColorModeContextProvider: React.FC<PropsWithChildren> = ({ children
                         colorPrimary: "#016DF3FF",
                         borderRadius: 2,
                         colorBgLayout: "white",
-                        fontFamily: "Roboto",
+                        fontFamily: "NotoSans, sans-serif",
                         colorText: "#323743FF"
                     },
                     algorithm: mode === "light" ? defaultAlgorithm : defaultAlgorithm,

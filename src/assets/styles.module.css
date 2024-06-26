@@ -1,5 +1,6 @@
 :root {
     --font-family: Abhaya Libre;
+    --white: #FFFFFFFF;
     --primary: #016df3ff;
     --primary2: #9bc8ffff;
     --primary4: #7c83edff;
@@ -26,6 +27,11 @@
     --landing-font-family: Abhaya Libre;
     --btn-conclusion-signup: #10253cff;
     --btn-conclusion-signup-bg: #a9c7e8ff;
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('/fonts/NotoSans.ttf') format('truetype');
 }
 
 .title_h1 {
@@ -58,6 +64,11 @@
     line-height: 1.625 !important;
 }
 
+.title_h7 {
+    font-size: 0.9vw !important;
+    line-height: 1.625 !important;
+}
+
 .label {
     font-size: 0.8vw !important;
     line-height: 1 !important;
@@ -75,31 +86,33 @@
     margin-left: 1.1vw;
     padding-top: 0;
     padding-left: 0.2vw;
-
-    .header_sub_title {
-        font-size: 0.8vw !important;
-        margin-bottom: 0;
-        font-weight: 500;
-        color: "#565D6DFF";
-        /* color: var(--text-grey); */
-    }
-
-    .header_title {
-        font-size: 0.9vw !important;
-        margin-bottom: 0;
-        font-weight: 600;
-        line-height: 1.2 !important;
-        color: "#171A1FFF";
-        /* color: var(--text-black); */
-    }
-
-    .header_e9_logo {
-        margin-top: 0;
-        width: 2.2vw;
-        max-height: 2vw;
-        height: 100%;
-    }
 }
+
+
+.header_sub_title {
+    font-size: 0.8vw !important;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: "#565D6DFF";
+    /* color: var(--text-grey); */
+}
+
+.header_title {
+    font-size: 0.9vw !important;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1.2 !important;
+    color: "#171A1FFF";
+    /* color: var(--text-black); */
+}
+
+.header_e9_logo {
+    margin-top: 0;
+    width: 2.2vw;
+    max-height: 2vw;
+    height: 100%;
+}
+
 
 .header_right {
     display: flex;
@@ -234,6 +247,7 @@
         background-position: center;
         background-size: cover;
     }
+
 }
 
 .div_container_center {
@@ -497,6 +511,61 @@
         border-style: solid;
         border-width: 0.15vw;
     }
+}
+
+
+.menu_item_footer {
+    font-size: 0.8vw !important;
+}
+
+.menu_item {
+    font-size: 0.9vw !important;
+}
+
+.menu_right_button {
+    /* font-size: 0.9vw; */
+    opacity: 1;
+    border: none;
+    height: 1.8vw;
+    margin-bottom: 0.5vw;
+    display: inline;
+}
+
+.online_form_box {
+    background: #FFFFFFFF;
+    /* white */
+    border-radius: 2px;
+    /* border-xs */
+    box-shadow: 0px 4px 9px #9095a1ff, 0px 0px 2px #9095a1ff;
+    height: 4.5vw;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+}
+
+.topic {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 1vw;
+    margin: 0 8% auto;
+    height: 20vw;
+
+    .topic_img {
+        width: 100%;
+        height: 100%;
+        right: 0;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.footer_main {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 1vw;
+    margin: 0 8% auto;
+
 }
 
 .footer_link {

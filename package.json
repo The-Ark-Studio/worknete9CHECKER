@@ -6,6 +6,7 @@
     "private": true,
     "type": "module",
     "packageManager": "pnpm@9.1.1",
+    "proxy": "http://localhost:8080/",
     "scripts": {
         "prepare": "husky",
         "lint:check": "npm run lint || npm run lint:fix",
@@ -48,9 +49,11 @@
         "jest-mock-axios": "^4.7.3",
         "query-string": "7",
         "react": "^18.2.0",
+        "react-country-state-city": "^1.1.2",
         "react-css-modules": "^4.7.11",
         "react-dom": "^18.2.0",
         "react-i18next": "^11.8.11",
+        "react-phone-input-2": "^2.15.1",
         "react-router-dom": "^6.22.3",
         "refine": "0.0.1-alpha"
     },

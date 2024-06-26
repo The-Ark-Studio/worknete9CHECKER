@@ -11,7 +11,7 @@ i18n.use(Backend)
         backend: {
             loadPath: "/locales/{{lng}}/{{ns}}.json" // locale files path
         },
-        ns: ["common", "dashboard", "landing"],
+        ns: ["common", "dashboard", "landing", "main"],
         defaultNS: "landing",
         fallbackLng: ["en", "vn"]
     });

@@ -200,5 +200,29 @@
         "trendingMenus": {
             "title": "Daily Trending Menus"
         }
+    },
+    "BUTTONS": {
+        "SIGNUP": "회원가입 ",
+        "LOGOUT": "로그 아웃",
+        "APPROVE": "확인",
+        "REJECT": "거부",
+        "VERIFY_NOW": "지금 확인!",
+        "LEARN_MORE": "자세한 정보 확인",
+        "SUBSCRIBE": "가입",
+        "PRIVACY": "보안",
+        "ABOUT_US": "회사소개",
+        "TERMS": "기간",
+        "HELP_CENTER": "고객센터 전화번호",
+        "CONTACT_US": "회사 전화번호",
+        "FAQS": "자주묻는질문",
+        "SITEMAP": "회사위치"
+    },
+    "FOOTER": {
+        "MANAGE_BY": "관리 책임자",
+        "MANAGER_NAME": "이현승",
+        "MAKE_BY": "제작 및 관리",
+        "COMPANY_NAME": "The Ark Studio",
+        "COMPANY_ADDRESS": "세금 번호 0317131594 | 주소 145 Tran Dinh Xu str, Nguyen Cu Trinh Ward, District 1, HCM City | 전화 번호: +84 974 602 424",
+        "COPY_RIGHT": "저작권: Worknet E9 System, 2024"
     }
 }
