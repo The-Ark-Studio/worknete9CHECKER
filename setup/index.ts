@@ -6,11 +6,11 @@
 
 import react from "@vitejs/plugin-react";
 import { PluginOption } from "vite";
-import setupAutoImport from "./setupAutoImport";
-import setupIcon from "./setupIcon";
 import Inspect from "vite-plugin-inspect";
 import { qrcode } from "vite-plugin-qrcode";
 import tsconfigPaths from "vite-tsconfig-paths";
+import setupAutoImport from "./setupAutoImport";
+import setupIcon from "./setupIcon";
 
 export default function setupVitePlugins(viteEnv: IViteEnv, isBuild: boolean) {
     console.log(viteEnv, isBuild);

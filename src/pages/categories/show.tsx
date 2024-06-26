@@ -7,7 +7,6 @@
 import { NumberField, Show, TextField } from "@refinedev/antd";
 import { useShow } from "@refinedev/core";
 import { Typography } from "antd";
-import React from "react";
 
 const { Title } = Typography;
 

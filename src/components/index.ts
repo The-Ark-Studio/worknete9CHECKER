@@ -4,4 +4,4 @@
  * All rights reserved.
  */
 
-export { Header } from "./Layout/Header";
+export { Header } from "./Layout/Theme/Header";

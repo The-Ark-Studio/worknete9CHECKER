@@ -4,8 +4,8 @@
  * All rights reserved.
  */
 
-import { MRT_Column, MRT_Row } from "material-react-table";
 import { DataProvider } from "@refinedev/core";
+import { MRT_Column, MRT_Row } from "material-react-table";
 
 declare global {
     const __APP_INFO__: {

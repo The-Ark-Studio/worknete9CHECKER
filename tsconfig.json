@@ -11,80 +11,38 @@
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "importHelpers": true,
-        "lib": [
-            "DOM",
-            "DOM.Iterable",
-            "ESNext"
-        ],
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
         "incremental": false,
         "skipLibCheck": true,
         "experimentalDecorators": true,
         "strictPropertyInitialization": true,
         "emitDecoratorMetadata": true,
         "noImplicitAny": false,
-        "types": [
-            "vite/client"
-        ],
-        "typeRoots": [
-            "node_modules/@types"
-        ],
+        "types": ["vite/client"],
+        "typeRoots": ["node_modules/@types"],
         "allowJs": false,
         "forceConsistentCasingInFileNames": true,
         "isolatedModules": true,
         "noEmit": true,
         "jsx": "react-jsx",
         "paths": {
-            "@src/*": [
-                "./src/*"
-            ],
-            "@pub/*": [
-                "./public/*"
-            ],
-            "@api/*": [
-                "./src/api/*"
-            ],
-            "@asset/*": [
-                "./src/assets/*"
-            ],
-            "@comp/*": [
-                "./src/components/*"
-            ],
-            "@store/*": [
-                "./src/stores/*"
-            ],
-            "@const/*": [
-                "./src/constants/*"
-            ],
-            "@ctx/*": [
-                "./src/contexts/*"
-            ],
-            "@intf/*": [
-                "./src/interfaces/*"
-            ],
-            "@pg/*": [
-                "./src/pages/*"
-            ],
-            "@pvd/*": [
-                "./src/api/providers/*"
-            ],
-            "@rts/*": [
-                "./src/routes/*"
-            ],
-            "@util/*": [
-                "./src/utils/*"
-            ],
-            "@setup/*": [
-                "./setup/*"
-            ],
-            "@routes": [
-                "./src/routes"
-            ],
-            "@hooks/*": [
-                "./src/hooks/*"
-            ],
-            "tslib": [
-                "./node_modules/tslib/tslib.d.ts"
-            ]
+            "@src/*": ["./src/*"],
+            "@pub/*": ["./public/*"],
+            "@api/*": ["./src/api/*"],
+            "@asset/*": ["./src/assets/*"],
+            "@comp/*": ["./src/components/*"],
+            "@store/*": ["./src/stores/*"],
+            "@const/*": ["./src/constants/*"],
+            "@ctx/*": ["./src/contexts/*"],
+            "@intf/*": ["./src/interfaces/*"],
+            "@pg/*": ["./src/pages/*"],
+            "@pvd/*": ["./src/api/providers/*"],
+            "@rts/*": ["./src/routes/*"],
+            "@util/*": ["./src/utils/*"],
+            "@setup/*": ["./setup/*"],
+            "@routes": ["./src/routes"],
+            "@hooks/*": ["./src/hooks/*"],
+            "tslib": ["./node_modules/tslib/tslib.d.ts"]
         }
     },
     "include": [
@@ -98,8 +56,5 @@
         "vite.config.ts",
         "package.json"
     ],
-    "exclude": [
-        "dist",
-        "node_modules"
-    ]
+    "exclude": ["dist", "node_modules"]
 }

@@ -5,7 +5,6 @@
  */
 
 import { Result, Skeleton } from "antd";
-import React from "react";
 
 const PageSplashScreen = () => {
     return <Result extra={<Skeleton />} />;

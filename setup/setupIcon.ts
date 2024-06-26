@@ -4,8 +4,8 @@
  * All rights reserved.
  */
 
-import Icons from "unplugin-icons/vite";
 import { FileSystemIconLoader } from "unplugin-icons/loaders";
+import Icons from "unplugin-icons/vite";
 
 const ICONS_DIR = "src/assets/icons";
 const MAGENTA_ICONS_DIR = "src/assets/icons/magenta";

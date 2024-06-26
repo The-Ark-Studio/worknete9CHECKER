@@ -1,0 +1,180 @@
+{
+    "MODULE": "Administrator Work Site",
+    "SYSTEM_NAME": "WORKNET E9 SYSTEM",
+    "AUTHENTICATION": {
+        "EMAIL": "Email",
+        "PASSWORD": "Password",
+        "NEW_PASSWORD": "Your new password",
+        "CONFIRM_NEW_PASSWORD": "Confirm your new password",
+        "EMAIL_PLACEHOLDER": "please enter your email",
+        "PASSWORD_PLACEHOLDER": "please enter your password",
+        "NEW_PASSWORD_PLACEHOLDER": "create your new password",
+        "CONFIRM_NEW_PASSWORD_PLACEHOLDER": "re-type your new password",
+        "INVALID_EMAIL": "Invalid email address",
+        "TEXT_SIGN_IN": "Login",
+        "TEXT_UPDATE": "Update",
+        "TEXT_REMEMBER_ME": "Remember me",
+        "TEXT_RESET_PASSWORD": "Forgot your password"
+    },
+    "FOOTER": {
+        "MANAGE_BY": "Managed by",
+        "MANAGER_NAME": "Lee Hyun Seung",
+        "MAKE_BY": "Produced and managed by",
+        "COMPANY_NAME": "The Ark Studio",
+        "COMPANY_ADDRESS": "Tax number: 0317131594 | Address: 145 Tran Dinh Xu str, Nguyen Cu Trinh Ward, District 1, HCM City | Phone number: +84 974 602 424",
+        "COPY_RIGHT": "Copyright: Worknet E9 System, 2024"
+    },
+    "BUTTONS": {
+        "SIGNUP": "Sign up",
+        "LOGOUT": "Logout",
+        "APPROVE": "Approve",
+        "REJECT": "Reject",
+        "VERIFY_NOW": "Verify Now!",
+        "LEARN_MORE": "Learn more",
+        "SUBSCRIBE": "Subscribe",
+        "PRIVACY": "Privacy",
+        "ABOUT_US": "About us",
+        "TERMS": "Terms",
+        "HELP_CENTER": "Help Center",
+        "CONTACT_US": "Contact us",
+        "FAQS": "FAQs",
+        "SITEMAP": "Sitemap"
+    },
+    "GLOBAL": {
+        "ACTIONS": "Actions",
+        "FULLNAME": "Fullname",
+        "ATTACHMENTS": "Attachments",
+        "LINK": "Link"
+    },
+    "DASHBOARD": {
+        "SUB_TITLE": "Visa Professional Manager Portal"
+    },
+    "APPROVAL_PROCESSING": {
+        "LABEL": "Approval processing",
+        "ID": "approval_processing",
+        "EMAIL": "Email",
+        "GENDER": "Gender",
+        "NAME": "Name",
+        "DATE_APPLYING": "Date of Applying",
+        "PROFESSIONAL_TITLE": "Professional Title",
+        "AGE": "Age",
+        "HOMETOWN": "Hometown",
+        "EXPECTED_SALARY": "Expected salary(per month)",
+        "PREFERRED_WORK": "Preferred work",
+        "ACADEMIC_BACKGROUND": "Academic background",
+        "EXPECTED_AREA": "Area you want to stay in Korea",
+        "FAMILY_SITUATION": "Family situation (High, middle, low)",
+        "FAMILY_NUMBER": "Number of family member",
+        "PASSPORT": "Passport file",
+        "MEDICAL_CHECKUP": "Medical checkup",
+        "CRIMINIAL_RECORD": "Criminal record",
+        "TOPIK": "TOPIK (optional)",
+        "ID_CARD_FRONT": "ID card (front)",
+        "ID_CARD_BACK": "ID card (back)",
+        "MODAL": {
+            "TITLE": "Would you like to verify this profile?",
+            "BODY": "Make sure this profile is fully verified for the E9 visa. Please consider and double-check all information before sending this confirmation.",
+            "NOTE": "In case you need to withdraw this verfication, there shall be a button to proceed with following instructions.",
+            "BUTTON_CONFIRM": "Confirm to verify",
+            "BUTTON_BACK": "Back"
+        }
+    },
+    "ADMINISTRATORS": {
+        "LABEL": "Administrators",
+        "ID": "administrators",
+        "AVATAR": "Avatar",
+        "NAME": "Name",
+        "USERNAME": "User Name",
+        "EMAIL": "Email",
+        "ROLE": "Role",
+        "LOCATION": "Location",
+        "COMPANY": "Company",
+        "ESTABLISHED_YEARS": "Established Years"
+    },
+    "LANDPAGE": {
+        "SUB_TITLE": "Introduction",
+        "TRY_NOW": "Try now",
+        "ABOUT": {
+            "NOTE": "Your Comprehensive Checking Visa Assistance Platform for E9 visa.",
+            "TITLE": "About us",
+            "TEXT_A": "This application provides a system for Vietnamese workers who aspire to work in Korean companies to review information on the E9 visa and the possibility of checking can get an visa or not.",
+            "TEXT_B": "The WORKNET E9 SYSTEM offers Vietnamese workers hoping to work in Korean companies a correct and transparent method to review E9 visa application procedures and determine eligibility without going through an agent.",
+            "TEXT_C": "If you click \"Learn more\" below, you will be able to open the door for checking get an E9 visa with a variety of features and a lot of information provided by WORKNET E9 SYSTEM."
+        },
+        "FEATURES": {
+            "TITLE": "Features",
+            "TRY_NOW": "Try now",
+            "CARD_A": {
+                "TITLE": "Wide range of visa information",
+                "TEXT": "WORKNET E9 SYSTEM provides information from all the documents required for the E9 visa."
+            },
+            "CARD_B": {
+                "TITLE": "Feature",
+                "TEXT": "The goal of this system is to simplify the verification of visa availability, which was difficult for existing individuals, by providing easy procedures and accuracy to determine whether E9 visa can be obtained."
+            },
+            "CARD_C": {
+                "TITLE": "Review by recognized Korean government professionals",
+                "TEXT": "\"Foreign Immigration Administrative Agents\" contracted with us and recognized by the Korean government."
+            },
+            "CARD_D": {
+                "TITLE": "Feature",
+                "TEXT": "Reviewing the eligibility of applicants wishing to obtain an E9 visa, inform them of the result, and guide them on the necessary methods and modifications for acquisition."
+            }
+        },
+        "STREAM": {
+            "TITLE": "Simplified application process",
+            "TEXT": "WORKNET E9 SYSTEM guides E9 visa review applicants through a quick and concise process, informing them of the results in 4 steps:",
+            "NOTE": "\"Membership registration - Information input - Document upload - Result notification.\"",
+            "SUBMIT": "Submitted Application",
+            "GROWTH": "Growth"
+        },
+        "BENEFITS": {
+            "TITLE": "Feature benefits",
+            "A": {
+                "TITLE": "Expert support and guidance",
+                "TEXT": "Applicants can directly consult with \"experts\" through online messages or 1:1 chats to receive detailed and correct guidance on any questions they may have. "
+            },
+            "B": {
+                "TITLE": "Transparent and legal information provision",
+                "TEXT": "WORKNET E9 SYSTEM aims to eliminate illegal agents and high agent commissions related to acquiring a Korean E9 visa."
+            },
+            "C": {
+                "TITLE": "Vibrant and informative community",
+                "TEXT": "Through the system's online community exclusive to \"members,\" users can exchange information needed for life in Korea and receive help adapting to a new country."
+            },
+            "D": {
+                "TITLE": "Continuous updates and improvements",
+                "TEXT": "WORKNET E9 SYSTEM consistently manages and cares for workers who have successfully obtained an E9 visa, providing ongoing management services in administrative, legal, medical, and all other fields related to life in Korea."
+            }
+        },
+        "SEAMLESS": {
+            "TITLE": "Personal data protection and data security",
+            "TEXT_A": "WORKNET E9 SYSTEM prioritizes the security and protection of users' personal and sensitive information, using the latest security measures and encryption technology to always protect data. ",
+            "TEXT_B": "We strictly adhere to stringent data protection principles to ensure user confidence while using our service."
+        },
+        "USER_FRIENDLY": {
+            "TITLE": "User-friendly interface and accessibility",
+            "TEXT": "Our team diligently worked to create an intuitive and user-friendly interface that meets the needs of users of all ages and technical abilities. Furthermore, WORKNET E9 SYSTEM System is designed to be accessible on various devices including desktops, laptops, tablets, and smartphones, allowing access to the service anytime and anywhere."
+        },
+        "CONCLUSION": {
+            "TITLE": "In conclusion",
+            "ORDER_LIST": {
+                "A": "WORKNET E9 SYSTEM is more than just an application",
+                "B": "A comprehensive visa support platform that simplifies the visa inspection process for Vietnamese workers",
+                "C": "A platform enables users to easily navigate the complex world of visa inspections confidently"
+            },
+            "JOIN": "Join the WORKNET E9 SYSTEM family now to take the first step towards a smooth and successful visa inspection experience.",
+            "STARTED": "Getting started"
+        },
+        "FOOTER": {
+            "SUBSCRIBE": "Subscribe to our newsletter",
+            "INPUT_EMAIL_PLACEHOLDER": "Input your email",
+            "COPYRIGHT": "© 2024 WORKNET E9 SYSMTES"
+        }
+    },
+    "WARNING_UNSAVE_CHANGES": "Are you sure you want to leave? You have unsaved changes.",
+    "ABOUT_ME": "About Me",
+    "TO_ABOUT_PAGE": "To About Me page",
+    "TO_HOME_PAGE": "To Home page",
+    "CURRENT_AGE": "Your current age is {{age}}"
+}

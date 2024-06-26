@@ -4,15 +4,12 @@
  * All rights reserved.
  */
 
-import { AuthPage } from "@comp/Layout/authentication/components/BasicLayout";
+import { AuthPage } from "@src/components/Layout/Authentication/BasicLayout";
 // import { AuthPage } from "@refinedev/antd";
-import { Flex, Typography } from "antd";
-
-const { Title } = Typography;
+import { Flex } from "antd";
 
 export const Login = () => {
     return (
-
         <AuthPage
             formProps={{
                 initialValues: { email: "", password: "" }

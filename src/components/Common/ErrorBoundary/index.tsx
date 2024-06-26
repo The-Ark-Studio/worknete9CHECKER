@@ -4,8 +4,8 @@
  * All rights reserved.
  */
 /* eslint-disable */
-import React from "react";
 import PageOops from "@comp/Common/PageOops";
+import React from "react";
 
 class ErrorBoundary extends React.Component {
     constructor(props: any) {

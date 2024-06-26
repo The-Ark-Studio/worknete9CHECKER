@@ -1,32 +1,24 @@
-import React from "react";
+import { LoginFormTypes, LoginPageProps, useActiveAuthProvider, useLink, useRouterType } from "@refinedev/core";
 import {
-    LoginPageProps,
-    LoginFormTypes,
-    useLink,
-    useRouterType,
-    useActiveAuthProvider,
-} from "@refinedev/core";
-import {
-    Row,
-    Col,
-    Layout,
-    Card,
-    Typography,
-    Form,
-    Input,
     Button,
-    Checkbox,
+    Card,
     CardProps,
-    LayoutProps,
+    Checkbox,
+    Col,
     Divider,
+    Form,
     FormProps,
-    theme,
+    Input,
+    Layout,
+    LayoutProps,
+    Row,
+    Typography,
+    theme
 } from "antd";
+import React from "react";
 
-import styles from "@asset/styles.module.css";
+import { MailOutlined, SecurityScanOutlined } from "@ant-design/icons";
 import { useLogin, useRouterContext } from "@refinedev/core";
-import { MailOutlined, SecurityScanOutlined } from '@ant-design/icons';
-
 
 // import {
 //   bodyStyles,
@@ -53,7 +45,7 @@ export const LoginPage: React.FC<LoginProps> = ({
     renderContent,
     formProps,
     title,
-    hideForm,
+    hideForm
 }) => {
     const { token } = theme.useToken();
     const [form] = Form.useForm<LoginFormTypes>();
@@ -65,7 +57,7 @@ export const LoginPage: React.FC<LoginProps> = ({
 
     const authProvider = useActiveAuthProvider();
     const { mutate: login, isLoading } = useLogin<LoginFormTypes>({
-        v3LegacyAuthProviderCompatible: Boolean(authProvider?.isLegacy),
+        v3LegacyAuthProviderCompatible: Boolean(authProvider?.isLegacy)
     });
 
     const { t } = useTranslation();
@@ -78,10 +70,9 @@ export const LoginPage: React.FC<LoginProps> = ({
                     display: "flex",
                     justifyContent: "center",
                     marginBottom: "32px",
-                    fontSize: "20px",
+                    fontSize: "20px"
                 }}
-            >
-            </div>
+            />
         );
 
     const renderProviders = () => {
@@ -91,37 +82,36 @@ export const LoginPage: React.FC<LoginProps> = ({
                     {providers.map((provider) => {
                         return (
                             <Button
-                                key={provider.name}
-                                type="default"
                                 block
                                 icon={provider.icon}
+                                key={provider.name}
+                                onClick={() =>
+                                    login({
+                                        providerName: provider.name
+                                    })
+                                }
                                 style={{
                                     display: "flex",
                                     justifyContent: "center",
                                     alignItems: "center",
                                     width: "100%",
-                                    marginBottom: "8px",
+                                    marginBottom: "8px"
                                 }}
-                                onClick={() =>
-                                    login({
-                                        providerName: provider.name,
-                                    })
-                                }
+                                type="default"
                             >
                                 {provider.label}
                             </Button>
                         );
                     })}
-                    {!hideForm && (
+                    {!hideForm ? (
                         <Divider>
                             <Typography.Text
                                 style={{
-                                    color: token.colorTextLabel,
+                                    color: token.colorTextLabel
                                 }}
-                            >
-                            </Typography.Text>
+                            />
                         </Divider>
-                    )}
+                    ) : null}
                 </>
             );
         }
@@ -130,12 +120,8 @@ export const LoginPage: React.FC<LoginProps> = ({
 
     const CardContent = (
         <Card
-            // title={CardTitle}
-            //   headStyle={headStyles}
-            //   bodyStyle={bodyStyles}
             bordered={false}
             style={{
-                // ...containerStyles,
                 backgroundColor: token.colorBgElevated,
                 width: "100%",
                 boxShadow: "none",
@@ -144,61 +130,69 @@ export const LoginPage: React.FC<LoginProps> = ({
             {...(contentProps ?? {})}
         >
             {renderProviders()}
-            {!hideForm && (
+            {!hideForm ? (
                 <Form<LoginFormTypes>
-                    layout="vertical"
                     form={form}
+                    initialValues={{
+                        remember: false
+                    }}
+                    layout="vertical"
                     onFinish={(values) => login(values)}
                     requiredMark={false}
-                    initialValues={{
-                        remember: false,
-                    }}
                     {...formProps}
                 >
                     <Form.Item
+                        label={
+                            <Typography style={{ fontSize: "1.25rem", fontWeight: "500" }}>
+                                {t("AUTHENTICATION.EMAIL")}
+                            </Typography>
+                        }
                         name="email"
-                        style={{ fontFamily: "Helvetica" }}
-                        label={<Typography style={{ fontSize: "1.25rem", fontWeight: "500" }}>{t("AUTHENTICATION.EMAIL")}</Typography>}
                         rules={[
                             { required: true },
                             {
                                 type: "email",
                                 message: t("AUTHENTICATION.INVALID_EMAIL")
-                            },
+                            }
                         ]}
+                        style={{ fontFamily: "Helvetica" }}
                     >
                         <Input
-                            size="large"
-                            style={{ backgroundColor: "#F3F4F6FF", borderRadius: "4px" }}
                             placeholder={t("AUTHENTICATION.EMAIL_PLACEHOLDER")}
                             prefix={<MailOutlined style={{ color: "black" }} />}
+                            size="large"
+                            style={{ backgroundColor: "#F3F4F6FF", borderRadius: "4px" }}
                         />
                     </Form.Item>
                     <Form.Item
+                        label={
+                            <Typography style={{ fontSize: "1.25rem", fontWeight: "500" }}>
+                                {t("AUTHENTICATION.PASSWORD")}
+                            </Typography>
+                        }
                         name="password"
-                        style={{ fontFamily: "Helvetica" }}
-                        label={<Typography style={{ fontSize: "1.25rem", fontWeight: "500" }}>{t("AUTHENTICATION.PASSWORD")}</Typography>}
                         rules={[{ required: true }]}
+                        style={{ fontFamily: "Helvetica" }}
                     >
                         <Input.Password
-                            type="password"
                             autoComplete="current-password"
                             placeholder={t("AUTHENTICATION.PASSWORD_PLACEHOLDER")}
-                            size="large"
-                            visibilityToggle={{ visible: passwordVisible, onVisibleChange: setPasswordVisible }}
                             prefix={<SecurityScanOutlined style={{ color: "black" }} />}
+                            size="large"
                             style={{ backgroundColor: "#F3F4F6FF", borderRadius: "4px" }}
+                            type="password"
+                            visibilityToggle={{ visible: passwordVisible, onVisibleChange: setPasswordVisible }}
                         />
                     </Form.Item>
                     <div
                         style={{
                             display: "flex",
                             justifyContent: "space-between",
-                            marginBottom: "24px",
+                            marginBottom: "24px"
                         }}
                     >
                         {rememberMe ?? (
-                            <Form.Item name="remember" valuePropName="checked" noStyle>
+                            <Form.Item name="remember" noStyle valuePropName="checked">
                                 <Checkbox
                                     style={{
                                         fontSize: "0.8rem",
@@ -213,48 +207,45 @@ export const LoginPage: React.FC<LoginProps> = ({
                         {forgotPasswordLink ?? (
                             <ActiveLink
                                 style={{
-                                    color: token.
-                                        colorPrimaryTextHover,
+                                    color: token.colorPrimaryTextHover,
                                     fontFamily: "Helvetica",
                                     fontSize: "12px",
-                                    marginLeft: "auto",
+                                    marginLeft: "auto"
                                 }}
                                 to="/forgot-password"
                             >
-                                {
-                                    t("AUTHENTICATION.TEXT_RESET_PASSWORD")
-                                }
+                                {t("AUTHENTICATION.TEXT_RESET_PASSWORD")}
                             </ActiveLink>
                         )}
                     </div>
-                    {!hideForm && (
+                    {!hideForm ? (
                         <Form.Item>
                             <Button
-                                style={{ fontFamily: "Helvetica", fontSize: "1.5rem", minHeight: "50px" }}
-                                type="primary"
-                                size="large"
+                                block
                                 htmlType="submit"
                                 loading={isLoading}
-                                block
+                                size="large"
+                                style={{ fontFamily: "Helvetica", fontSize: "1.5rem", minHeight: "50px" }}
+                                type="primary"
                             >
                                 {t("AUTHENTICATION.TEXT_SIGN_IN")}
                             </Button>
                         </Form.Item>
-                    )}
+                    ) : null}
                 </Form>
-            )}
+            ) : null}
         </Card>
     );
 
     return (
         <Layout style={{ marginTop: "-6%" }} {...(wrapperProps ?? {})}>
             <Row
-                justify="center"
                 align={hideForm ? "top" : "middle"}
+                justify="center"
                 style={{
                     padding: "16px 0",
                     minHeight: "90dvh",
-                    paddingTop: hideForm ? "15dvh" : "16px",
+                    paddingTop: hideForm ? "15dvh" : "16px"
                 }}
             >
                 <Col xs={22}>

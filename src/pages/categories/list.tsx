@@ -7,7 +7,6 @@
 import { DeleteButton, EditButton, List, ShowButton, useTable } from "@refinedev/antd";
 import { BaseRecord } from "@refinedev/core";
 import { Space, Table } from "antd";
-import React from "react";
 
 export const CategoryList = () => {
     const { tableProps } = useTable({

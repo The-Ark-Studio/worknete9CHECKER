@@ -1,0 +1,174 @@
+{
+    "MODULE": "관리자 전용 페이지",
+    "SYSTEM_NAME": "WORKNET E9 SYSTEM",
+    "COMPANY_URL": "https://theark.studio",
+    "AUTHENTICATION": {
+        "EMAIL": "이메일",
+        "PASSWORD": "암호",
+        "NEW_PASSWORD": "새로운 비밀 번호",
+        "CONFIRM_NEW_PASSWORD": "새로운 비밀번호 확인",
+        "EMAIL_PLACEHOLDER": "이메일을 입력하세요",
+        "PASSWORD_PLACEHOLDER": "비밀번호를 입력해 주세요",
+        "NEW_PASSWORD_PLACEHOLDER": "새로운 비밀 번호",
+        "CONFIRM_NEW_PASSWORD_PLACEHOLDER": "새로운 비밀번호 확인",
+        "TEXT_SIGN_IN": "로그인",
+        "TEXT_UPDATE": "로그인",
+        "TEXT_REMEMBER_ME": "비밀번호 저장",
+        "TEXT_RESET_PASSWORD": "비밀번호를 잊으 셨나요?"
+    },
+    "FOOTER": {
+        "MANAGE_BY": "관리 책임자",
+        "MANAGER_NAME": "이현승",
+        "MAKE_BY": "제작 및 관리",
+        "COMPANY_NAME": "The Ark Studio",
+        "COMPANY_ADDRESS": "세금 번호 0317131594 | 주소 145 Tran Dinh Xu str, Nguyen Cu Trinh Ward, District 1, HCM City | 전화 번호: +84 974 602 424",
+        "COPY_RIGHT": "저작권: Worknet E9 System, 2024"
+    },
+    "DASHBOARD": {
+        "SUB_TITLE": "비자 전문 관리자 포털"
+    },
+    "BUTTONS": {
+        "SIGNUP": "회원가입 ",
+        "LOGOUT": "로그 아웃",
+        "APPROVE": "확인",
+        "REJECT": "거부",
+        "VERIFY_NOW": "지금 확인!",
+        "LEARN_MORE": "자세한 정보 확인",
+        "SUBSCRIBE": "가입",
+        "PRIVACY": "보안",
+        "ABOUT_US": "회사소개",
+        "TERMS": "기간",
+        "HELP_CENTER": "고객센터 전화번호",
+        "CONTACT_US": "회사 전화번호",
+        "FAQS": "자주묻는질문",
+        "SITEMAP": "회사위치"
+    },
+    "GLOBAL": {
+        "ACTIONS": "행동",
+        "FULLNAME": "성명",
+        "ATTACHMENTS": "첨부파일",
+        "LINK": "링크"
+    },
+    "APPROVAL_PROCESSING": {
+        "LABEL": "승인 처리",
+        "EMAIL": "이메일",
+        "NAME": "이름",
+        "GENDER": "성별",
+        "DATE_APPLYING": "신청일자",
+        "PROFESSIONAL_TITLE": "프로 타이틀",
+        "AGE": "나이",
+        "HOMETOWN": "고향",
+        "EXPECTED_SALARY": "희망 급여",
+        "PREFERRED_WORK": "희망 직종",
+        "ACADEMIC_BACKGROUND": "학력",
+        "EXPECTED_AREA": "희망근무지역",
+        "FAMILY_SITUATION": "가정형편 ( 상 - 중 - 하)",
+        "FAMILY_NUMBER": "가족관계",
+        "PASSPORT": "여권 원본 사진",
+        "MEDICAL_CHECKUP": "건강검진서",
+        "CRIMINIAL_RECORD": "범죄기록증명서",
+        "TOPIK": "한국어 자격 증명서",
+        "ID_CARD_FRONT": "국가 신분증 (앞)",
+        "ID_CARD_BACK": "국가 신분증 (뒤)",
+        "MODAL": {
+            "TITLE": " 이 프로필을 확인하시겠습니까?",
+            "BODY": "이 프로필이 E9 비자에 대해 모두 확인되었는지 확인하려고 합니다. 이 확인서를 사용자에게 보내기 전에 모든 정보를 고려하고 다시 확인하십시오.",
+            "NOTE": "작업을 철회해야 하는 경우, 철회 사유를 제공하는 메시지 상자와 함께 작업을 수행할 수 있는 버튼이 있어야 합니다.",
+            "BUTTON_CONFIRM": "검증에 대한 확인 ",
+            "BUTTON_BACK": " 취소"
+        }
+    },
+    "ADMINISTRATORS": {
+        "LABEL": "Administrators",
+        "ID": "administrators",
+        "AVATAR": "화신",
+        "NAME": "이름",
+        "USERNAME": "사용자 이름",
+        "EMAIL": "이메일",
+        "ROLE": "역할",
+        "LOCATION": "도시",
+        "COMPANY": "회사",
+        "ESTABLISHED_YEARS": "년도"
+    },
+    "LANDPAGE": {
+        "SUB_TITLE": "소개",
+        "ABOUT": {
+            "NOTE": "E9 비자를 위한 당신의 종합 체크 비자 지원 플랫폼.",
+            "TITLE": "회사소개",
+            "TEXT_A": "WORKNET E9 SYSTEM 은 베트남 근로자의 비자 검사 프로세스에 혁명을 일으키기 위해 고안된 고급 온라인 애플리케이션입니다. 우리의 사명은 모든 비자 검사 관련 요구 사항에 대해 종단 간 단순성을 제공함으로써 종종 어려운 비자 검사 여정을 단순화하는 것입니다.",
+            "TEXT_B": "이 자세한 소개는 WORKNET E9 SYSTEM 의 다양한 기능과 이점을 강조하여 귀하가 비자 검사를 어떻게 도울 수 있는지 이해할 수 있도록 보장합니다. 새로운 여정을 결정하는 길의 첫 번째 문을 열 수 있도록 지원합니다."
+        },
+        "FEATURES": {
+            "TITLE": "특징",
+            "TRY_NOW": "신청",
+            "CARD_A": {
+                "TITLE": "광범위한 비자 정보",
+                "TEXT": "WORKNET E9 SYSTEM 은 베트남 근로자들을 위한 풍부한 E9 비자 데이터베이스, 자격 기준 및 요구 사항을 제공합니다. "
+            },
+            "CARD_B": {
+                "TITLE": "특징",
+                "TEXT": "당사의 \"전문 검사관\" 은 사용자의 프로필을 평가하고 비자 자격에 대한 결과를 제공합니다."
+            },
+            "CARD_C": {
+                "TITLE": "고급 개인 평가",
+                "TEXT": "당사의 '전문 조사관'은 사용자의 프로필을 평가하고 비자 자격에 대한 결과를 제공합니다. 잠재적인 문제를 식별하고 시정 조치를 권장합니다. "
+            },
+            "CARD_D": {
+                "TITLE": "특징",
+                "TEXT": "WORKNET E9 SYSTEM 은 비자 검사 프로세스를 관리 가능한 단계로 세분화하여 사용자가 중요한 세부 사항을 놓치지 않도록 보장합니다. 당사 플랫폼은 사용자에게 필수 서류 수집부터 프로필 확인까지 신청 프로세스의 각 단계를 안내하는 구조화된 접근 방식을 제공합니다. 이 단계별 가이드는 사용자가 자신감 있고 효율적으로 신청서를 작성할 수 있도록 도와줍니다."
+            }
+        },
+        "STREAM": {
+            "TITLE": "간소화된 신청 절차",
+            "TEXT": "WORKNET E9 SYSTEM 비자 검사 과정을 관리 가능한 단계로 나누어 사용자가 중요한 세부 사항을 놓치지 않도록 합니다. 우리 플랫폼은 필요한 서류 수집부터 프로필 확인까지 신청 절차의 각 단계를 사용자에게 안내하는 구조화된 접근 방식을 제공합니다. 이 단계별 가이드는 사용자가 자신 있게 효율적으로 애플리케이션을 완료하는 데 도움이 됩니다."
+        },
+        "BENEFITS": {
+            "TITLE": "특이한 이점",
+            "A": {
+                "TITLE": "전문가 지원 및 지침",
+                "TEXT": "경험이 풍부한 전문가 팀은 비자 여정 동안 사용자에게 개인화된 신뢰할 수 있는 지원을 제공하는 데 전념하고 있습니다. 복잡한 비자 요구 사항을 이해하는 데 도움이 필요하거나 신청 절차에 대해 질문이 있는 경우 전문가가 도와드리겠습니다."
+            },
+            "B": {
+                "TITLE": "다른 서비스와의 원활한 통합",
+                "TEXT": "WORKNET E9 SYSTEM은 비자 심사 요구에 대한 포괄적인 솔루션을 제공하는 것을 목표로 합니다."
+            },
+            "C": {
+                "TITLE": "활기차고 유익한 커뮤니티",
+                "TEXT": "WORKNET E9 SYSTEM 은 사용자들이 경험을 공유하고, 질문을 하고, 동료, 전문가들로부터 가치 있는 조언을 받을 수 있는 지원적이고 참여적인 커뮤니티를 육성합니다. 이 플랫폼은 지식 공유와 협력을 장려하여 모든 사용자들에게 비자 심사 과정을 더 쉽게 접근할 수 있도록 하고, 덜 불안하게 만듭니다."
+            },
+            "D": {
+                "TITLE": "지속적인 업데이트 및 개선",
+                "TEXT": "WORKNET E9 SYSTEM 에서 우리는 비자 요구 사항과 프로세스가 지속적으로 발전하고 있음을 이해합니다. 그래서 우리는 최신 개발 사항을 최신 상태로 유지하고 이를 플랫폼에 통합하기 위해 최선을 다하고 있습니다. 이는 사용자가 항상 가장 정확하고 관련성 있는 정보에 액세스할 수 있도록 보장합니다."
+            }
+        },
+        "SEAMLESS": {
+            "TITLE": "개인 정보 보호 및 데이터 보안",
+            "TEXT_A": "E9 워크넷 시스템에서는 사용자의 개인적이고 민감한 정보의 보안 및 개인 정보 보호를 최우선으로 합니다. 저희 플랫폼은 최신 보안 조치와 암호화 기술을 사용하여 데이터를 항상 보호합니다. 또한 서비스를 사용할 때 안심할 수 있도록 엄격한 데이터 보호 원칙을 준수합니다.",
+            "TEXT_B": ""
+        },
+        "USER_FRIENDLY": {
+            "TITLE": "사용자 친화적인 인터페이스와 접근성",
+            "TEXT": "우리 팀은 모든 연령대의 사용자와 기술적 능력을 충족시키는 직관적이고 사용자 친화적인 인터페이스를 만들기 위해 열심히 노력했습니다. 또한 E9 워크넷 시스템은 데스크톱, 노트북, 태블릿 및 스마트폰을 포함한 다양한 장치에서 액세스할 수 있도록 설계되어 언제 어디서나 서비스에 액세스할 수 있습니다."
+        },
+        "CONCLUSION": {
+            "TITLE": "결론적으로",
+            "ORDER_LIST": {
+                "A": "WORKNET E9 SYSTEM 은 혁신적인 어플리케이션입니다",
+                "B": "본 시스템은 간편하고, 빠른 절차를 제공합니다",
+                "C": "각 개인에 알맞는 정보와 절차를 안내합니다"
+            },
+            "JOIN": "지금 바로 WORKNET E9 SYSTEM 패밀리에 가입하여 원활하고 성공적인 비자 검사 경험을 위한 첫 걸음을 내딛으세요",
+            "STARTED": "시작하기"
+        },
+        "FOOTER": {
+            "SUBSCRIBE": "뉴스레터 구독하기",
+            "INPUT_EMAIL_PLACEHOLDER": "당신의 이메일",
+            "COPYRIGHT": "© 2024 WORKNET E9 SYSMTES"
+        }
+    },
+    "WARNING_UNSAVE_CHANGES": "정말 떠나시겠어요? 저장되지 않은 변경사항이 있습니다.",
+    "ABOUT_ME": "About Me",
+    "TO_ABOUT_PAGE": "To About Me page",
+    "TO_HOME_PAGE": "To Home page",
+    "CURRENT_AGE": "Your current age is {{age}}"
+}

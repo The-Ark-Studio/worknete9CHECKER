@@ -6,7 +6,6 @@
 
 import { Edit, useForm } from "@refinedev/antd";
 import { Form, Input } from "antd";
-import React from "react";
 
 export const CategoryEdit = () => {
     const { formProps, saveButtonProps } = useForm({});

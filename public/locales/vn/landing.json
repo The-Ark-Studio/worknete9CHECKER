@@ -1,0 +1,174 @@
+{
+    "MODULE": "Hệ thống quản trị viên",
+    "SYSTEM_NAME": "WORKNET E9 SYSTEM",
+    "AUTHENTICATION": {
+        "EMAIL": "Địa chỉ Email",
+        "PASSWORD": "Mật khẩu",
+        "NEW_PASSWORD": "Mật khẩu mới",
+        "CONFIRM_NEW_PASSWORD": "Nhập lại mật khẩu mới",
+        "EMAIL_PLACEHOLDER": "Nhập địa chỉ email",
+        "PASSWORD_PLACEHOLDER": "Nhập mật khẩu",
+        "TEXT_SIGN_IN": "Đăng nhập",
+        "TEXT_REMEMBER_ME": "Nhớ đăng nhập",
+        "TEXT_RESET_PASSWORD": "Quên mật khẩu?"
+    },
+    "FOOTER": {
+        "MANAGE_BY": "Quản lý bởi",
+        "MANAGER_NAME": "Lee Hyun Seung",
+        "MAKE_BY": "Sản xuất và quản lý bởi",
+        "COMPANY_NAME": "The Ark Studio",
+        "COMPANY_ADDRESS": "Mã số thuế: 0317131594 | Địa chỉ: 145 Trần Đình Xu, P.Nguyễn Cư Trinh, Quận 1, HCM City | Số điện thoại: +84 974 602 424",
+        "COPY_RIGHT": "Copyright: Worknet E9 System, 2024"
+    },
+    "BUTTONS": {
+        "SIGNUP": "Đăng ký",
+        "LOGOUT": "Đăng xuất",
+        "APPROVE": "Chấp nhận",
+        "REJECT": "Từ chối",
+        "VERIFY_NOW": "Kiểm tra ngay!",
+        "LEARN_MORE": "Tìm hiểu thêm",
+        "SUBSCRIBE": "Đăng ký",
+        "PRIVACY": "Quyền riêng tư",
+        "ABOUT_US": "Về chúng tôi",
+        "TERMS": "Điều khoản",
+        "HELP_CENTER": "Trợ giúp",
+        "CONTACT_US": "Liên hệ",
+        "FAQS": "Hỏi đáp",
+        "SITEMAP": "Hệ thống"
+    },
+    "GLOBAL": {
+        "ACTIONS": "Thao tác",
+        "FULLNAME": "Họ và tên",
+        "ATTACHDMENTS": "Đính kèm",
+        "LINK": "Xem"
+    },
+    "DASHBOARD": {
+        "SUB_TITLE": "Cổng thông tin quản lý chuyên về visa"
+    },
+    "APPROVAL_PROCESSING": {
+        "LABEL": "Xử lý phê duyệt",
+        "EMAIL": "Email",
+        "NAME": "Họ tên",
+        "GENDER": "Giới tính",
+        "DATE_APPLYING": "Ngày nộp đơn",
+        "PROFESSIONAL_TITLE": "Chức danh nghề nghiệp",
+        "AGE": "Tuổi",
+        "HOMETOWN": "Quê quán",
+        "EXPECTED_SALARY": "Mức lương mong đợi",
+        "PREFERRED_WORK": "Công việc ưa thích",
+        "ACADEMIC_BACKGROUND": "Trình độ học vấn",
+        "EXPECTED_AREA": "Khu vực bạn muốn ở tại Hàn Quốc",
+        "FAMILY_SITUATION": "Hoàn cảnh gia đình (cao, trung bình, thấp)",
+        "FAMILY_NUMBER": "Số lượng thành viên gia đình",
+        "PASSPORT": "Hộ chiếu",
+        "MEDICAL_CHECKUP": "Giấy khám sức khoẻ",
+        "CRIMINIAL_RECORD": "Lý lịch tư pháp",
+        "TOPIK": "TOPIK (không bắt buộc)",
+        "ID_CARD_FRONT": "CCCD (mặt trước)",
+        "ID_CARD_BACK": "CCCD (mặt sau)",
+        "MODAL": {
+            "TITLE": "Bạn có muốn xác minh hồ sơ này không?",
+            "BODY": "Hãy đảm bảo rằng hồ sơ này đã được xác minh đầy đủ để xin thị thực E9. Vui lòng xem xét và kiểm tra kỹ tất cả thông tin trước khi gửi xác nhận này.",
+            "NOTE": "Trong trường hợp bạn cần rút lại xác minh này, sẽ có một nút để thực hiện các hướng dẫn sau.",
+            "BUTTON_CONFIRM": "Xác nhận để xác minh",
+            "BUTTON_BACK": "Quay lại"
+        }
+    },
+    "ADMINISTRATORS": {
+        "LABEL": "Quản trị",
+        "ID": "administrators",
+        "AVATAR": "Ảnh đại diện",
+        "NAME": "Họ tên",
+        "USERNAME": "",
+        "EMAIL": "Email",
+        "ROLE": "Vai trò",
+        "LOCATION": "Địa điểm",
+        "COMPANY": "Công ty",
+        "ESTABLISHED_YEARS": "Năm thành lập"
+    },
+    "LANDPAGE": {
+        "SUB_TITLE": "Giới thiệu",
+        "ABOUT": {
+            "NOTE": "Nền tảng kiểm tra tính khả thi Visa E9 dựa trên hồ sơ năng lực của bạn",
+            "TITLE": "Về chúng tôi",
+            "TEXT_A": "Ứng dụng này cung cấp hệ thống kiểm tra trước khả năng có được visa và thông tin về visa E9 cho những người lao động Việt Nam mong muốn xin việc ở doanh nghiệp Hàn Quốc. ",
+            "TEXT_B": "WORKNET E9 SYSTEM mang lại cách thức chính xác và minh bạch hơn cho lao động Việt Nam muốn làm việc tại các doanh nghiệp Hàn Quốc, không cần thông qua đại lý, tự tìm hiểu cách nộp đơn visa E9 và xác định khả năng có đủ điều kiện để nhận visa hay không.",
+            "TEXT_C": ""
+        },
+        "FEATURES": {
+            "TITLE": "Tính Năng",
+            "TRY_NOW": "Thử ngay",
+            "CARD_A": {
+                "TITLE": "Thông tin visa đa dạng",
+                "TEXT": "WORKNET E9 SYSTEM cung cấp thông tin từ những tài liệu cần thiết cho visa E9, các yêu cầu đủ điều kiện, cho đến chi phí chính xác do chính phủ Hàn Quốc quy định cho việc đạt được visa E9"
+            },
+            "CARD_B": {
+                "TITLE": "Trợ năng",
+                "TEXT": "Thông qua các cơ quan hành chính nhập cảnh và xuất cảnh của Hàn Quốc một cách chính thống nhằm đề cao tính minh bạch và hợp pháp."
+            },
+            "CARD_C": {
+                "TITLE": "Đánh giá bởi các chuyên gia được chính phủ Hàn Quốc công nhận",
+                "TEXT": "Các “Chuyên gia về hành chính nhập cảnh và xuất cảnh nước ngoài” do chúng tôi ký hợp đồng và được chính phủ Hàn Quốc công nhận sẽ thẩm định khả năng của người nộp đơn muốn xin visa E9"
+            },
+            "CARD_D": {
+                "TITLE": "Trợ năng",
+                "TEXT": "Thông báo kết quả và hướng dẫn về cách thức và chỉnh sửa cần thiết để hoàn thành quá trình.. "
+            }
+        },
+        "STREAM": {
+            "TITLE": "Quy trình nộp đơn được đơn giản hóa",
+            "TEXT": "WORKNET E9 SYSTEM hướng dẫn người nộp đơn kiểm tra khả năng đạt visa E9 thông qua quy trình nhanh chóng và ngắn gọn, thông báo kết quả theo 4 bước: ",
+            "NOTE": "\"Đăng ký thành viên - Nhập thông tin - Tải hồ sơ lên - Thông báo kết quả.\"",
+            "SUBMIT": "Đơn đăng ký",
+            "GROWTH": "theo thời gian"
+        },
+        "BENEFITS": {
+            "TITLE": "Lợi ích đi kèm",
+            "A": {
+                "TITLE": "Hỗ trợ và hướng dẫn từ chuyên gia",
+                "TEXT": "Người nộp đơn có thể trò chuyện trực tuyến hoặc 1:1 với “Chuyên gia” để trả lời các câu hỏi liên quan và nhận được sự hướng dẫn chi tiết và chính xác."
+            },
+            "B": {
+                "TITLE": "Cung cấp thông tin minh bạch và hợp pháp",
+                "TEXT": "WORKNET E9 SYSTEM nhằm mục tiêu loại bỏ hoàn toàn các đại lý bất hợp pháp và phí hoa hồng cao liên quan đến việc có được visa E9 tại Hàn Quốc."
+            },
+            "C": {
+                "TITLE": "Cộng đồng năng động và hữu ích",
+                "TEXT": "Thông qua cộng đồng trực tuyến dành riêng cho “thành viên” của hệ thống, người dùng có thể trao đổi thông tin cần thiết cho cuộc sống ở Hàn Quốc và nhận được sự trợ giúp thích nghi với đất nước mới."
+            },
+            "D": {
+                "TITLE": "Cập nhật và cải tiến liên tục",
+                "TEXT": "WORKNET E9 SYSTEM duy trì việc quản lý, và quan tâm đến những người lao động đã xin được visa E9 thành công, cung cấp dịch vụ quản lý liên tục trong tất cả các lĩnh vực hành chính, pháp lý và y tế mà họ gặp phải khi sinh sống tại Hàn Quốc. "
+            }
+        },
+        "SEAMLESS": {
+            "TITLE": "Bảo vệ thông tin cá nhân và bảo mật dữ liệu",
+            "TEXT_A": "Trong WORKNET E9 SYSTEM, việc bảo mật thông tin cá nhân và bảo vệ dữ liệu nhạy cảm của người dùng được ưu tiên hàng đầu. ",
+            "TEXT_B": "Nền tảng của chúng tôi sử dụng công nghệ mã hóa và biện pháp bảo mật hiện đại để luôn bảo vệ dữ liệu. Chúng tôi cũng tuân thủ nguyên tắc bảo vệ dữ liệu nghiêm ngặt để đảm bảo người dùng an tâm khi sử dụng dịch vụ."
+        },
+        "USER_FRIENDLY": {
+            "TITLE": "Giao diện và khả năng truy cập thân thiện với người dùng",
+            "TEXT": "Đội ngũ của chúng tôi đã nỗ lực hết sức để tạo ra giao diện thân thiện với người sử dụng ở mọi lứa tuổi và đáp ứng khả năng kỹ thuật của người sử dụng. Hơn nữa, WORKNET E9 SYSTEM được thiết kế để truy cập từ nhiều thiết bị khác nhau bao gồm máy tính để bàn, laptop, máy tính bảng và điện thoại thông minh, cho phép truy cập dịch vụ bất cứ đâu, bất cứ khi nào."
+        },
+        "CONCLUSION": {
+            "TITLE": "Đôi lời",
+            "ORDER_LIST": {
+                "A": "Không chỉ đơn giản là một ứng dụng mà còn là một nền tảng hỗ trợ visa toàn diện.",
+                "B": "Cho phép người dùng dễ dàng điều hướng một cách tự tin trong việc kiểm tra thị thực phức tạp.",
+                "C": "Là một nền tảng hỗ trợ visa toàn diện giúp đơn giản hóa quy trình kiểm tra visa cho người lao động Việt Nam"
+            },
+            "JOIN": "Hãy gia nhập gia đình WORKNET E9 SYSTEM ngay bây giờ để bước vào hành trình trải nghiệm kiểm tra thị thực suôn sẻ và thành công.",
+            "STARTED": "Bắt đầu ngay"
+        },
+        "FOOTER": {
+            "SUBSCRIBE": "Đăng ký nhận tin tức từ chúng tôi",
+            "INPUT_EMAIL_PLACEHOLDER": "email của bạn",
+            "COPYRIGHT": "© 2024 WORKNET E9 SYSMTES"
+        }
+    },
+    "WARNING_UNSAVE_CHANGES": "Bạn có chắc là bạn muốn thoát? Bạn có  các thay  đổi chưa lưa.",
+    "ABOUT_ME": "About Me",
+    "TO_ABOUT_PAGE": "To About Me page",
+    "TO_HOME_PAGE": "To Home page",
+    "CURRENT_AGE": "Your current age is {{age}}"
+}

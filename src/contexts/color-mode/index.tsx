@@ -4,9 +4,8 @@
  * All rights reserved.
  */
 
-import { createContext, PropsWithChildren, useEffect, useState } from "react";
 import { ConfigProvider, theme } from "antd";
-import { RefineThemes } from "@refinedev/antd";
+import { PropsWithChildren, createContext, useEffect, useState } from "react";
 
 type ColorModeContextType = {
     mode: string;
@@ -47,13 +46,14 @@ export const ColorModeContextProvider: React.FC<PropsWithChildren> = ({ children
                 theme={{
                     // ...RefineThemes.Blue,
                     token: {
-                        colorPrimary: "#C2282AFF",
+                        colorPrimary: "#016DF3FF",
                         borderRadius: 2,
                         colorBgLayout: "white",
-                        fontFamily: "Helvetica"
-
+                        fontFamily: "Roboto",
+                        colorText: "#323743FF"
                     },
-                    algorithm: mode === "light" ? defaultAlgorithm : defaultAlgorithm
+                    algorithm: mode === "light" ? defaultAlgorithm : defaultAlgorithm,
+                    cssVar: true
                 }}
             >
                 {children}

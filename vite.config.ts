@@ -6,16 +6,15 @@
 
 import * as path from "path";
 import { resolve } from "path";
+import * as process from "process";
 import type { ConfigEnv, UserConfig } from "vite";
 import { loadEnv } from "vite";
 import pkg from "./package.json";
 import setupVitePlugins from "./setup/index";
-import { buildPath, wrapperEnv } from "./setup/utils";
 import { createProxy } from "./setup/setupProxy";
-import * as process from "process";
+import { buildPath, wrapperEnv } from "./setup/utils";
 
 import { NodeGlobalsPolyfillPlugin } from "@esbuild-plugins/node-globals-polyfill";
-import rollupNodePolyFill from "rollup-plugin-polyfill-node";
 
 const { dependencies, devDependencies, name, version } = pkg;
 
@@ -72,7 +71,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     console.debug("Platform ", PLATFORM);
 
     return {
-        // base: viteEnv[getCurrentEnvContext("_PUBLIC_PATH")],
+        base: viteEnv[getCurrentEnvContext("_PUBLIC_PATH")],
         root,
         envDir: root.concat(`/${ENV_DIR}`),
         envPrefix: ENV_PREFIX,
@@ -105,9 +104,9 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
             // Load proxy configuration from .env
             proxy: viteEnv[`${ENV_PREFIX}_PROXY_ENABLED`]
                 ? createProxy(
-                    // Object.keys(API_URL).map((key) => [API_URL[key], String(viteEnv[`${ENV_PREFIX}_APP_API_HOST`])])
-                    [[API_URL, String(viteEnv[`${ENV_PREFIX}_APP_API_HOST`])]]
-                )
+                      // Object.keys(API_URL).map((key) => [API_URL[key], String(viteEnv[`${ENV_PREFIX}_APP_API_HOST`])])
+                      [[API_URL, String(viteEnv[`${ENV_PREFIX}_APP_API_HOST`])]]
+                  )
                 : undefined,
             cors: true
         },
@@ -124,6 +123,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
                 output: {
                     manualChunks: (id: string) => {
                         if (id.includes("node_modules")) {
+                            // return id.toString().split('node_modules/')[1].split('/')[0].toString();
                             return "vendor_ehm";
 
                             // return `vendor
@@ -131,13 +131,13 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
                             // [1].split("/node_modules/")[0]}`;
                         }
                     }
-                },
-                plugins: [rollupNodePolyFill()]
+                }
+                // plugins: [rollupNodePolyFill()]
             },
             cssCodeSplit: true,
             emptyOutDir: true,
             manifest: true,
-            chunkSizeWarningLimit: 626
+            chunkSizeWarningLimit: 3000
         },
 
         optimizeDeps: {
