@@ -5,7 +5,7 @@ const access_token = localStorage.getItem("access_token");
 console.log(access_token?.replace('\"', ''))
 
 export default axios.create({
-    baseURL: "http://localhost:8080/api",
+    baseURL: "https://worknete9.com/api",
     headers: {
         "Content-type": "application/json",
         "Access-Control-Allow-Headers": "*",

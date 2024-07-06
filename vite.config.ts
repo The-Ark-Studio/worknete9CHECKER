@@ -102,12 +102,11 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
             open: false,
             port: viteEnv[`${ENV_PREFIX}_PORT`] ? Number(viteEnv[`${ENV_PREFIX}_PORT`]) : FALLBACK_PORT,
             // Load proxy configuration from .env
-            proxy: viteEnv[`${ENV_PREFIX}_PROXY_ENABLED`]
-                ? createProxy(
-                      // Object.keys(API_URL).map((key) => [API_URL[key], String(viteEnv[`${ENV_PREFIX}_APP_API_HOST`])])
-                      [[API_URL, String(viteEnv[`${ENV_PREFIX}_APP_API_HOST`])]]
-                  )
-                : undefined,
+            proxy: createProxy(
+                // Object.keys(API_URL).map((key) => [API_URL[key], String(viteEnv[`${ENV_PREFIX}_APP_API_HOST`])])
+                // TODO: API_URL = http-common-api.ts.baseURL: "{API_URL)}",
+                [["https://worknete9.com/api", "http://143.198.84.196:8080/api"]]
+            ),
             cors: true
         },
         preview: {
