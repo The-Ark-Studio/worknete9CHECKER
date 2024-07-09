@@ -1,0 +1,61 @@
+{
+    "TITLE": "FAQs",
+    "Q1": {
+        "LABEL": "1. Visa E-9 là gì?",
+        "A1": [
+            "<li><b>Visa E-9</b> là loại visa dành cho <b>người lao động phổ thông không chuyên nghiệp</b>, cho phép người nước ngoài nhập cảnh vào Hàn Quốc cho các công việc không chuyên trong một số ngành nghề cụ thể.</li>",
+            "<li>Được giới thiệu để giải quyết tình trạng thiếu hụt lao động trong một số lĩnh vực nhất định, thị thực này đóng vai trò cầu nối giữa lao động quốc tế và các nhà tuyển dụng Hàn Quốc.</li>"
+        ]
+    },
+    "Q2": {
+        "LABEL": "2. Tiêu chí và điều kiện đủ:",
+        "A2": [
+            "<li><b>Quốc tịch: </b> Hàn Quốc đã mở cửa thị thực E-9 đến 16 quốc gia, đảm bảo nguồn lao động đa dạng.</li>",
+            "<li><b>Loại công việc: </b>Ứng viên không cần tìm việc làm chuyên nghiệp đòi hỏi trình độ chuyên môn cao, hay chứng chỉ hoặc kinh nghiệm làm việc nhiều.</li>",
+            "<li><b>Hồ sơ sạch: </b>Các ứng viên không được có bất kỳ lý do hình sự nào hoặc các vấn đề nhập cư trong quá khứ với Hàn Quốc.</li>"
+        ]
+    },
+    "Q3": {
+        "LABEL": "3. Những phân nhánh của Visa E-9 tại Hàn Quốc:",
+        "TEXT": "Visa E-9 được tổ chức một cách có hệ thống thành 5 phân ngành chính, mỗi phân ngành phục vụ cho một ngành khác nhau:",
+        "A3": [
+            "<li><b>E-9-1 (Sản xuất): </b>Dành cho người muốn tham gia ngành sản xuất. Để đủ điều kiện, bạn cần tìm việc làm tại công ty có không quá 300 nhân viên hoặc vốn điều lệ không quá 8 tỷ KRW.</li>",
+            "<li><b>E-9-2 (Xây dựng): </b>Dành cho những người muốn đóng góp cho ngành nông nghiệp hoặc chăn nuôi. Công việc có thể liên quan đến thu hoạch và chăm sóc động vật.</li>",
+            "<li><b>E-9-3 (Nông nghiệp): </b>Tailored for individuals looking to contribute to agriculture or livestock sectors. Jobs can range from harvesting and animal husbandry to related services.</li>",
+            "<li><b>E-9-4 (Ngư nghiệp): </b>Dành cho người quan tâm đến ngành đánh bắt hải sản, nhưng có ràng buộc về loại tàu sử dụng.</li>",
+            "<li><b>E-9-5 (Dịch vụ): </b>Là dạng visa lao động phổ thông dành cho người lao động ngoài nước đến Hàn Quốc làm việc trong ngành dịch vụ như giúp việc, dọn vệ sinh tòa nhà, bệnh viện, xí nghiệp, công xưởng, phân loại phế liệu xây dựng, phế liệu công nghiệp, nhà máy in xuất bản, và nhà máy đông lạnh.</li>"
+        ]
+    },
+    "Q4": {
+        "LABEL": "4. Yêu cầu tiêm chủng COVID-19:",
+        "TEXT": "",
+        "A4": [
+            "<li><b>Q: </b>Có cần tiêm vắc-xin Corona 19 để nhập cảnh vào Hàn Quốc không?</li>",
+            "<li><b>A: </b>Tiêm vắc-xin <b>không phải </b>là điều kiện bắt buộc để thâm nhập vào Hàn Quốc.</li>"
+        ]
+    },
+    "Q5": {
+        "LABEL": "5. Q-Code Đăng ký:",
+        "TEXT": "",
+        "A5": [
+            "<li><b>Q: </b>Tôi nên đăng ký Q-Code trước bao lâu?</li>",
+            "<li><b>A: </b>Không cần đăng ký Q-Code nữa.</b></li>"
+        ]
+    },
+    "Q6": {
+        "LABEL": "6. Có cần bảo hiểm du lịch không?",
+        "TEXT": "",
+        "A6": [
+            "<li><b>Q: </b>Có cần bảo hiểm du lịch không?</li>",
+            "<li><b>A: </b> Thông tin về các yêu cầu bảo hiểm du lịch không được nêu rõ trong các nguồn được cung cấp. Nên tham khảo các trang web chính thức của chính phủ hoặc đại sứ quán để biết thêm thông tin mới nhất.</li>"
+        ]
+    },
+    "Q7": {
+        "LABEL": "7. Kiểm tra PCR khi đến:",
+        "TEXT": "",
+        "A7": [
+            "<li><b>Q: </b>Tôi có phải làm xét nghiệm PCR khi đến Hàn Quốc không?</li>",
+            "<li><b>A: </b>Các nguồn được cung cấp không đề cập đến thử nghiệm PCR bắt buộc khi đến nơi. Tuy nhiên, điều quan trọng là phải được thông báo về bất kỳ thay đổi nào trong yêu cầu nhập liệu.</li>"
+        ]
+    }
+}

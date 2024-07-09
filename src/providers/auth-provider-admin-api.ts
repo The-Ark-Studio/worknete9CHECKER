@@ -7,18 +7,28 @@
 import { AuthProvider } from "@refinedev/core";
 
 import http from "@src/api/http-login-api";
-import IAuthenData from "@src/providers/entity/authen-data";
+import IAuthenData from "@src/providers/interface/authen-data";
 export const SECRET_KEY = "worknet-e9-fe-auth";
+
+const configLogin = {
+    headers: {
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "*"
+    }
+}
 
 export const authProviderAdmin: AuthProvider = {
     login: async ({ username, email, password }) => {
         let redirectName = "/";
-        console.log("hased: ", password)
+        // console.log("hased: ", password)
         if ((username || email) && password) {
-            var result = await http.post<IAuthenData>("/auth/admin/signin", { username, email, password })
+            var result = await http.post<IAuthenData>("/auth/admin/signin", { username, email, password }, configLogin)
                 .then(response => {
-                    if (response.data.accessToken) {
-                        localStorage.setItem("access_token", JSON.stringify(response.data.accessToken))
+                    console.log(redirectName)
+                    if (response.data.token) {
+                        localStorage.setItem("access_token", JSON.stringify(response.data.token))
+                        console.log(redirectName)
                         localStorage.setItem("userId", response.data.id)
                         localStorage.setItem("role", JSON.stringify(response.data.role))
                         if (response.data.role != "User")
@@ -27,6 +37,7 @@ export const authProviderAdmin: AuthProvider = {
 
                     return response.data;
                 });
+            console.log(redirectName)
             return {
                 success: true,
                 redirectTo: redirectName,
@@ -91,12 +102,14 @@ export const authProviderAdmin: AuthProvider = {
     },
     onError: async (error) => {
         console.error("error: ", error);
+        localStorage.removeItem("access_token");
+        localStorage.removeItem("userId");
+        localStorage.removeItem("role");
         if (error?.statusCode == 401) {
             return {
-                logout: false,
-                error: {
-                    message: "Unauthorized"
-                }
+                logout: true,
+                redirectTo: "/admin/login",
+                error: new Error(error),
             };
         }
         return { error };

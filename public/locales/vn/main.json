@@ -9,6 +9,12 @@
     "E_SERVICES": "DỊCH VỤ TRỰC TUYẾN",
     "INFORMATION": "THÔNG TIN",
     "EPS": "LỚP HỌC TRỰC TUYẾN EPS",
+    "INDUSTRY": "Sản Xuất Chế Tạo",
+    "AGRICULTURE": "Nông Nghiệp",
+    "CONSTRUCTION": "Xây Dựng",
+    "HOTEL_CLEAN_SERVICES": "Dịch Vụ Dọn Dẹp",
+    "FISHERY": "Ngư Nghiệp",
+    "RESTAURANT": "Dịch Vụ Nhà Hàng",
     "ONLINE_FORM": {
         "TITLE": "ĐƠN ĐĂNG KÝ TRỰC TUYẾN TẠI HỆ THỐNG CỔNG THÔNG TIN E9",
         "STEP1": "1. Điền vào mẫu đơn trực tuyến.",

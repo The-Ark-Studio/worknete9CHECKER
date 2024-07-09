@@ -9,7 +9,7 @@ declare global {
   const TOKEN_KEY: typeof import('../src/providers/mock-auth-provider-api')['TOKEN_KEY']
   const Users: typeof import('../src/utils/users')['Users']
   const authProvider: typeof import('../src/providers/mock-auth-provider-api')['authProvider']
-  const authenData: typeof import('../src/providers/entity/authen-data')['default']
+  const authenData: typeof import('../src/providers/interface/authen-data')['default']
   const authenticationHeader: typeof import('../src/api/authentication-header-api')['default']
   const authenticationService: typeof import('../src/api/services/authenticated/authentication-service')['default']
   const createRef: typeof import('react')['createRef']

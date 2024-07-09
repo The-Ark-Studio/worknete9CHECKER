@@ -9,6 +9,12 @@
     "E_SERVICES": "E-SERVICES",
     "INFORMATION": "INFORMATION",
     "EPS": "EPS ONLINE SCHOOL",
+    "INDUSTRY": "Manufacturing Industry",
+    "AGRICULTURE": "Agriculture",
+    "CONSTRUCTION": "Construction",
+    "HOTEL_CLEAN_SERVICES": "Hotel Clean Services",
+    "FISHERY": "Fishery",
+    "RESTAURANT": "Restaurant Services",
     "ONLINE_FORM": {
         "TITLE": "WORKNET E9 SYSTEM PROFILE: ONLINE FORM",
         "STEP1": "1. Follow the instructions to create an account",

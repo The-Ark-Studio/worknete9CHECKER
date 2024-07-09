@@ -7,7 +7,7 @@
 import { DownOutlined, MessageOutlined } from "@ant-design/icons";
 import type { RefineThemedLayoutV2HeaderProps } from "@refinedev/antd";
 import { useGetIdentity } from "@refinedev/core";
-import IUserData from "@src/utils/user-data";
+import IUserData from "@src/providers/interface/user";
 import { Layout as AntdLayout, Avatar, Button, Dropdown, Menu, Space, Typography, theme } from "antd";
 import React from "react";
 // import { Language } from "../../../languages";
@@ -88,7 +88,7 @@ export const Header: React.FC<RefineThemedLayoutV2HeaderProps> = ({ sticky }) =>
                     )}
                     {user?.name ? (
                         <Text strong>
-                            {user.name}&nbsp;{user.givenName}
+                            {user.name}
                         </Text>
                     ) : null}
                 </Space>

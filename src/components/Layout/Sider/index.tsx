@@ -168,7 +168,7 @@ export const CustomSider: React.FC<RefineThemedLayoutV2SiderProps> = ({
                     border: "none",
                     overflow: "auto",
                     height: "calc(100% - 72px)",
-                    width: "250px"
+                    width: "20vw"
                 }}
             >
                 {renderSider()}
@@ -194,7 +194,7 @@ export const CustomSider: React.FC<RefineThemedLayoutV2SiderProps> = ({
                     onClose={() => setMobileSiderOpen(false)}
                     open={mobileSiderOpen}
                     placement="left"
-                    width={200}
+                    width={400}
                 >
                     <Layout>
                         <Layout.Sider
@@ -206,7 +206,7 @@ export const CustomSider: React.FC<RefineThemedLayoutV2SiderProps> = ({
                         >
                             <div
                                 style={{
-                                    width: "200px",
+                                    width: "20vw",
                                     padding: "0 16px",
                                     display: "flex",
                                     justifyContent: "flex-start",
@@ -252,7 +252,7 @@ export const CustomSider: React.FC<RefineThemedLayoutV2SiderProps> = ({
             {fixed ? (
                 <div
                     style={{
-                        width: siderCollapsed ? "80px" : "250px",
+                        width: siderCollapsed ? "80px" : "20vw",
                         transition: "all 0.2s"
                     }}
                 />
@@ -296,7 +296,7 @@ export const CustomSider: React.FC<RefineThemedLayoutV2SiderProps> = ({
             >
                 <div
                     style={{
-                        width: siderCollapsed ? "80px" : "200px",
+                        width: siderCollapsed ? "80px" : "20vw",
                         padding: siderCollapsed ? "0" : "0 16px",
                         display: "flex",
                         justifyContent: siderCollapsed ? "center" : "flex-start",

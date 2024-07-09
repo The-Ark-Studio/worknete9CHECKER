@@ -1,7 +1,7 @@
 import { DownOutlined } from "@ant-design/icons";
 import { Avatar, Button, Dropdown, Menu, Space } from "antd";
 import { useTranslation } from "react-i18next";
-
+import styles from "@asset/styles.module.css";
 
 export const LanguageSelector = () => {
     const { t, i18n } = useTranslation();
@@ -36,7 +36,7 @@ export const LanguageSelector = () => {
 
     return (
         <Dropdown overlay={menu}>
-            <Button
+            <Button className={styles.header_right_button}
                 style={{
                     fontSize: "0.8vw"
                 }}

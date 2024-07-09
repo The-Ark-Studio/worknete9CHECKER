@@ -1,5 +1,5 @@
 import { DownOutlined } from "@ant-design/icons";
-import E9Icon from "@asset/e9-icon.jpeg";
+import E9Logo from "@asset/e9-logo.svg";
 
 import styles from "@asset/styles.module.css";
 
@@ -14,6 +14,7 @@ import { Introduction } from "./intro";
 import { Protection } from "./protection";
 import { Simplified } from "./simplified";
 import { UserFriendly } from "./user-friendly";
+import { LanguageSelector } from "@src/components/Common/LanguageSelector";
 
 export const Landing = () => {
     const { t, i18n } = useTranslation();
@@ -52,7 +53,7 @@ export const Landing = () => {
                 {/* Header left  */}
                 <Col span={14} style={{ position: "absolute", marginTop: "0.5vw" }}>
                     <Space className={styles.header_left}>
-                        <Avatar alt="e9-logo" className={styles.header_e9_logo} src={E9Icon} />
+                        <Avatar alt="e9-logo" className={styles.header_e9_logo} src={E9Logo} />
                         <div style={{ width: "22vw" }}>
                             <Typography className={styles.header_sub_title}>{t("DASHBOARD.SUB_TITLE")}</Typography>
                             <Typography className={styles.header_title}>{t("SYSTEM_NAME")}</Typography>
@@ -62,28 +63,9 @@ export const Landing = () => {
                 {/* Header right  */}
                 <Col span={12} />
                 <Col span={12}>
+
                     <Flex className={styles.header_right} gap="small" wrap="wrap">
-                        <Dropdown overlay={menu}>
-                            <Button
-                                style={{
-                                    fontSize: "0.8vw"
-                                }}
-                                type="link"
-                            >
-                                <Space>
-                                    <Avatar
-                                        size={{ xs: 6, sm: 10, md: 16, lg: 16, xl: 16, xxl: 16 }}
-                                        src={`../public/images/flags/${currentLocale}.svg`}
-                                    />
-                                    {currentLocale === "kor"
-                                        ? "Korean"
-                                        : currentLocale === "en"
-                                            ? "English"
-                                            : "Vietnamese"}
-                                    <DownOutlined />
-                                </Space>
-                            </Button>
-                        </Dropdown>
+                        <LanguageSelector />
                         <Button
                             className={styles.header_right_button}
                             onClick={() => window.open("/main", '_blank', "noopener,noreferrer")}

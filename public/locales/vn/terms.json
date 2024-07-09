@@ -1,0 +1,59 @@
+{
+    "TITLE": "Điều khoản và điều kiện",
+    "ACCEPTANCE": {
+        "LABEL": "1. Chấp nhận các điều khoản",
+        "TEXT": "Bằng cách sử dụng ứng dụng di động của chúng tôi, bạn đồng ý tuân thủ các Điều khoản & Điều kiện này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, vui lòng không sử dụng ứng dụng."
+    },
+    "USE": {
+        "LABEL": "2. Sử dụng Ứng dụng",
+        "LIST": [
+            "<li>Bạn có thể sử dụng ứng dụng cho mục đích đã định, tuân theo các điều khoản này.</li>",
+            "<li>Bạn không được lạm dụng ứng dụng, vi phạm bất kỳ luật nào hoặc xâm phạm quyền của người khác.</li>"
+        ]
+    },
+    "INTELLECTUAL_PROPERTY": {
+        "LABEL": "3. Sở hữu trí tuệ",
+        "LIST": [
+            "<li>Tất cả nội dung trong ứng dụng (bao gồm văn bản, hình ảnh, biểu trưng và nhãn hiệu) đều được bảo vệ bởi luật sở hữu trí tuệ.</li>",
+            "<li>Bạn không được sao chép, sửa đổi hoặc phân phối bất kỳ phần nào của ứng dụng mà không có sự đồng ý rõ ràng của chúng tôi.</li>"
+        ]
+    },
+    "USER_ACCOUNT": {
+        "LABEL": "4. Tài khoản người dùng",
+        "LIST": [
+            "<li>Bạn có thể cần tạo một tài khoản để sử dụng một số tính năng nhất định.</li>",
+            "<li>Bạn có trách nhiệm duy trì tính bảo mật của thông tin tài khoản của bạn.</li>",
+            "<li>Chúng tôi có quyền đình chỉ hoặc chấm dứt tài khoản do vi phạm các điều khoản này.</li>"
+        ]
+    },
+    "PRIVACY": {
+        "LABEL": "5. Quyền riêng tư",
+        "TEXT": "Chính sách quyền riêng tư của chúng tôi nêu rõ cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân. Bằng cách sử dụng ứng dụng, bạn đồng ý với các điều khoản trong Chính sách quyền riêng tư."
+    },
+    "DISCLAIMERS": {
+        "LABEL": "6. Tuyên bố miễn trừ trách nhiệm",
+        "LIST": [
+            "<li>Ứng dụng được cung cấp “nguyên trạng” mà không có bất kỳ sự bảo đảm nào.</li>",
+            "<li>Chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc sử dụng ứng dụng.</li>"
+        ]
+    },
+    "LIMITATION": {
+        "LABEL": "7. Giới hạn trách nhiệm pháp lý",
+        "LIST": [
+            "<li>Chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, ngẫu nhiên hoặc do hậu quả nào.</li>",
+            "<li>Tổng trách nhiệm của chúng tôi không vượt quá số tiền đã thanh toán (nếu có) khi sử dụng ứng dụng.</li>"
+        ]
+    },
+    "GOVERNING_LAW": {
+        "LABEL": "8. Luật điều chỉnh",
+        "TEXT": "Các điều khoản này được điều chỉnh bởi Điều khoản & Quy định của Cửa hàng Google Play."
+    },
+    "TERMS": {
+        "LABEL": "9. Thay đổi Điều khoản",
+        "TEXT": "Chúng tôi có quyền cập nhật các điều khoản này. Người dùng sẽ được thông báo về bất kỳ thay đổi nào."
+    },
+    "CONTACT": {
+        "LABEL": "10. Thông tin liên hệ",
+        "TEXT": "Nếu có câu hỏi hoặc thắc mắc về các Điều khoản & Điều kiện này, vui lòng liên hệ với chúng tôi theo địa chỉ admin@theark.studio."
+    }
+}

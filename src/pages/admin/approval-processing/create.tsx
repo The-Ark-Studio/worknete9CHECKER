@@ -4,26 +4,86 @@
  * All rights reserved.
  */
 
+import { PlusOutlined } from "@ant-design/icons";
 import { Create, useForm } from "@refinedev/antd";
 import MDEditor from "@uiw/react-md-editor";
-import { Form, Input, Select } from "antd";
+import { Form, Input, InputNumber, Select, Upload } from "antd";
+import {
+    StateSelect,
+} from "react-country-state-city";
+import "react-country-state-city/dist/react-country-state-city.css";
+
+const getBase64 = (file) => {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+    });
+};
+
 
 export const ApprovalProcessingCreate = () => {
-    const { formProps, saveButtonProps } = useForm({});
+    const { form, formProps, saveButtonProps } = useForm({});
+    const { t } = useTranslation();
 
-    // const { selectProps: categorySelectProps } = useSelect({
-    //     resource: "approval_processing"
-    // });
+    const handleImageChange = async (event, fieldName) => {
+        const newFileList = event.fileList;
+        const file = newFileList[0];
+        if (file) {
+            file.base64 = await getBase64(file.originFileObj);
+        }
+        // console.log("base64: ", file.base64)
+        form.setFieldsValue({ [fieldName]: file.base64 })
+        // console.log(form.getFieldsValue([fieldName]))
+    };
+
+    const handleLocationChange = (value) => {
+        form.setFieldsValue({ location: value.name })
+    };
 
     return (
-        <Create saveButtonProps={saveButtonProps}>
-            <Form {...formProps} layout="vertical">
+        <Create saveButtonProps={saveButtonProps}
+        // headerButtonProps={{ style: buttonStyle }}
+        >
+            <Form {...formProps}
+                form={form}
+
+                layout="vertical">
+                <Form.Item
+                    label="Gender"
+                    name={["gender"]}
+                    rules={[
+                        {
+                            required: false
+                        }
+                    ]}
+                >
+                    <Select
+                        // style={{ width: '50%' }}
+                        options={[
+                            { value: "F", label: "Female" },
+                            { value: "M", label: "Male" }
+                        ]}
+                    />
+                </Form.Item>
+                <Form.Item
+                    label="Age"
+                    name={["age"]}
+                    rules={[
+                        {
+                            required: false
+                        }
+                    ]}
+                >
+                    <Input />
+                </Form.Item>
                 <Form.Item
                     label="Professional Title"
                     name={["professionalTitle"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -31,10 +91,10 @@ export const ApprovalProcessingCreate = () => {
                 </Form.Item>
                 <Form.Item
                     label="Hometown"
-                    name={["hometownAddress"]}
+                    name={["homeTown"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -42,22 +102,22 @@ export const ApprovalProcessingCreate = () => {
                 </Form.Item>
 
                 <Form.Item
-                    label="Expected salary"
+                    label="Expected salary (VND)"
                     name={["expectedSalary"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
-                    <Input />
+                    <InputNumber />
                 </Form.Item>
                 <Form.Item
                     label="Expected ocupation"
                     name={["preferredWork"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -68,7 +128,7 @@ export const ApprovalProcessingCreate = () => {
                     name={["academicBackground"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -79,29 +139,41 @@ export const ApprovalProcessingCreate = () => {
                     name={["expectedArea"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
-                    <Input />
+                    <StateSelect
+                        countryid={116}
+                        value={location}
+                        onChange={handleLocationChange}
+                        placeHolder="Select Location"
+                    />
                 </Form.Item>
                 <Form.Item
                     label="Family income(High, middle, low)"
-                    name={["numberOfFamily"]}
-                    rules={[
-                        {
-                            required: true
-                        }
-                    ]}
-                >
-                    <Input />
-                </Form.Item>
-                <Form.Item
-                    label="Family status"
                     name={["familySituation"]}
                     rules={[
                         {
-                            required: true
+                            required: false
+                        }
+                    ]}
+                >
+                    <Select
+                        // style={{ width: '50%' }}
+                        options={[
+                            { value: "H", label: "High" },
+                            { value: "M", label: "Middle" },
+                            { value: "L", label: "Low" }
+                        ]}
+                    />
+                </Form.Item>
+                <Form.Item
+                    label="Number of family"
+                    name={["numberOfFamily"]}
+                    rules={[
+                        {
+                            required: false
                         }
                     ]}
                 >
@@ -112,7 +184,7 @@ export const ApprovalProcessingCreate = () => {
                     name="passportImg"
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -123,7 +195,7 @@ export const ApprovalProcessingCreate = () => {
                     name="healthCheckImg"
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -134,17 +206,6 @@ export const ApprovalProcessingCreate = () => {
                     name="policeCheckImg"
                     rules={[
                         {
-                            required: true
-                        }
-                    ]}
-                >
-                    <MDEditor data-color-mode="light" />
-                </Form.Item>
-                <Form.Item
-                    label="TOPIK (optional)"
-                    name="koreanExamImg"
-                    rules={[
-                        {
                             required: false
                         }
                     ]}
@@ -152,54 +213,75 @@ export const ApprovalProcessingCreate = () => {
                     <MDEditor data-color-mode="light" />
                 </Form.Item>
                 <Form.Item
-                    label="ID card (front)"
-                    name="idCardFrontImg"
-                    rules={[
-                        {
-                            required: true
-                        }
-                    ]}
+                    label="TOPIK (optional)"
+                    name={["koreanExamImg"]}
                 >
-                    <MDEditor data-color-mode="light" />
+                    <Upload
+                        listType="picture-circle"
+                        className="avatar-uploader"
+                        multiple={false}
+                        beforeUpload={() => false}
+                        onChange={(event) => handleImageChange(event, "koreanExamImg")}
+                        maxCount={1}
+                    >
+                        <button style={{ border: 0, background: 'none' }} type="button">
+                            <PlusOutlined />
+                            <div style={{ marginTop: 8 }}>Upload</div>
+                        </button>
+                    </Upload>
                 </Form.Item>
                 <Form.Item
-                    label="ID card (back)"
-                    name="idCardBackImg"
-                    rules={[
-                        {
-                            required: true
-                        }
-                    ]}
+                    label="ID Card (front)"
+                    name={["idCardFrontImg"]}
                 >
-                    <MDEditor data-color-mode="light" />
+                    <Upload
+                        listType="picture-circle"
+                        className="avatar-uploader"
+                        multiple={false}
+                        beforeUpload={() => false}
+                        onChange={(event) => handleImageChange(event, "idCardFrontImg")}
+                        maxCount={1}
+                    >
+                        <button style={{ border: 0, background: 'none' }} type="button">
+                            <PlusOutlined />
+                            <div style={{ marginTop: 8 }}>Upload</div>
+                        </button>
+                    </Upload>
                 </Form.Item>
-                {/* <Form.Item
-                    label="Category"
-                    name={["category", "id"]}
-                    rules={[
-                        {
-                            required: true
-                        }
-                    ]}
-                >
-                    <Select {...categorySelectProps} />
-                </Form.Item> */}
                 <Form.Item
-                    initialValue="draft"
+                    label="ID Card (back)"
+                    name={["idCardBackImg"]}
+                >
+                    <Upload
+                        listType="picture-circle"
+                        className="avatar-uploader"
+                        multiple={false}
+                        beforeUpload={() => false}
+                        onChange={(event) => handleImageChange(event, "idCardBackImg")}
+                        maxCount={1}
+                    >
+                        <button style={{ border: 0, background: 'none' }} type="button">
+                            <PlusOutlined />
+                            <div style={{ marginTop: 8 }}>Upload</div>
+                        </button>
+                    </Upload>
+                </Form.Item>
+                <Form.Item
+                    initialValue="W"
                     label="Application status"
                     name={["status"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
                     <Select
-                        defaultValue="waiting"
+                        defaultValue="W"
                         options={[
-                            { value: "waiting", label: "Waiting" },
-                            { value: "verify", label: "Verify" },
-                            { value: "rejected", label: "Rejected" }
+                            { value: "W", label: "Waiting" },
+                            { value: "V", label: "Verify" },
+                            { value: "R", label: "Rejected" }
                         ]}
                         style={{ width: 120 }}
                     />

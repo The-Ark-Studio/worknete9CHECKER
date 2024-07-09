@@ -1,0 +1,59 @@
+{
+    "TITLE": "Terms & Conditions",
+    "ACCEPTANCE": {
+        "LABEL": "1. Acceptance of Terms",
+        "TEXT": "By using our mobile application, you agree to comply with these Terms & Conditions. If you do not agree with any part of these terms, please refrain from using the app."
+    },
+    "USE": {
+        "LABEL": "2. Use of the App",
+        "LIST": [
+            "<li>You may use the app for its intended purpose, subject to these terms.</li>",
+            "<li>You must not misuse the app, violate any laws, or infringe upon the rights of others.</li>"
+        ]
+    },
+    "INTELLECTUAL_PROPERTY": {
+        "LABEL": "3. Intellectual Property",
+        "LIST": [
+            "<li>All content within the app (including text, images, logos, and trademarks) is protected by intellectual property laws.</li>",
+            "<li>You may not reproduce, modify, or distribute any part of the app without our explicit consent.</li>"
+        ]
+    },
+    "USER_ACCOUNT": {
+        "LABEL": "4. User Accounts",
+        "LIST": [
+            "<li>You may need to create an account to use certain features.</li>",
+            "<li>You are responsible for maintaining the confidentiality of your account information.</li>",
+            "<li>We reserve the right to suspend or terminate accounts for violations of these terms.</li>"
+        ]
+    },
+    "PRIVACY": {
+        "LABEL": "5. Privacy",
+        "TEXT": "Our Privacy Policy outlines how we collect, use, and protect personal information. By using the app, you agree to the terms in the Privacy Policy."
+    },
+    "DISCLAIMERS": {
+        "LABEL": "6. Disclaimers",
+        "LIST": [
+            "<li>The app is provided “as is” without any warranties.</li>",
+            "<li>We are not liable for any damages arising from app usage.</li>"
+        ]
+    },
+    "LIMITATION": {
+        "LABEL": "7. Limitation of Liability",
+        "LIST": [
+            "<li>We are not liable for any indirect, incidental, or consequential damages.</li>",
+            "<li>Our total liability shall not exceed the amount paid (if any) for using the app.</li>"
+        ]
+    },
+    "GOVERNING_LAW": {
+        "LABEL": "8. Governing Law",
+        "TEXT": "These terms are governed by the Terms & Regulations of Google Play Store."
+    },
+    "TERMS": {
+        "LABEL": "9. Changes to Terms",
+        "TEXT": "We reserve the right to update these terms. Users will be notified of any changes."
+    },
+    "CONTACT": {
+        "LABEL": "10. Contact Information",
+        "TEXT": "For questions or concerns regarding these Terms & Conditions, please contact us at admin@theark.studio."
+    }
+}

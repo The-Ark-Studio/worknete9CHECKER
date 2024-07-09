@@ -1,0 +1,61 @@
+{
+    "TITLE": "FAQs",
+    "Q1": {
+        "LABEL": "1. What is the E-9 Visa?",
+        "A1": [
+            "<li>The <b>E-9 visa</b>, officially designated as the <b>Non-Professional Employment Visa</b>, allows for the entry of foreign nationals into South Korea for <b>non-specialized work </b>in specific industries.</li>",
+            "<li>Introduced to address labor shortages in certain sectors, this visa serves as a bridge between international workers and South Korean employers.</li>"
+        ]
+    },
+    "Q2": {
+        "LABEL": "2. Eligibility Criteria:",
+        "A2": [
+            "<li><b>Nationality: </b> South Korea has opened the E-9 visa doors to 16 countries, ensuring a diversified pool of workers.</li>",
+            "<li><b>Job Type: </b>Applicants should not be seeking a professional job requiring specialized qualifications, certificates, or significant work experience.</li>",
+            "<li><b>Clean Record: </b>Applicants should be free from any criminal background or past immigration issues with South Korea.</li>"
+        ]
+    },
+    "Q3": {
+        "LABEL": "3. Subcategories of the E-9 Visa:",
+        "TEXT": "The E-9 visa is systematically organized into five main subcategories, each catering to a different industry:",
+        "A3": [
+            "<li><b>E-9-1 (Manufacturing): </b>Geared towards those aspiring to join the manufacturing sector. Applicants typically seek employment in companies with no more than 300 full-time workers or a capital that doesn’t exceed 8 billion KRW.</li>",
+            "<li><b>E-9-2 (Construction): </b>Targets those interested in the construction industry, covering almost all public construction firms except specialized areas like power plant or petrochemical construction.</li>",
+            "<li><b>E-9-3 (Agriculture): </b>Tailored for individuals looking to contribute to agriculture or livestock sectors. Jobs can range from harvesting and animal husbandry to related services.</li>",
+            "<li><b>E-9-4 (Fishery): </b>Designed for those drawn to the fishery sector, with specific constraints on the type of vessels used.</li>",
+            "<li><b>E-9-5 (Service): </b>Encompasses a range of services from construction waste processing and cold storage to press publishing.</li>"
+        ]
+    },
+    "Q4": {
+        "LABEL": "4. COVID-19 Vaccination Requirement:",
+        "TEXT": "",
+        "A4": [
+            "<li><b>Q: </b>Is COVID-19 vaccination required for entry into Korea?</li>",
+            "<li><b>A: </b>Vaccination is <b>not </b>a requirement for entry into Korea.</li>"
+        ]
+    },
+    "Q5": {
+        "LABEL": "5. Q-Code Registration:",
+        "TEXT": "",
+        "A5": [
+            "<li><b>Q: </b>How far in advance should I register for the Q-Code?</li>",
+            "<li><b>A: </b>Registration of the Q-Code is <b>no longer required.</b></li>"
+        ]
+    },
+    "Q6": {
+        "LABEL": "6. Travel Insurance:",
+        "TEXT": "",
+        "A6": [
+            "<li><b>Q: </b>Is travel insurance required?</li>",
+            "<li><b>A: </b> Information on travel insurance requirements is not specified in the provided sources. It’s advisable to check with official government or embassy websites for the most up-to-date information.</li>"
+        ]
+    },
+    "Q7": {
+        "LABEL": "7. On-Arrival PCR Test:",
+        "TEXT": "",
+        "A7": [
+            "<li><b>Q: </b>Am I required to take an on-arrival PCR test in Korea?</li>",
+            "<li><b>A: </b>The provided sources do not mention mandatory on-arrival PCR testing. However, it’s essential to stay informed about any changes in entry requirements.</li>"
+        ]
+    }
+}

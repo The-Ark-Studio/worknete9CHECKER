@@ -5,7 +5,7 @@ export default interface IAuthenData {
     username: string;
     email: string;
     role: IRole | any;
-    accessToken: string;
+    token: string;
     tokenType: string;
     // permissions: Array<string>
 }

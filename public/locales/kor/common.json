@@ -215,7 +215,8 @@
         "HELP_CENTER": "고객센터 전화번호",
         "CONTACT_US": "회사 전화번호",
         "FAQS": "자주묻는질문",
-        "SITEMAP": "회사위치"
+        "SITEMAP": "회사위치",
+        "COPY_RIGHT": "저작권"
     },
     "FOOTER": {
         "MANAGE_BY": "관리 책임자",

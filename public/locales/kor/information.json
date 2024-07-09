@@ -1,0 +1,116 @@
+{
+    "TITLE": "Legal Regulations in South Korea",
+    "NOTE": "What You Need to Know When Working in South Korea:",
+    "RESIDENCY": {
+        "LABEL": "I.  Residency",
+        "FOREIGNER": {
+            "LABEL": "1.  Foreigner Registration: ",
+            "TEXT": "Within 90 days from the date of entry, foreign workers must submit an application for foreigner registration to the Immigration Office where they are temporarily residing. This registration is necessary to obtain an Alien Registration Card (ARC) according to South Korean regulations. The application process for the ARC includes:",
+            "LIST": [
+                "<li>Filling out the application form for foreign registration.</li>",
+                "<li>Presenting a valid passport with a valid visa.</li>",
+                "<li>Providing three passport-sized photos (3cm x 4cm). If the ARC is lost, the worker must report it within 14 days to apply for a replacement.</li>"
+            ]
+        },
+        "EXTENSION": {
+            "LABEL": "2.  Extension of Stay: ",
+            "TEXT": "Employment contracts in South Korea can be for one year or longer. Extensions are possible, but the maximum total stay cannot exceed 4 years and 10 months. The specific duration (1 year, 2 years, or 3 years) depends on the employer’s requirements. When the initial contract expires, the worker must sign a new contract with the same employer. After signing the new contract, the worker needs to apply for an extension of stay with the Immigration Office in the area of residence."
+        }
+    },
+    "SALARY_INSURANCE": {
+        "LABEL": "II.  Salary and Insurance Policies",
+        "SALARY": {
+            "LABEL": "1.  Salary System: ",
+            "TEXT": "Workers employed by South Korean companies receive their salary based on the employment contract. The basic salary is determined by the employer. In addition to the basic salary, workers may earn additional income through overtime work. Overtime pay is calculated as follows:",
+            "NOTE": "For additional hours worked, night shifts, and work on holidays, the corresponding overtime rates apply:",
+            "TABLE": [
+                "<table id=\"table_info\"><tr>",
+                "<th>NO.</th>",
+                "<th>Content</th>",
+                "<th>Basic Salary</th>",
+                "<th>Overtime Pay</th>",
+                "<th>Total Amount</th>",
+                "</tr>",
+                "<tr>",
+                "<tr><td>1</td> <td>Regular working hours as specified in the labor contract</td> <td>100%</td> <td>0</td> <td>100%</td></tr>",
+                "<tr><td>2</td> <td>Additional work</td> <td>100%</td> <td>50%</td> <td>150%</td></tr>",
+                "<tr><td>3</td> <td>Night shift work</td> <td>100%</td> <td>50%</td> <td>150%</td></tr>",
+                "<tr><td>4</td> <td>Overtime + night shift work</td> <td>100%</td> <td>50% + 50%</td> <td>200%</td></tr>",
+                "<tr><td>5</td> <td>Work on holidays (with pay)</td> <td>100%</td> <td>50%</td> <td>150%</td></tr>",
+                "<tr><td>6</td> <td>Work on holidays (without pay)</td> <td>100%</td> <td>0</td> <td>100%</td></tr>",
+                "<tr><td>7</td> <td>Overtime + night shift + unpaid holiday (non-holiday pay)</td> <td>100%</td> <td>50% + 50%</td> <td>200%</td></tr>",
+                "<tr><td>8</td> <td>Overtime + night shift + paid holiday (holiday pay)</td> <td>100%</td> <td>50% + 50% + 50%</td> <td>250%</td></tr>",
+                "</table>"
+            ]
+        },
+        "INSURANCE": {
+            "LABEL": "2.  Insurance System:",
+            "TEXT": "When entering South Korea, Vietnamese workers are eligible for the following types of insurance:",
+            "NOTE": "In addition to the primary insurance types mentioned above, during employment, both employers and workers participate in other insurance schemes, including severance pay insurance, unemployment insurance, and delayed wage payment insurance, as regulated by South Korean insurance laws.",
+            "REPATRIATION": {
+                "LABEL": "2.1  Repatriation Insurance: ",
+                "TEXT": "<li>This insurance aims to cover the cost of airfare for workers returning to Vietnam after their stay in South Korea. Workers purchase repatriation insurance for a one-time fee of 400,000 won and transfer the payment to a bank account designated by the insurance company within 80 days from their entry into South Korea. The insurance payout corresponds to the amount paid by the worker. Failure to purchase repatriation insurance or delayed payment beyond the specified timeframe may result in a fine of up to 1 million won.</li>"
+            },
+            "RISK": {
+                "LABEL": "2.2  Risk Insurance:",
+                "LIST": [
+                    "<li>Risk insurance provides compensation in the event of a worker’s death or non-work-related disability. The premium for this insurance varies based on age and gender, ranging from 19,000 won to 50,800 won (with higher rates for older male workers). The insurance contract duration is 36 months. Workers are required to purchase risk insurance and transfer the payment to a designated bank account within 15 days from their entry into South Korea.</li>",
+                    "<li>Compensation amounts:  </li>",
+                    "<ul id=\"square_ul\"><li>For death: Between 15 million won and 30 million won, depending on the cause of death (suicide cases are not covered).</li><li>For disability: Up to 15 million won.</li></ul>",
+                    "<li>Penalties apply if a worker withdraws funds from the account or pays late (within 15 days), resulting in fines of up to 5 million won or deportation.</li>"
+                ],
+                "CHILD_LIST": [
+                    "<li>For death: Between 15 million won and 30 million won, depending on the cause of death (suicide cases are not covered).</li>",
+                    "<li>For disability: Up to 15 million won.</li>"
+                ]
+            },
+            "WORKPLACE": {
+                "LABEL": "2.3  Workplace Accident Insurance: ",
+                "TEXT": "<li>Employers in South Korea are obligated to contribute to workplace accident insurance, which compensates workers in case of work-related accidents. Compensation levels are determined based on different disability grades. Workers receiving workplace accident compensation are not eligible for risk insurance.</li>"
+            },
+            "HEALTH": {
+                "LABEL": "2.4  Health Insurance: ",
+                "TEXT": "<li>Health insurance provides coverage for medical expenses when workers fall ill or require treatment at South Korean healthcare facilities. Workers contribute to health insurance monthly, with a rate of 4.21% of their monthly salary.</li>"
+            }
+        }
+    },
+    "EMPLOYMENT_WORKPLACE_CHANGES": {
+        "LABEL": "III. Employment and Workplace Changes:",
+        "EMPLOYMENT": {
+            "LABEL": "1. Employment: ",
+            "TEXT": "<li>After entering South Korea, workers must work for the company they signed an employment contract with before their entry. Their job responsibilities are defined by the employment contract.</li>"
+        },
+        "WORKPLACE_CHANGES": {
+            "LABEL": "2. Changing Workplace:",
+            "TEXT": "<li>If there is a valid reason during employment, workers can change their workplace, but no more than five times. For contracts of three years, the maximum number of changes is three, and for contracts extended to 1 year and 10 months, the maximum is two. Specific cases allowing workplace changes are governed by regulations.</li>"
+        },
+        "TERMINATION": {
+            "LABEL": "3. Termination of Employment Contracts by South Korean Employers:",
+            "LIST": [
+                "<li>Employers in South Korea can terminate employment contracts prematurely, even before the stipulated contract duration has ended. They may also refuse to renew contracts when workers have not completed the required three years of employment in South Korea.</li>",
+                "<li>Additionally, if a South Korean employer’s labor recruitment license is revoked or if they face penalties or suspension due to human rights violations (such as violence, unpaid wages, or failure to provide proper working conditions), they may be unable to continue hiring foreign workers.</li>"
+            ]
+        },
+        "WORKER_ACCIDENT": {
+            "LABEL": "4. Worker’s Accident and Change of Workplace: ",
+            "TEXT": "<li>If a worker experiences an accident and cannot continue working at their current workplace but is capable of working elsewhere:</li>",
+            "LIST": [
+                "<li>The worker must register the change of workplace at the Labor Recruitment Support Center in the area where they are currently employed.</li>",
+                "<li>Upon acceptance of a new job at a different company, the worker should inform the Vietnamese Office of Labor Management under the EPS program in South Korea for updates and monitoring.</li>",
+                "<li>Note that workers in the Agriculture, Construction, and Fisheries sectors are not allowed to change their registered occupation. However, those registered in the Manufacturing sector who are currently working in that field can choose to switch to Agriculture, Construction, or Fisheries.</li>"
+            ]
+        }
+    },
+    "RESOLVING_DISPUTES": {
+        "LABEL": "IV.  Resolving Disputes Between South Korean Employers and Workers:",
+        "LIST": [
+            "<li>The employment relationship between South Korean employers and workers follows a master-apprentice model (where workers are wage earners). Therefore, workers have a responsibility to perform tasks as required by their employers.</li>",
+            "<li>In cases where South Korean employers violate work conditions or fail to adhere to the terms of the employment contract, workers can resolve disputes through the following methods:</li>"
+        ],
+        "SECOND_CHILD_LIST": [
+            "<li><b>Direct Negotiation: </b>Workers can directly negotiate with the employing South Korean company, requesting compliance with labor conditions and protection of their rights as specified in the employment contract or South Korean law.</li>",
+            "<li><b>Government Support: </b>Workers can seek assistance from the Employment Stabilization Centers (under the Ministry of Employment and Labor) or Foreign Worker Support Centers (under the Human Resources Development Service of Korea) in their working area. Alternatively, they can approach the Vietnamese Office of Labor Management under the EPS program in South Korea or the Vietnamese Embassy in South Korea (Vietnam Labor Management Board in South Korea) to address issues with the employing South Korean company.</li>",
+            "<li><b>Formal Complaints: </b>If previous measures fail, workers can file complaints with the Labor Inspection Office of the Ministry of Employment and Labor in South Korea, the Immigration Office, or the Labor Inspection Agency of South Korea.</li>"
+        ]
+    }
+}

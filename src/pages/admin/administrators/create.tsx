@@ -9,20 +9,23 @@ import {
     StateSelect,
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
+import {
+    file2Base64,
+} from "@refinedev/core";
 
 interface CountryData {
     countryCode: string;
     dialCode: string;
 }
 
-// const getBase64 = (file) => {
-//     return new Promise((resolve, reject) => {
-//         const reader = new FileReader();
-//         reader.readAsDataURL(file);
-//         reader.onload = () => resolve(reader.result);
-//         reader.onerror = error => reject(error);
-//     });
-// };
+const getBase64 = (file) => {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+    });
+};
 
 export const AdministratorCreate = (buttonStyle) => {
     const { form, formProps, saveButtonProps } = useForm({});
@@ -35,14 +38,14 @@ export const AdministratorCreate = (buttonStyle) => {
         form.setFieldsValue({ location: value.name })
     };
 
-    // const handleImageChange = async ({ fileList: newFileList }) => {
-    //     const file = newFileList[0];
-    //     if (file) {
-    //         file.base64 = await getBase64(file.originFileObj);
-    //     }
-    //     console.log("base64: ", file.base64)
-    //     form.setFieldsValue({ avatarImg: file.base64 })
-    // };
+    const handleImageChange = async ({ fileList: newFileList }) => {
+        const file = newFileList[0];
+        if (file) {
+            file.base64 = await getBase64(file.originFileObj);
+        }
+        console.log("base64: ", file.base64)
+        form.setFieldsValue({ avatarImg: file.base64 })
+    };
 
     return (
         <Create
@@ -58,13 +61,14 @@ export const AdministratorCreate = (buttonStyle) => {
                     location: "",
                     avatarImg: "https://i.pravatar.cc/300"
                 }}
-                layout="vertical">
+                layout="vertical"
+            >
                 <Form.Item
                     label="Name"
                     name={["name"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -75,7 +79,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["givenName"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -86,7 +90,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["gender"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -103,7 +107,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["birthday"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -115,7 +119,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     valuePropName="phone"
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -136,7 +140,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     hidden
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -149,7 +153,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     hidden
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -160,7 +164,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["username"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -170,7 +174,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     label={t("AUTHENTICATION.EMAIL")}
                     name="email"
                     rules={[
-                        { required: true },
+                        { required: false },
                         {
                             type: "email",
                             message: t("AUTHENTICATION.INVALID_EMAIL")
@@ -185,7 +189,7 @@ export const AdministratorCreate = (buttonStyle) => {
                 <Form.Item
                     label={t("AUTHENTICATION.PASSWORD")}
                     name={["password"]}
-                    rules={[{ required: true }]}
+                    rules={[{ required: false }]}
                 >
                     <Input.Password
                         autoComplete="current-password"
@@ -201,7 +205,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     dependencies={['password']}
                     rules={[
                         {
-                            required: true,
+                            required: false,
                             message: 'Please confirm your password!',
                         },
                         ({ getFieldValue }) => ({
@@ -228,7 +232,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     hidden
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -239,7 +243,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["companyName"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                     style={{ width: '50%' }}
@@ -251,7 +255,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["location"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                     style={{ width: '50%' }}
@@ -268,7 +272,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["establishedYears"]}
                     rules={[
                         {
-                            required: true
+                            required: false
                         }
                     ]}
                 >
@@ -277,15 +281,13 @@ export const AdministratorCreate = (buttonStyle) => {
                 <Form.Item
                     label="Avatar"
                     name={["avatarImg"]}
-                    hidden
                 >
                     <Upload
-                        // action="/upload.do" 
                         listType="picture-circle"
                         className="avatar-uploader"
                         multiple={false}
-                        beforeUpload={() => false} // Prevents auto-uploading
-                        // onChange={handleImageChange}
+                        beforeUpload={() => false}
+                        onChange={handleImageChange}
                         maxCount={1}
                     >
                         <button style={{ border: 0, background: 'none' }} type="button">
@@ -295,6 +297,6 @@ export const AdministratorCreate = (buttonStyle) => {
                     </Upload>
                 </Form.Item>
             </Form>
-        </Create>
+        </Create >
     );
 };

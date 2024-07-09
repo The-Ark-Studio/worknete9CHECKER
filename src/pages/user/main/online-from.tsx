@@ -8,8 +8,11 @@ const { Title } = Typography;
 export const OnlineFrom = () => {
     const { t } = useTranslation("main");
     return (
-        <div className={styles.footer_main}>
-            <Title className={styles.title_h3}>{t("ONLINE_FORM.TITLE")}</Title>
+        <div
+            className={styles.footer_main}
+            style={{ height: "10vw" }}
+        >
+            <Title className={styles.title_h3} style={{ marginTop: "0.3vw", marginLeft: "1vw" }}>{t("ONLINE_FORM.TITLE")}</Title>
             <Row gutter={16} justify="space-around">
                 <Col key={1} span={4} className={styles.online_form_box}>
                     <Typography className={styles.text}>

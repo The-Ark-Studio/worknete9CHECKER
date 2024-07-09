@@ -1,13 +1,16 @@
 import React from 'react';
-import { Menu, Input, Avatar, Typography, Button, Modal, Row, Col } from 'antd';
+import { Menu, Input, Avatar, Typography, Button, Modal, Row, Col, Space, Flex } from 'antd';
 import E9Icon from "@asset/e9-icon.jpeg";
+import E9Logo from "@asset/e9-logo.svg"
 import styles from "@asset/styles.module.css";
 import { UserLoginForm } from './login';
+import { useNavigate } from "react-router-dom";
 
 const { Search } = Input;
 
-export const NavbarWithSearch = () => {
+export const NavbarWithSearch = (props) => {
     const onSearch = value => console.log(value);
+    const navigate = useNavigate();
     const { t } = useTranslation("main")
     const [openAuthentication, setOpenAuthentication] = useState(false);
     const [confirmLoading, setConfirmLoading] = useState(false);
@@ -33,74 +36,106 @@ export const NavbarWithSearch = () => {
 
 
     return (
-        <Menu mode="horizontal">
-            <Menu.Item>
-                <Avatar size={{ xs: 6, sm: 10, md: 16, lg: 24, xl: 40, xxl: 50 }} alt="e9-logo" className={styles.header_e9_logo} src={E9Icon} />
-            </Menu.Item>
-            <Menu.Item disabled>
-                <Typography className={styles.header_sub_title}>{t("SUB_TITLE")}</Typography>
-                <Typography className={styles.header_title}>{t("SYSTEM_NAME")}</Typography>
-            </Menu.Item>
 
-            <Menu.Item style={{ marginLeft: 'auto' }}>
-                <Search
-                    placeholder={t("SEARCH")}
-                    onSearch={onSearch}
-                    style={{
-                        width: "25vw",
-                        borderRadius: "4px",
-                        borderWidth: "1px",
-                        borderColor: "var(--text-natural5)"
-                    }}
-                />
-            </Menu.Item>
-            <Menu.Item style={{
-                marginLeft: 'auto',
-                borderRadius: "4px",
-                boxShadow: "0px 0px 1px #9095a1ff, 0px 0px 2px #9095a1ff",
-                height: "2.5vw"
-            }}>
-                <Button
-                    className={styles.menu_right_button}
-                    style={{ backgroundColor: "var(--white)" }}
-                >
-                    {t("KOREAN")}
-                </Button>
-                <Button
-                    className={styles.menu_right_button}
-                    style={{ backgroundColor: "var(--white)" }}
-                >
-                    {t("MINISTRY")}
-                </Button>
-                <Button
-                    className={styles.menu_right_button}
-                    style={{ backgroundColor: "var(--tertiary1)", borderRadius: "4px" }}
-                    onClick={showModalAuthentication}
-                >
-                    {t("APPLICATION")}
-                </Button>
-                <Modal
-                    open={openAuthentication}
-                    // onOk={handleOk}
-                    confirmLoading={confirmLoading}
-                    onCancel={handleCancel}
-                    okButtonProps={{ hidden: true }}
-                    // cancelButtonProps={{ hidden: true }}
-                    width={1000}
-                >
-                    {/* <p>The feature is in development mode.</p> */}
-                    <Row gutter={16} justify="space-around">
-                        <Col key={1} span={8} >
-                            <Typography className={styles.title_h6}> Login</Typography>
-                            <UserLoginForm />
-                        </Col>
-                        <Col key={2} span={10} >
-                            <Typography className={styles.title_h6}> Signup</Typography>
-                        </Col>
-                    </Row>
-                </Modal>
-            </Menu.Item>
-        </Menu>
+        <Row style={{ backgroundColor: "white" }}>
+            {/* Header left  */}
+            <Col span={8} style={{ position: "absolute", marginTop: "0.5vw" }}>
+                <Space className={styles.header_left}>
+                    <Avatar alt="e9-logo"
+                        className={styles.header_e9_logo}
+                        src={E9Logo}
+                        onClick={() => window.open("/main", '_blank', "noopener,noreferrer")}
+                    />
+                    <div style={{ width: "22vw" }} onClick={() => window.open("/main", '_blank', "noopener,noreferrer")}>
+                        <Typography className={styles.header_sub_title}>{t("SUB_TITLE")}</Typography>
+                        <Typography className={styles.header_title}>{t("SYSTEM_NAME")}</Typography>
+                    </div>
+                </Space>
+            </Col>
+            <Col span={15} offset={8}>
+
+                <Menu mode="horizontal" style={{
+                    display: 'flex',
+                    borderBottom: "none"
+                    // height: "2.5vw"
+                    // justifyContent: 'center' 
+                }}>
+                    <Menu.Item
+                        key="1"
+                        className={styles.menu_item}
+                        style={{ marginRight: "0.5vw" }}
+                        onClick={props.handleOpenModal}
+                    >
+                        {t("E_SERVICES")}
+                    </Menu.Item>
+                    <Menu.Item
+                        key="2"
+                        className={styles.menu_item}
+                        style={{ marginRight: "0.5vw" }}
+                        // onClick={props.handleOpenModal}
+                        onClick={() => window.open("/information", '_blank', "noopener,noreferrer")}
+                    >
+                        {t("INFORMATION")}
+
+                    </Menu.Item>
+                    <Menu.Item
+                        className={styles.menu_item}
+                        key="3"
+                        style={{ marginRight: "0.5vw" }}
+                        onClick={props.handleOpenModal}
+                    >
+                        {t("VISA")}
+                    </Menu.Item>
+
+                    <Menu.Item
+                        key="4"
+                        className={styles.menu_item}
+                        onClick={props.handleOpenModal}
+                    >
+                        {t("EPS")}
+                    </Menu.Item>
+                    <Menu.Item
+                        key="5"
+                        onClick={props.handleOpenModal}
+                        className={styles.menu_item}
+
+                        style={{
+                            backgroundColor: "var(--tertiary1)",
+                            borderRadius: "4px",
+                            marginLeft: "auto",
+                            marginRight: "0"
+                        }}
+                    >
+                        {t("APPLICATION")}
+                    </Menu.Item>
+                </Menu>
+            </Col>
+            {/* <Col span={8}> */}
+            {/* 
+                <Flex className={styles.header_right} gap="small" wrap="wrap">
+                    <Button
+                        className={styles.menu_right_button}
+                        style={{ backgroundColor: "var(--white)" }}
+                    >
+                        {t("KOREAN")}
+                    </Button>
+                    <Button
+                        className={styles.menu_right_button}
+                        style={{ backgroundColor: "var(--white)" }}
+                    >
+                        {t("MINISTRY")}
+                    </Button>
+                    <Button
+                        className={styles.menu_right_button}
+                        style={{ backgroundColor: "var(--tertiary1)", borderRadius: "4px" }}
+                        // onClick={showModalAuthentication}
+                        onClick={props.handleOpenModal}
+                    >
+                        {t("APPLICATION")}
+                    </Button>
+                </Flex> */}
+            {/* </Col> */}
+        </Row>
 
     );
 };

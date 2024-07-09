@@ -1,24 +1,30 @@
 {
-    "SUB_TITLE": "Visa Professional Manager Portal",
+    "SUB_TITLE": "비자 전문 관리자 포털",
     "SYSTEM_NAME": "WORKNET E9 SYSTEM",
-    "SEARCH": "Search",
-    "KOREAN": "KOREAN",
-    "MINISTRY": "MINISTRY OF JUSTICE",
-    "APPLICATION": "MY APPLICATION",
-    "VISA": "VISA",
-    "E_SERVICES": "E-SERVICES",
-    "INFORMATION": "INFORMATION",
+    "SEARCH": "찾다",
+    "KOREAN": "한국인",
+    "MINISTRY": "법무부",
+    "APPLICATION": "내 응용 프로그램",
+    "VISA": "비자",
+    "E_SERVICES": "E-서비스",
+    "INFORMATION": "정보",
     "EPS": "EPS ONLINE SCHOOL",
+    "INDUSTRY": "Manufacturing Industry",
+    "AGRICULTURE": "Agriculture",
+    "CONSTRUCTION": "Construction",
+    "HOTEL_CLEAN_SERVICES": "Hotel Clean Services",
+    "FISHERY": "Fishery",
+    "RESTAURANT": "Restaurant Services",
     "ONLINE_FORM": {
-        "TITLE": "WORKNET E9 SYSTEM PROFILE: ONLINE FORM",
-        "STEP1": "1. Follow the instructions to create an account",
-        "STEP2": "2. Fill out the online form",
-        "STEP3": "3. Enter your personal reference",
-        "STEP4": "4. Information from certain documents4. Information from certain documents",
-        "STEP5": "5. Submit your profile"
+        "TITLE": "WORKNET E9 SYSTEM 프로필: 온라인 양식",
+        "STEP1": "1. 아직 계정이 없는 경우 지침에 따라 계정을 만드세요.",
+        "STEP2": "2. 온라인 양식 작성",
+        "STEP3": "3. 개인 참조 입력",
+        "STEP4": "4.  필수 서류 제출",
+        "STEP5": "5. 프로필 제출"
     },
     "TOPIC": {
-        "TITLE": "WHO IS ELIGIBLE FOR THE E-9 VISA IN KOREA?",
-        "TEXT": "Nationality is the primary criterion for the E-9 visa in South Korea: The country has extended this visa category to 16 different nations, resulting in a diverse workforce. In the following sections, we'll explore specific eligibility requirements for each category, but there are some common threads: \n \nProfessional Job Exclusion:Applicants should not be seeking professional roles that require specialized qualifications, certificates, or extensive work experience.\n \n Clean Record: Applicants must have a clean criminal background and no past immigration issues with South Korea."
+        "TITLE": "한국에서 발급하는 e9 비자 획득을 위한 자격 요건은 무엇입니까?",
+        "TEXT": "한국에서 발행하는 E9 비자는 한국 정부에서 허가하는 16개국 국민에게 발급하고 있습니다.  E9 비자를 획득하기 위해서는 여러가지 자격 요건이 필요하지만, 그 중에서 공통된 요건이 있습니다. \n \n전문직 제외 : E9 비자는 비전문 취업 비자 입니다. 따라서, 자격증이나 해당 업무 경력이 필요치 않습니다.\n \n 깨끗한 기록: 신청자는 깨끗한 범죄 경력이 있어야 하며 과거 한국 이민 문제가 없어야 합니다.\n\n 범죄 이력 관련 : E9 비자 취득 신청자는 해당 국가 혹은 외국에서 범죄를 저지른 이력이 없어야 합니다. 불법체류, 마약 관련 범죄, 살인 등 범죄 이력은 깨끗할수록 E9 비자 발급이 수월할수있습니다."
     }
 }

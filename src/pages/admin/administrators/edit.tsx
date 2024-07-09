@@ -1,54 +1,81 @@
 import { Edit, useForm } from "@refinedev/antd";
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
-import { DatePicker, Form, Input, Select, Upload } from "antd";
-import React from "react";
+import { DatePicker, Form, Input, Select, Upload, Image } from "antd";
+import {
+    StateSelect,
+} from "react-country-state-city";
+import "react-country-state-city/dist/react-country-state-city.css";
+import moment from "moment";
 import { PlusOutlined } from "@ant-design/icons";
-
+import { image } from "@uiw/react-md-editor";
 
 interface CountryData {
     countryCode: string;
     dialCode: string;
 }
 
+const getBase64 = (file) => {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+    });
+};
 
 export const AdministratorEdit = () => {
-    const { form, formProps, saveButtonProps } = useForm({});
+    const { form, formProps, formLoading, saveButtonProps } = useForm();
+
+
     const { t } = useTranslation();
     const [passwordVisible, setPasswordVisible] = useState(false);
-    const [countryCode, setCountryCode] = useState("vn");
-    const [phoneCode, setPhoneCode] = useState("+84");
+    const [countryCode, setCountryCode] = useState(formProps?.initialValues?.countryCode);
+    const [phoneCode, setPhoneCode] = useState(formProps?.initialValues?.phoneCode);
+    const [selectedState, setSelectedState] = useState(formProps?.initialValues?.location);
+    const [imageUrlDefault, setImageUrlDefault] = useState(formProps?.initialValues?.avatarImg);
 
     const handleLocationChange = (value) => {
+        // console.log(value)
         form.setFieldsValue({ location: value.name })
+        setSelectedState(value.name)
+    };
+
+    console.log(selectedState)
+    const handleImageChange = async ({ fileList: newFileList }) => {
+        const file = newFileList[0];
+        if (file) {
+            file.base64 = await getBase64(file.originFileObj);
+        }
+        // console.log("base64: ", file.base64)
+        form.setFieldsValue({ avatarImg: file.base64 })
+        setImageUrlDefault(null)
     };
 
 
-
-    // const handleImageChange = async ({ fileList: newFileList }) => {
-    //     const file = newFileList[0];
-    //     if (file) {
-    //         file.base64 = await getBase64(file.originFileObj);
-    //     }
-    //     console.log("base64: ", file.base64)
-    //     form.setFieldsValue({ avatarImg: file.base64 })
-    // };
+    // console.log(formProps)
+    if (formLoading) return <div>Loading...</div>;
 
     return (
-        <Edit saveButtonProps={saveButtonProps}>
+        <Edit
+            saveButtonProps={saveButtonProps}
+            isLoading={formLoading}
+        >
             <Form form={form}
                 {...formProps}
                 initialValues={{
                     roleId: 2,
                     phoneCode: phoneCode,
                     countryCode: countryCode,
-                    location: "",
+                    location: formProps?.initialValues?.location,
                     avatarImg: "https://i.pravatar.cc/300"
                 }}
-                layout="vertical">
+                layout="vertical"
+            >
                 <Form.Item
                     label="Name"
                     name={["name"]}
+                    initialValue={formProps?.initialValues?.name}
                     rules={[
                         {
                             required: false
@@ -60,6 +87,7 @@ export const AdministratorEdit = () => {
                 <Form.Item
                     label="Given Name"
                     name={["givenName"]}
+                    initialValue={formProps?.initialValues?.givenName}
                     rules={[
                         {
                             required: false
@@ -71,6 +99,7 @@ export const AdministratorEdit = () => {
                 <Form.Item
                     label="Gender"
                     name={["gender"]}
+                    initialValue={formProps?.initialValues?.gender}
                     rules={[
                         {
                             required: false
@@ -88,17 +117,19 @@ export const AdministratorEdit = () => {
                 <Form.Item
                     label="Birthday"
                     name={["birthday"]}
+                    initialValue={moment(formProps?.initialValues?.birthday)}
                     rules={[
                         {
                             required: false
                         }
                     ]}
                 >
-                    <DatePicker format="DD/MM/YYYY" />
+                    <DatePicker format="DD/MM/YYYY" disabled />
                 </Form.Item>
                 <Form.Item
                     label="Phone"
                     name={["phone"]}
+                    initialValue={formProps?.initialValues?.phoneNumber}
                     valuePropName="phone"
                     rules={[
                         {
@@ -109,6 +140,7 @@ export const AdministratorEdit = () => {
                     <PhoneInput
                         country={countryCode}
                         enableSearch={true}
+                        value={formProps?.initialValues?.phoneNumber}
                         onChange={(phone, country: CountryData) => {
                             form.setFieldsValue({ phone: phone })
                             form.setFieldsValue({ countryCode: country.countryCode })
@@ -120,7 +152,7 @@ export const AdministratorEdit = () => {
                 <Form.Item
                     label="Country Code"
                     name={["countryCode"]}
-                    initialValue={countryCode}
+                    initialValue={formProps?.initialValues?.countryCode}
                     hidden
                     rules={[
                         {
@@ -131,7 +163,7 @@ export const AdministratorEdit = () => {
                     <Form.Item
                         label="Phone Code"
                         name={["phoneCode"]}
-                        initialValue={phoneCode}
+                        initialValue={formProps?.initialValues?.phoneCode}
                         hidden
                         rules={[
                             {
@@ -143,6 +175,7 @@ export const AdministratorEdit = () => {
                 <Form.Item
                     label={t("AUTHENTICATION.EMAIL")}
                     name="email"
+                    initialValue={formProps?.initialValues?.email}
                     rules={[
                         { required: false },
                         {
@@ -171,7 +204,7 @@ export const AdministratorEdit = () => {
                 </Form.Item>
                 <Form.Item
                     label={t("AUTHENTICATION.CONFIRM_NEW_PASSWORD")}
-                    // name="confirmPassword"
+                    name="confirmPassword"
                     dependencies={['password']}
                     rules={[
                         {
@@ -199,6 +232,7 @@ export const AdministratorEdit = () => {
                 <Form.Item
                     label="Company Name"
                     name={["companyName"]}
+                    initialValue={formProps?.initialValues?.companyName}
                     rules={[
                         {
                             required: false
@@ -215,12 +249,23 @@ export const AdministratorEdit = () => {
                             required: false
                         }
                     ]}
+                    // hidden
+                    style={{ width: '50%' }}
                 >
-                    <Input style={{ width: '50%' }} />
+
+                    <StateSelect
+                        defaultValue={selectedState}
+                        countryid={116}
+                        value={selectedState}
+                        onChange={handleLocationChange}
+                        placeHolder="Select Location"
+
+                    />
                 </Form.Item>
                 <Form.Item
                     label="Established Years"
                     name={["establishedYears"]}
+                    initialValue={moment(formProps?.initialValues?.establishedYears)}
                     rules={[
                         {
                             required: false
@@ -232,14 +277,14 @@ export const AdministratorEdit = () => {
                 <Form.Item
                     label="Avatar"
                     name={["avatarImg"]}
-                    hidden
-                // valuePropName="thumbUrl"
-                // getValueFromEvent={normFile}
                 >
                     <Upload
-                        action="/upload.do" listType="picture-circle"
+                        // action="/upload.do" 
+                        listType="picture-circle"
                         className="avatar-uploader"
                         multiple={false}
+                        beforeUpload={() => false} // Prevents auto-uploading
+                        onChange={handleImageChange}
                         maxCount={1}
                     >
                         <button style={{ border: 0, background: 'none' }} type="button">
@@ -248,6 +293,14 @@ export const AdministratorEdit = () => {
                         </button>
                     </Upload>
                 </Form.Item>
+                {
+                    imageUrlDefault ? (
+                        <Image
+                            width="5vw" height="5vw"
+                            src={imageUrlDefault}
+                        />
+                    ) : null
+                }
             </Form>
         </Edit>
     );
