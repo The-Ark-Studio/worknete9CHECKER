@@ -6,7 +6,7 @@
 
 import { PlusOutlined } from "@ant-design/icons";
 import { Create, useForm } from "@refinedev/antd";
-import { useApiUrl } from "@refinedev/core";
+import { useApiUrl, useTranslate } from "@refinedev/core";
 import { Form, Input, InputNumber, Select, Upload } from "antd";
 import {
     StateSelect, CountrySelect
@@ -24,9 +24,9 @@ const getBase64 = (file) => {
 };
 
 
-export const ApprovalProcessingCreate = () => {
+export const AddApplications = () => {
     const { form, formProps, saveButtonProps } = useForm({});
-    const { t } = useTranslation();
+    const t = useTranslate();
     const axiosInstance = httpCommon;
     const apiUrl = useApiUrl();
     const [activeUsers, setActiveUsers] = useState([]);

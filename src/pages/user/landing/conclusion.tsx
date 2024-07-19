@@ -164,7 +164,8 @@ export const Conclusion = () => {
                                     backgroundColor: "var(--btn-conclusion-signup-bg)",
                                     height: "2vw"
                                 }}
-                                onClick={handleOpenModal}
+                                onClick={() => window.open("https://worker.worknete9.com/signup", '_blank', "noopener,noreferrer")}
+                            // onClick={handleOpenModal}
                             >
                                 {t("BUTTONS.SIGNUP")}
                             </Button>

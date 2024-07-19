@@ -5,6 +5,10 @@ export enum EPermissions {
     AddApplications = 'AddApplications',
     DeleteApplications = 'DeleteApplications',
 
+    // Approval Processing
+    ViewApprovalProcessing = 'ViewApprovalProcessing',
+    ManageApprovalProcessing = 'ManageApprovalProcessing',
+
     // Users
     ViewUsers = 'ViewUsers',
     EditUsers = 'EditUsers',

@@ -2,11 +2,12 @@
 
 import styles from "@asset/styles.module.css";
 
-import { Flex, Typography } from "antd";
+import { Flex, Modal, Typography } from "antd";
 import { useTranslation } from "react-i18next";
 
 import { FooterMain } from "../main/footer";
 import { NavbarWithSearch } from "../main/nav";
+import { ModalComp } from "@src/components/Layout/ModalComp";
 
 const { Title } = Typography;
 
@@ -19,6 +20,7 @@ export const Privacy = () => {
         setModalOpen(!modalOpen);
     }
 
+    document.title = "Worknet E9 | " + t("TITLE");
 
     return (
         <Flex style={{ width: "100%" }} vertical>
@@ -133,6 +135,7 @@ export const Privacy = () => {
 
             </div >
             <FooterMain />
+            <ModalComp show={modalOpen} handleOpenModal={handleOpenModal} text="Coming soon!" />
         </Flex >
     );
 };

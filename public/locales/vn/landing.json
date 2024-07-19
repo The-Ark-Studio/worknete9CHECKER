@@ -47,10 +47,15 @@
     },
     "APPROVAL_PROCESSING": {
         "LABEL": "Xử lý phê duyệt",
+        "ID": "approval_processing",
+        "PHONE": "Số điện thoại",
+        "STATUS": "Trạng thái",
         "EMAIL": "Email",
         "NAME": "Họ tên",
         "GENDER": "Giới tính",
         "DATE_APPLYING": "Ngày nộp đơn",
+        "CHECKER": "Người kiểm tra",
+        "INVOICE": "Hoá đơn PAYOS",
         "PROFESSIONAL_TITLE": "Chức danh nghề nghiệp",
         "AGE": "Tuổi",
         "HOMETOWN": "Quê quán",
@@ -67,12 +72,43 @@
         "ID_CARD_FRONT": "CCCD (mặt trước)",
         "ID_CARD_BACK": "CCCD (mặt sau)",
         "MODAL": {
-            "TITLE": "Bạn có muốn xác minh hồ sơ này không?",
+            "TITLE": "Bạn có muốn từ chối hồ sơ này không?",
             "BODY": "Hãy đảm bảo rằng hồ sơ này đã được xác minh đầy đủ để xin thị thực E9. Vui lòng xem xét và kiểm tra kỹ tất cả thông tin trước khi gửi xác nhận này.",
             "NOTE": "Trong trường hợp bạn cần rút lại xác minh này, sẽ có một nút để thực hiện các hướng dẫn sau.",
-            "BUTTON_CONFIRM": "Xác nhận để xác minh",
+            "BUTTON_CONFIRM": "Xác nhận",
             "BUTTON_BACK": "Quay lại"
         }
+    },
+    "GENDER": {
+        "M": "Nam",
+        "F": "Nữ",
+        "O": "Khác"
+    },
+    "FAMILY_SITUATION": {
+        "H": "Giàu",
+        "M": "Khá giả",
+        "L": "Khó khăn"
+    },
+    "PREFER_WORK": {
+        "M": "Sản xuất chế tạo",
+        "A": "Nông nghiệp",
+        "C": "Xây dựng",
+        "R": "Nhà hàng dịch vụ",
+        "F": "Ngư nghiệp",
+        "H": "Khách sạn"
+    },
+    "EDUCATION": {
+        "H": "Trung học",
+        "C": "Cao đẳng",
+        "U": "Đại học"
+    },
+    "APPLICATION_STATUS": {
+        "A": "Hợp lệ",
+        "R": "Không hợp lệ",
+        "V": "Đang đợi kiểm tra",
+        "W": "Đang đợi xác nhận thanh toán",
+        "S": "Lừa đảo",
+        "E": "Lỗi"
     },
     "ADMINISTRATORS": {
         "LABEL": "Quản trị",
@@ -85,6 +121,10 @@
         "LOCATION": "Địa điểm",
         "COMPANY": "Công ty",
         "ESTABLISHED_YEARS": "Năm thành lập"
+    },
+    "APPLICATIONS": {
+        "LABEL": "Quản lý hồ sơ",
+        "ID": "applications"
     },
     "LANDPAGE": {
         "SUB_TITLE": "Giới thiệu",

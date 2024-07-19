@@ -96,7 +96,8 @@ export const NavbarWithSearch = (props) => {
                     </Menu.Item>
                     <Menu.Item
                         key="5"
-                        onClick={props.handleOpenModal}
+                        // onClick={props.handleOpenModal}
+                        onClick={() => window.open("https://worker.worknete9.com", '_blank', "noopener,noreferrer")}
                         className={styles.menu_item}
 
                         style={{

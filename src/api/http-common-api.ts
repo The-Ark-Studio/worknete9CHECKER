@@ -1,27 +1,18 @@
+import { useApiUrl } from "@refinedev/core";
 import axios from "axios";
 
-const access_token = localStorage.getItem("access_token");
-const urlProduction = "http://143.198.84.196:8080/api";
-const urlLocal = "http://localhost:8080/api";
+// const access_token = localStorage.getItem("access_token");
+// const apiUrl = useApiUrl();
 
-console.log(access_token?.replace('\"', ''))
+// console.log(access_token?.replace('\"', ''))
 
-
-// export default axios.create({
-//     baseURL: "https://worknete9.com/api",
-//     headers: {
-//         "Content-type": "application/json",
-//         "Access-Control-Allow-Headers": "*",
-//         "Access-Control-Allow-Origin": "*",
-//         "Access-Control-Allow-Methods": "*",
-//         "Authorization": `Bearer ${access_token?.replaceAll('\"', '')}`,
 
 const axiosInstance = axios.create();
 
 
 axiosInstance.interceptors.request.use(
     (config) => {
-        const accessToken = localStorage.getItem("accessToken");
+        const accessToken = localStorage.getItem("access_token");
         if (!config.headers["Content-Type"]) {
             config.headers["Content-Type"] = "application/json";
         }
@@ -29,7 +20,7 @@ axiosInstance.interceptors.request.use(
         // 'Access-Control-Allow-Origin': '*',
         config.headers["Access-Control-Allow-Origin"] = "*";
         if (accessToken) {
-            config.headers["Authorization"] = `Bearer ${accessToken}`;
+            config.headers["Authorization"] = `Bearer ${accessToken?.replace('\"', '')}`;
         }
 
 

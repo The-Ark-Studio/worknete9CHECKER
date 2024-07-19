@@ -18,7 +18,7 @@ import styles from "@asset/styles.module.css";
 import { useApiUrl, useCustom, useNotification, useOne } from "@refinedev/core";
 import { ModalComp } from "@src/components/Layout/ModalComp";
 import { Applications } from "@src/utils/applications";
-import { Avatar, Button, Col, Flex, Modal, Row, Typography, Input } from "antd";
+import { Avatar, Button, Col, Flex, Modal, Row, Typography, Input, Image } from "antd";
 import httpCommon from "@api/http-common-api";
 import IGeneralResponse from "@src/providers/interface/general-response";
 
@@ -43,100 +43,21 @@ const getTotalAttachment = (applicationDetails) => {
 
 
 
-export const ApprovalProcessingShow = ({ application }) => {
+export const ApplicationShow = ({ application }) => {
     const apiUrl = useApiUrl();
     const { data, isLoading, isError } = useOne({
-        resource: "approval-processing",
+        resource: "applications",
         id: application.applicationId
     });
-    const { open } = useNotification();
+
     const { t } = useTranslation();
-    const [openModal, setOpenModal] = useState(false);
     const [imgList, setImgList] = useState(null);
     const [titleStr, setTitleStr] = useState("");
-    const [isReject, setIsReject] = useState(false);
+
     const [reason, setReason] = useState("");
     const [confirmLoading, setConfirmLoading] = useState(false);
     const [modalText, setModalText] = useState("Content of the modal");
-    // const { application } = props.application;
     const applicationDetails = data?.data.data;
-
-    // console.log(applicationDetails)
-
-    const showModal = (action) => {
-        setOpenModal(true);
-        if (action) setIsReject(true);
-    };
-
-    const handleCancel = () => {
-        // console.log("Clicked cancel button");
-        setOpenModal(false);
-    };
-
-    const onApproval = async () => {
-        // console.log("reject");
-        await axiosInstance.patch(
-            `${apiUrl}/approval-processing/${applicationDetails?.applicationId}`,
-            {
-                status: 'A',
-                note: '',
-            }
-        ).then((response) => {
-            // console.log(response.data);
-            setModalText("The modal will be closed soon.");
-            setConfirmLoading(true);
-            setTimeout(() => {
-                setOpenModal(false);
-                setConfirmLoading(false);
-            }, 2000);
-            location.reload();
-            open?.({
-                type: "success",
-                message: "Successfully approved.",
-                key: applicationDetails?.applicationId,
-            });
-        })
-            .catch((error) => {
-                console.error(error);
-                open?.({
-                    type: "error",
-                    message: error,
-                    key: applicationDetails?.applicationId,
-                });
-            });
-    };
-
-    const handleReject = async () => {
-        await axiosInstance.patch(
-            `${apiUrl}/approval-processing/${applicationDetails?.applicationId}`,
-            {
-                status: 'R',
-                note: reason,
-            }
-        ).then((response) => {
-            // console.log(response.data);
-            setModalText("The modal will be closed soon.");
-            setConfirmLoading(true);
-            setTimeout(() => {
-                setOpenModal(false);
-                setConfirmLoading(false);
-            }, 2000);
-            location.reload();
-            open?.({
-                type: "success",
-                message: "Successfully rejected.",
-                key: applicationDetails?.applicationId,
-            });
-        })
-            .catch((error) => {
-                console.error(error);
-                open?.({
-                    type: "error",
-                    message: error,
-                    key: applicationDetails?.applicationId,
-                });
-            });
-    };
 
     const [modalOpen, setModalOpen] = useState(false);
 
@@ -148,13 +69,14 @@ export const ApprovalProcessingShow = ({ application }) => {
         ).then((response) => {
             // console.log(response.data);
             let imgStr = response.data.data;
-            if (imageType == 'H') {
-                let imgList = imgStr.split("${join}");
-                // console.log(imgList);
-                setImgList(imgList);
-            } else
-                setImgList(imgStr.split(" "));
-            console.log(imgStr.split(" "))
+            setImgList(imgStr);
+            // if (imageType == 'H') {
+            //     let imgList = imgStr.split("${join}");
+            //     // console.log(imgList);
+            //     setImgList(imgList);
+            // } else
+            //     setImgList(imgStr.split(" "));
+            // console.log(imgStr.split(" "))
         })
             .catch((error) => {
                 console.error(error);
@@ -174,77 +96,8 @@ export const ApprovalProcessingShow = ({ application }) => {
         setReason(e.target.value)
     };
 
-    const ButtonProcessing = ({ status }) => {
-        if (status != 'V')
-            return null;
-        return (
-            <div>
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        flex: "wrap",
-                        fontSize: "2vw",
-                        fontWeight: "500",
-                        marginTop: "2vw"
-                    }}
-                >
-                    <Button
-                        onClick={onApproval}
-                        style={{
-                            color: "white",
-                            backgroundColor: "var(--success65)",
-                            fontFamily: "Abhaya Libre",
-                            opacity: 1,
-                            border: "none",
-                            borderRadius: "0.6vw",
-                            left: "0%",
-                            width: "20vw",
-                            height: "2.3vw",
-                            fontSize: "1vw"
-                        }}
-                    >
-                        <CheckOutlined />
-                        {t("BUTTONS.APPROVE")}
-                    </Button>
-                </div>
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        flex: "wrap",
-                        fontSize: "2vw",
-                        fontWeight: "500",
-                        marginTop: "0.5vw"
-                    }}
-                >
-                    <Button
-                        onClick={() => showModal(true)}
-                        style={{
-                            color: "white",
-                            backgroundColor: "#9095A1FF",
-                            fontFamily: "Abhaya Libre",
-                            opacity: 1,
-                            border: "none",
-                            borderRadius: "0.6vw",
-                            left: "0%",
-                            width: "20vw",
-                            height: "2.3vw",
-                            fontSize: "1vw"
-                        }}
-                    >
-                        <CloseOutlined />
-                        {t("BUTTONS.REJECT")}
-                    </Button>
-                </div>
-            </div>
-        );
-    }
 
-
-    if (isLoading) return <div>Loading...</div>;
+    // if (isLoading) return <div>Loading...</div>;
 
     return (
         <Flex style={{ marginLeft: "15%" }} vertical>
@@ -576,30 +429,7 @@ export const ApprovalProcessingShow = ({ application }) => {
                     </Col>
                 </Row>
             </Flex>
-            <ButtonProcessing status={applicationDetails?.status} />
-            <Modal
-                cancelText={t("APPROVAL_PROCESSING.MODAL.BUTTON_BACK")}
-                confirmLoading={confirmLoading}
-                okButtonProps={{ style: { backgroundColor: "#C2282AFF" } }}
-                okText={t("APPROVAL_PROCESSING.MODAL.BUTTON_CONFIRM")}
-                onCancel={handleCancel}
-                onOk={handleReject}
-                open={openModal}
-                title={t("APPROVAL_PROCESSING.MODAL.TITLE")}
-            >
-                {/* <p>{t("APPROVAL_PROCESSING.MODAL.BODY")}</p>
-                <br />
-                <p>{t("APPROVAL_PROCESSING.MODAL.NOTE")}</p> */}
-                <TextArea
-                    showCount
-                    maxLength={100}
-                    onChange={onChange}
-                    // placeholder="disable resize"
-                    style={{ height: "7vw", resize: 'none', marginBottom: "2vw" }}
-                />
-            </Modal>
-
-            <ModalComp show={modalOpen} handleOpenModal={handleOpenModal} title={titleStr} img={imgList} />
+            <ModalComp show={modalOpen} handleOpenModal={handleOpenModal} title={titleStr} img={imgList} width={1000} />
         </Flex>
     );
 };

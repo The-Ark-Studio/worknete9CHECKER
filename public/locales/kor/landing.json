@@ -51,10 +51,15 @@
     },
     "APPROVAL_PROCESSING": {
         "LABEL": "승인 처리",
+        "ID": "approval_processing",
+        "PHONE": "Phone number",
+        "STATUS": "Status",
         "EMAIL": "이메일",
         "NAME": "이름",
         "GENDER": "성별",
         "DATE_APPLYING": "신청일자",
+        "CHECKER": "Checker",
+        "INVOICE": "PAYOS INVOICE",
         "PROFESSIONAL_TITLE": "프로 타이틀",
         "AGE": "나이",
         "HOMETOWN": "고향",
@@ -78,6 +83,37 @@
             "BUTTON_BACK": " 취소"
         }
     },
+    "GENDER": {
+        "M": "Male",
+        "F": "Female",
+        "O": "Other"
+    },
+    "FAMILY_SITUATION": {
+        "H": "High",
+        "M": "Medium",
+        "L": "Low"
+    },
+    "PREFER_WORK": {
+        "M": "Manufacturing Industry",
+        "A": "Agriculture",
+        "C": "Construction",
+        "R": "Restaurant services",
+        "F": "Fishery",
+        "H": "Hotel clean services"
+    },
+    "EDUCATION": {
+        "H": "Highschool",
+        "C": "College",
+        "U": "University"
+    },
+    "APPLICATION_STATUS": {
+        "A": "Approved",
+        "R": "Rejected",
+        "V": "Verify",
+        "W": "Waiting",
+        "S": "Scam",
+        "E": "Error"
+    },
     "ADMINISTRATORS": {
         "LABEL": "Administrators",
         "ID": "administrators",
@@ -89,6 +125,10 @@
         "LOCATION": "도시",
         "COMPANY": "회사",
         "ESTABLISHED_YEARS": "년도"
+    },
+    "APPLICATIONS": {
+        "LABEL": "Application Management",
+        "ID": "applications"
     },
     "LANDPAGE": {
         "SUB_TITLE": "소개",

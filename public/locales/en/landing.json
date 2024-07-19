@@ -52,10 +52,14 @@
     "APPROVAL_PROCESSING": {
         "LABEL": "Approval processing",
         "ID": "approval_processing",
+        "PHONE": "Phone number",
+        "STATUS": "Status",
         "EMAIL": "Email",
         "GENDER": "Gender",
         "NAME": "Name",
         "DATE_APPLYING": "Date of Applying",
+        "CHECKER": "Checker",
+        "INVOICE": "PAYOS Invoice",
         "PROFESSIONAL_TITLE": "Professional Title",
         "AGE": "Age",
         "HOMETOWN": "Hometown",
@@ -72,12 +76,43 @@
         "ID_CARD_FRONT": "ID card (front)",
         "ID_CARD_BACK": "ID card (back)",
         "MODAL": {
-            "TITLE": "Would you like to verify this profile?",
+            "TITLE": "Would you like to reject this profile?",
             "BODY": "Make sure this profile is fully verified for the E9 visa. Please consider and double-check all information before sending this confirmation.",
             "NOTE": "In case you need to withdraw this verfication, there shall be a button to proceed with following instructions.",
-            "BUTTON_CONFIRM": "Confirm to verify",
+            "BUTTON_CONFIRM": "Confirm to reject",
             "BUTTON_BACK": "Back"
         }
+    },
+    "GENDER": {
+        "M": "Male",
+        "F": "Female",
+        "O": "Other"
+    },
+    "FAMILY_SITUATION": {
+        "H": "High",
+        "M": "Medium",
+        "L": "Low"
+    },
+    "PREFER_WORK": {
+        "M": "Manufacturing Industry",
+        "A": "Agriculture",
+        "C": "Construction",
+        "R": "Restaurant services",
+        "F": "Fishery",
+        "H": "Hotel clean services"
+    },
+    "EDUCATION": {
+        "H": "Highschool",
+        "C": "College",
+        "U": "University"
+    },
+    "APPLICATION_STATUS": {
+        "A": "Approved",
+        "R": "Rejected",
+        "V": "Verify",
+        "W": "Waiting",
+        "S": "Scam",
+        "E": "Error"
     },
     "ADMINISTRATORS": {
         "LABEL": "Administrators",
@@ -90,6 +125,10 @@
         "LOCATION": "Location",
         "COMPANY": "Company",
         "ESTABLISHED_YEARS": "Established Years"
+    },
+    "APPLICATIONS": {
+        "LABEL": "Application Management",
+        "ID": "applications"
     },
     "LANDPAGE": {
         "SUB_TITLE": "Introduction",

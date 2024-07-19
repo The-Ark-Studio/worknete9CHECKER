@@ -11,7 +11,7 @@ import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 import { ErrorComponent, ThemedLayoutV2, useNotificationProvider } from "@refinedev/antd";
 import "@refinedev/antd/dist/reset.css";
 
-import { AppstoreOutlined, UsergroupAddOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, BookOutlined, UsergroupAddOutlined } from "@ant-design/icons";
 import routerBindings, {
     DocumentTitleHandler,
     NavigateToResource,
@@ -46,6 +46,8 @@ import { AboutUs } from "./pages/user/about-us";
 import { Information } from "./pages/user/information";
 import NoPermission from "./components/Common/NoPermissionPage";
 import { ApprovalProcessingCreate } from "./pages/admin/approval-processing/create";
+import { ApplicationList } from "./pages/admin/applications";
+import { AddApplications } from "./pages/admin/applications/create";
 
 const Layout = () => {
     const location = useLocation();
@@ -61,7 +63,7 @@ const Layout = () => {
 
 
 
-const urlProduction = "http://143.198.84.196:8080/api";
+const urlProduction = "https://services.worknete9.com/api";
 const urlLocal = "http://localhost:8080/api";
 
 const App: React.FC = () => {
@@ -106,13 +108,13 @@ const App: React.FC = () => {
                                     syncWithLocation: true,
                                     warnWhenUnsavedChanges: true,
                                     useNewQueryKeys: true,
-                                    projectId: "ANRfnA-imNw4M-JNXP8l"
+                                    projectId: "ANRfnA-imNw4M-JNXP8l",
                                 }}
                                 resources={[
                                     {
-                                        name: "approval_processing",
+                                        name: "approval-processing",
                                         list: "/admin/approval-processing",
-                                        create: "/admin/approval-processing/create",
+                                        // create: "/admin/approval-processing/create",
                                         // edit: "/admin/approval-processing/edit/:id",
                                         show: "/admin/approval-processing/:id",
                                         meta: {
@@ -135,6 +137,21 @@ const App: React.FC = () => {
                                         },
                                         options: {
                                             label: t("ADMINISTRATORS.LABEL"),
+                                            route: "/admin/applications"
+                                        },
+                                        icon: <BookOutlined twoToneColor="C2282AFF" />
+                                    },
+                                    {
+                                        name: "applications",
+                                        list: "/admin/applications",
+                                        create: "/admin/applications/create",
+                                        edit: "/admin/applications/edit/:id",
+                                        show: "/admin/applications/:id",
+                                        meta: {
+                                            canDelete: true
+                                        },
+                                        options: {
+                                            label: t("APPLICATIONS.LABEL"),
                                             route: "/admin/administrators"
                                         },
                                         icon: <UsergroupAddOutlined twoToneColor="C2282AFF" />
@@ -165,10 +182,14 @@ const App: React.FC = () => {
                                             </Authenticated>
                                         }
                                     >
-                                        <Route element={<NavigateToResource resource="approval_processing" />} index />
-                                        <Route element={<RoleAccess allowPermission={EPermissions.ViewApplications} outletElement={<Outlet />} />} path="/admin/approval-processing">
+                                        <Route element={<NavigateToResource resource="approval-processing" />} index />
+                                        <Route element={<RoleAccess allowPermission={EPermissions.ViewApprovalProcessing} outletElement={<Outlet />} />} path="/admin/approval-processing">
                                             <Route element={<ApprovalProcessingList />} index />
-                                            <Route path="create" element={<RoleAccess allowPermission={EPermissions.AddApplications} outletElement={<ApprovalProcessingCreate />} />} />
+                                            {/* <Route path="create" element={<RoleAccess allowPermission={EPermissions.AddApplications} outletElement={<ApprovalProcessingCreate />} />} /> */}
+                                        </Route>
+                                        <Route element={<RoleAccess allowPermission={EPermissions.ViewApplications} outletElement={<Outlet />} />} path="/admin/applications">
+                                            <Route element={<ApplicationList />} index />
+                                            <Route path="create" element={<RoleAccess allowPermission={EPermissions.AddApplications} outletElement={<AddApplications />} />} />
                                         </Route>
                                         <Route path="/admin/administrators" element={<RoleAccess allowPermission={EPermissions.ViewAdministrators} outletElement={<Outlet />} />}>
                                             <Route element={<AdministratorList />} index />
@@ -178,7 +199,7 @@ const App: React.FC = () => {
                                                 element={<RoleAccess allowPermission={EPermissions.EditAdministrations} outletElement={<AdministratorEdit />} />} />
                                         </Route>
                                         <Route
-                                            element={<NavigateToResource resource="approval_processing" />}
+                                            element={<NavigateToResource resource="approval-processing" />}
                                             path="/admin/*"
                                         />
                                         <Route element={<NoPermission />} path="/admin/unauthorized" />

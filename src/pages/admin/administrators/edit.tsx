@@ -4,6 +4,7 @@ import 'react-phone-input-2/lib/style.css';
 import { DatePicker, Form, Input, Select, Upload, Image } from "antd";
 import {
     StateSelect,
+    GetState
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 import moment from "moment";
@@ -14,6 +15,12 @@ interface CountryData {
     countryCode: string;
     dialCode: string;
 }
+interface StateData {
+    id: number;
+    name: string;
+    state_code: string
+}
+
 
 const getBase64 = (file) => {
     return new Promise((resolve, reject) => {
@@ -37,11 +44,13 @@ export const AdministratorEdit = () => {
 
     const handleLocationChange = (value) => {
         // console.log(value)
-        form.setFieldsValue({ location: value.name })
-        setSelectedState(value.name)
+        form.setFieldsValue({ location: value })
+        setSelectedState(value)
     };
 
-    console.log(selectedState)
+    const [stateList, setStateList] = useState([]);
+    const countryId = 116;
+
     const handleImageChange = async ({ fileList: newFileList }) => {
         const file = newFileList[0];
         if (file) {
@@ -52,6 +61,11 @@ export const AdministratorEdit = () => {
         setImageUrlDefault(null)
     };
 
+    useEffect(() => {
+        GetState(countryId).then((result) => {
+            setStateList(result);
+        });
+    }, []);
 
     // console.log(formProps)
     if (formLoading) return <div>Loading...</div>;
@@ -253,14 +267,25 @@ export const AdministratorEdit = () => {
                     style={{ width: '50%' }}
                 >
 
-                    <StateSelect
+                    {/* <StateSelect
                         defaultValue={selectedState}
                         countryid={116}
                         value={selectedState}
                         onChange={handleLocationChange}
                         placeHolder="Select Location"
 
-                    />
+                    /> */}
+
+                    <Select
+                        onChange={handleLocationChange}
+                        value={selectedState}
+                    >
+                        {stateList.map((item: StateData, index) => (
+                            <option key={item.name} value={item.name}>
+                                {item.name}
+                            </option>
+                        ))}
+                    </Select>
                 </Form.Item>
                 <Form.Item
                     label="Established Years"

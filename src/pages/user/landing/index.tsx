@@ -26,6 +26,9 @@ export const Landing = () => {
         setCurrentLocale(lang);
     }
 
+    document.title = "Worknet E9 | ";
+
+
     const menu = (
         <Menu selectedKeys={currentLocale ? [currentLocale] : []}>
             {[...(i18n.languages || [])].sort().map((lang: string) => (
@@ -34,7 +37,7 @@ export const Landing = () => {
                         <span style={{ marginRight: 8 }}>
                             <Avatar
                                 size={{ xs: 6, sm: 10, md: 16, lg: 16, xl: 16, xxl: 16 }}
-                                src={`../public/images/flags/${lang}.svg`}
+                                src={`@pub/images/flags/${lang}.svg`}
                             />
                         </span>
                     }

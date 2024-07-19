@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 
 import { FooterMain } from "../main/footer";
 import { NavbarWithSearch } from "../main/nav";
+import { ModalComp } from "@src/components/Layout/ModalComp";
 
 const { Title } = Typography;
 
@@ -18,6 +19,8 @@ export const FAQs = () => {
     const handleOpenModal = () => {
         setModalOpen(!modalOpen);
     }
+
+    document.title = "Worknet E9 | " + t("TITLE");
 
 
     return (
@@ -95,6 +98,7 @@ export const FAQs = () => {
 
             </div >
             <FooterMain />
+            <ModalComp show={modalOpen} handleOpenModal={handleOpenModal} text="Coming soon!" />
         </Flex >
     );
 };

@@ -68,7 +68,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["name"]}
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >
@@ -79,7 +79,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["givenName"]}
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >
@@ -90,7 +90,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["gender"]}
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >
@@ -107,7 +107,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["birthday"]}
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >
@@ -119,7 +119,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     valuePropName="phone"
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >
@@ -140,7 +140,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     hidden
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >
@@ -153,7 +153,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     hidden
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >
@@ -164,7 +164,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["username"]}
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >
@@ -174,7 +174,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     label={t("AUTHENTICATION.EMAIL")}
                     name="email"
                     rules={[
-                        { required: false },
+                        { required: true },
                         {
                             type: "email",
                             message: t("AUTHENTICATION.INVALID_EMAIL")
@@ -189,7 +189,7 @@ export const AdministratorCreate = (buttonStyle) => {
                 <Form.Item
                     label={t("AUTHENTICATION.PASSWORD")}
                     name={["password"]}
-                    rules={[{ required: false }]}
+                    rules={[{ required: true }]}
                 >
                     <Input.Password
                         autoComplete="current-password"
@@ -205,7 +205,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     dependencies={['password']}
                     rules={[
                         {
-                            required: false,
+                            required: true,
                             message: 'Please confirm your password!',
                         },
                         ({ getFieldValue }) => ({
@@ -243,7 +243,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["companyName"]}
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                     style={{ width: '50%' }}
@@ -255,7 +255,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["location"]}
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                     style={{ width: '50%' }}
@@ -272,7 +272,7 @@ export const AdministratorCreate = (buttonStyle) => {
                     name={["establishedYears"]}
                     rules={[
                         {
-                            required: false
+                            required: true
                         }
                     ]}
                 >

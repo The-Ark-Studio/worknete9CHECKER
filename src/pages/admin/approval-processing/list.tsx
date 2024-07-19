@@ -10,7 +10,7 @@ import { BaseRecord, useTranslate } from "@refinedev/core";
 import { Applications } from "@src/utils/applications";
 // import { IListApprovalProcessing } from "@src/utils/list-approval-processing";
 // import { Users } from "@src/utils/users";
-import { Button, Col, Row, Space, Table } from "antd";
+import { Button, Col, Row, Space, Table, Tag, Typography } from "antd";
 import React from "react";
 import { ApprovalProcessingShow } from "./show";
 
@@ -18,34 +18,13 @@ export const ApprovalProcessingList = () => {
     const { tableProps } = useTable({
         syncWithLocation: true
     });
-    console.log("table props: ", tableProps);
+    // console.log("table props: ", tableProps);
 
     const translate = useTranslate();
     const [isShow, setIsShow] = useState(false);
     const [application, setApplication] = useState({});
     const userId = JSON.parse(localStorage.getItem("userId") as string);
     const userRole = localStorage.getItem("role");
-    // const results: IListApprovalProcessing[] = [];
-    // const getList = Applications.forEach((app) => {
-    //     if (app.checkerId === parseInt(userId)) {
-    //         const candidate = Users.find((u) => u.userId === app.candidateId);
-
-    //         if (candidate !== undefined) {
-    //             const data = {
-    //                 applicationId: app.applicationId,
-    //                 candidateId: app.candidateId,
-    //                 candidateName: candidate?.name + " " + candidate?.givenName,
-    //                 candidateEmail: candidate?.email,
-    //                 candidateGender: candidate?.gender,
-    //                 candidateAge: candidate?.age,
-    //                 dateApplying: app.dateApplying
-    //             };
-    //             results.push(data);
-    //         }
-    //     }
-    // });
-    // const [listAppliations, setListApplication] = useState(results);
-
     const [selectedRowKeys, setSelectedRowKeys] = useState<React.Key[]>([]);
     const [loading, setLoading] = useState(false);
 
@@ -63,12 +42,19 @@ export const ApprovalProcessingList = () => {
         setSelectedRowKeys(newSelectedRowKeys);
     };
 
-    const rowSelection = {
-        selectedRowKeys,
-        onChange: onSelectChange
-    };
-    const hasSelected = selectedRowKeys.length > 0;
+    // const rowSelection = {
+    //     selectedRowKeys,
+    //     onChange: onSelectChange
+    // };
+    // const hasSelected = selectedRowKeys.length > 0;
     // {...tableProps}
+
+    const rowSelection = {
+        onChange: (selectedRowKeys: React.Key[], selectedRows: BaseRecord[]) => {
+            setIsShow(true);
+            setApplication(selectedRows[0]);
+        },
+    };
 
     function onClickShowDetails(application) {
         setIsShow(true);
@@ -76,15 +62,46 @@ export const ApprovalProcessingList = () => {
         onSelectChange([application.applicationId]);
     }
 
+    const getFullTextGender = (key) => {
+        return translate("GENDER." + key)
+    }
+
+    const getColorStatus = (status) => {
+        if (status == 'A')
+            return "var(--success65)";
+        else if (status == 'R')
+            return "red";
+        else if (status == 'V')
+            return "#8F4E20FF";
+    }
     return (
         <Row>
             <Col span={tableProps.dataSource?.length === 0 ? 24 : 16}>
                 <List>
-                    <Table {...tableProps} rowKey="applicationId" rowSelection={rowSelection}>
+                    <Table {...tableProps}
+                        rowKey="applicationId"
+                        rowSelection={{
+                            type: "radio",
+                            ...rowSelection
+
+                        }}
+                    >
                         <Table.Column dataIndex="applicationId" hidden={true} title="ID" />
-                        <Table.Column dataIndex="candidateName" title={translate("APPROVAL_PROCESSING.NAME")} />
-                        <Table.Column dataIndex="candidateEmail" title={translate("APPROVAL_PROCESSING.EMAIL")} />
-                        <Table.Column dataIndex="candidateGender" title={translate("APPROVAL_PROCESSING.GENDER")} />
+                        <Table.Column dataIndex="phone" title={translate("APPROVAL_PROCESSING.PHONE")} />
+                        <Table.Column dataIndex="email" title={translate("APPROVAL_PROCESSING.EMAIL")} />
+                        <Table.Column dataIndex="age" title={translate("APPROVAL_PROCESSING.AGE")} />
+                        <Table.Column
+                            dataIndex="candidateGender"
+                            title={translate("APPROVAL_PROCESSING.GENDER")}
+                            render={(_, record: BaseRecord) => (
+                                <Typography
+                                    key={record.candidateGender}
+                                >
+                                    {getFullTextGender(record.candidateGender)}
+                                </Typography>
+                            )}
+
+                        />
                         {/* <Table.Column dataIndex="status" title="Status" /> */}
                         <Table.Column
                             dataIndex={["dateApplying"]}
@@ -92,6 +109,24 @@ export const ApprovalProcessingList = () => {
                             title={translate("APPROVAL_PROCESSING.DATE_APPLYING")}
                         />
                         <Table.Column
+                            dataIndex="status"
+                            title={translate("APPROVAL_PROCESSING.STATUS")}
+                            // key="roleName"
+                            render={(_, record: BaseRecord) => (
+                                <Tag
+                                    key={record.roleName}
+                                    style={{
+                                        backgroundColor: record.roleTagBgColor,
+                                        color: getColorStatus(record.status),
+                                        borderRadius: "0.4vw"
+                                    }}
+                                >
+                                    {translate("APPLICATION_STATUS." + record.status)}
+                                </Tag>
+                            )}
+                        />
+                        <Table.Column dataIndex="transactionId" title={translate("APPROVAL_PROCESSING.INVOICE")} />
+                        {/* <Table.Column
                             dataIndex="actions"
                             render={(_, record: BaseRecord) => (
                                 <Space>
@@ -106,7 +141,7 @@ export const ApprovalProcessingList = () => {
                                 </Space>
                             )}
                             title={translate("GLOBAL.ACTIONS")}
-                        />
+                        /> */}
                     </Table>
                 </List>
             </Col>

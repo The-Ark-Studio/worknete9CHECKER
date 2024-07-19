@@ -20,6 +20,7 @@ export const MainSite = () => {
         setModalOpen(!modalOpen);
     }
 
+    document.title = "Worknet E9 | " + t("TITLE");
 
     return (
         <Flex style={{ width: "100%" }} vertical>
