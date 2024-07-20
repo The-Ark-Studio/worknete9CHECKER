@@ -42,13 +42,6 @@ export const ApplicationList = () => {
     const { open } = useNotification();
     const apiUrl = useApiUrl();
 
-    // const onSelectChange = (newSelectedRowKeys: React.Key[], selectedRows: BaseRecord[]) => {
-    //     console.log(newSelectedRowKeys)
-    //     setIsShow(true);
-    //     setApplication(selectedRows);
-    //     setSelectedRowKeys(newSelectedRowKeys);
-    // };
-
     // rowSelection object indicates the need for row selection
     const rowSelection = {
         onChange: (selectedRowKeys: React.Key[], selectedRows: BaseRecord[]) => {
@@ -57,24 +50,32 @@ export const ApplicationList = () => {
         },
     };
 
-    // const hasSelected = selectedRowKeys.length > 0;
-    // {...tableProps}
 
     const onClickUpdateStatus = async (applicationId, status, note) => {
+        console.log(status)
         await axiosInstance.patch(
-            `${apiUrl}/approval-processing/${applicationId}`,
+            `${apiUrl}/applications/${applicationId}`,
             {
                 status: status,
                 note: note,
             }
         ).then((response) => {
             // console.log(response.data);
-            open?.({
-                type: "success",
-                message: "Status updated.",
-                key: applicationId,
-            });
-            location.reload();
+            if (response.data.success) {
+                open?.({
+                    type: "success",
+                    message: "Status updated.",
+                    key: applicationId,
+                });
+                // location.reload();
+            } else {
+                open?.({
+                    type: "error",
+                    message: response.data.message,
+                    key: applicationId,
+                });
+            }
+
         })
             .catch((error) => {
                 console.error(error);

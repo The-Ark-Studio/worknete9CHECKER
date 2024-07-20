@@ -52,6 +52,10 @@
     "APPROVAL_PROCESSING": {
         "LABEL": "Approval processing",
         "ID": "approval_processing",
+        "OVERVIEW": "Overview",
+        "WAIT_LIST": "Wait list",
+        "APPROVED_LIST": "Approved list",
+        "REJECT_LIST": "Reject list",
         "PHONE": "Phone number",
         "STATUS": "Status",
         "EMAIL": "Email",

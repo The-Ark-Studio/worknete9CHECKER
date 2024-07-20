@@ -172,7 +172,10 @@ export const ApprovalProcessingCreate = () => {
                         }
                     ]}
                 >
-                    <InputNumber />
+                    <InputNumber
+                        min={0}
+                        style={{ width: '100%' }}
+                    />
                 </Form.Item>
                 <Form.Item
                     label="Expected ocupation"

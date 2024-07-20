@@ -30,6 +30,7 @@ export const ModalComp = (props) => {
             open={props.show}
             onOk={handleOk}
             title={props.title}
+            onCancel={handleOk}
             cancelButtonProps={{ hidden: true }}
             style={{
                 height: "20vw"

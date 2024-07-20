@@ -25,7 +25,7 @@ import { Header } from "./components/Layout/Header";
 import { CustomSider } from "./components/Layout/Sider";
 import { ColorModeContextProvider } from "./contexts/color-mode";
 import { AdministratorList } from "./pages/admin/administrators";
-import { ApprovalProcessingList } from "./pages/admin/approval-processing";
+import { ApprovalProcessingList, ApprovalProcessingListNew } from "./pages/admin/approval-processing";
 import { ForgotPassword } from "./pages/authentication/forgot-password";
 import { Landing } from "./pages/user/landing";
 import { Login } from "./pages/authentication/login";
@@ -101,7 +101,7 @@ const App: React.FC = () => {
                         <DevtoolsProvider>
                             <Refine
                                 authProvider={authProviderAdmin}
-                                dataProvider={dataProvider(urlLocal)}
+                                dataProvider={dataProvider(urlProduction)}
                                 i18nProvider={i18nProvider}
                                 notificationProvider={useNotificationProvider}
                                 options={{
@@ -184,7 +184,7 @@ const App: React.FC = () => {
                                     >
                                         <Route element={<NavigateToResource resource="approval-processing" />} index />
                                         <Route element={<RoleAccess allowPermission={EPermissions.ViewApprovalProcessing} outletElement={<Outlet />} />} path="/admin/approval-processing">
-                                            <Route element={<ApprovalProcessingList />} index />
+                                            <Route element={<ApprovalProcessingListNew />} index />
                                             {/* <Route path="create" element={<RoleAccess allowPermission={EPermissions.AddApplications} outletElement={<ApprovalProcessingCreate />} />} /> */}
                                         </Route>
                                         <Route element={<RoleAccess allowPermission={EPermissions.ViewApplications} outletElement={<Outlet />} />} path="/admin/applications">

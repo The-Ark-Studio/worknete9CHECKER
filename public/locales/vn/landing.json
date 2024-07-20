@@ -47,7 +47,11 @@
     },
     "APPROVAL_PROCESSING": {
         "LABEL": "Xử lý phê duyệt",
-        "ID": "approval_processing",
+        "ID": "approval-processing",
+        "OVERVIEW": "Tổng quan",
+        "WAIT_LIST": "Đợi phê duyệt",
+        "APPROVED_LIST": "Đã duyệt",
+        "REJECT_LIST": "Từ chối",
         "PHONE": "Số điện thoại",
         "STATUS": "Trạng thái",
         "EMAIL": "Email",

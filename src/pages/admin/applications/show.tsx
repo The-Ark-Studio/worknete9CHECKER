@@ -51,6 +51,8 @@ export const ApplicationShow = ({ application }) => {
     });
 
     const { t } = useTranslation();
+
+    const { open } = useNotification();
     const [imgList, setImgList] = useState(null);
     const [titleStr, setTitleStr] = useState("");
 
@@ -68,20 +70,26 @@ export const ApplicationShow = ({ application }) => {
             `${apiUrl}/applications/${applicationDetails?.applicationId}/images?imageType=${imageType}`
         ).then((response) => {
             // console.log(response.data);
-            let imgStr = response.data.data;
-            setImgList(imgStr);
-            // if (imageType == 'H') {
-            //     let imgList = imgStr.split("${join}");
-            //     // console.log(imgList);
-            //     setImgList(imgList);
-            // } else
-            //     setImgList(imgStr.split(" "));
-            // console.log(imgStr.split(" "))
+            if (response.data.success) {
+                let imgStr = response.data.data;
+                setImgList(imgStr);
+            } else {
+                open?.({
+                    type: "error",
+                    message: response.data.message,
+                    key: applicationDetails?.applicationId,
+                });
+            }
+
         })
             .catch((error) => {
-                console.error(error);
+                open?.({
+                    type: "error",
+                    message: error,
+                    key: applicationDetails?.applicationId,
+                });
             });
-        console.log(imgList)
+        // console.log(imgList)
         setModalOpen(!modalOpen);
     }
 

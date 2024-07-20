@@ -7,7 +7,7 @@ const urlLocal = "http://localhost:8080/api";
 // const apiUrl = useApiUrl();
 
 export default axios.create({
-    baseURL: urlLocal,
+    baseURL: urlProduction,
     headers: {
         "Content-type": "application/json",
         "Access-Control-Allow-Headers": "*",
