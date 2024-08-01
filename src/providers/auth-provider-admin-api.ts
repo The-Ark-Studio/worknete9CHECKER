@@ -10,9 +10,6 @@ import http from "@src/api/http-login-api";
 import IAuthenData from "@src/providers/interface/authen-data";
 export const SECRET_KEY = "worknet-e9-fe-auth";
 
-const urlProduction = "https://services.worknete9.com:8080/api";
-const urlLocal = "http://localhost:8080/api";
-
 const configLogin = {
     headers: {
         "Access-Control-Allow-Headers": "*",
@@ -35,7 +32,7 @@ export const authProviderAdmin: AuthProvider = {
                         localStorage.setItem("userId", response.data.id)
                         localStorage.setItem("role", JSON.stringify(response.data.role))
                         if (response.data.role != "User")
-                            redirectName = "/admin"
+                            redirectName = "/"
                     }
 
                     return response.data;
@@ -62,7 +59,7 @@ export const authProviderAdmin: AuthProvider = {
         localStorage.removeItem("role");
         return {
             success: true,
-            redirectTo: "/admin/login"
+            redirectTo: "/login"
         };
     },
     check: async () => {
@@ -75,7 +72,7 @@ export const authProviderAdmin: AuthProvider = {
 
         return {
             authenticated: false,
-            redirectTo: "/admin/login"
+            redirectTo: "/login"
         };
     },
     getPermissions: async () => null,
@@ -110,7 +107,7 @@ export const authProviderAdmin: AuthProvider = {
             localStorage.removeItem("role");
             return {
                 logout: true,
-                redirectTo: "/admin/login",
+                redirectTo: "/login",
                 error: new Error(error),
             };
         }

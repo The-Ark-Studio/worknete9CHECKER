@@ -6,21 +6,6 @@ import { CrudFilters, CrudOperators } from "@refinedev/core";
 // Error handling with axios interceptors
 const axiosInstance = httpCommon;
 
-// axiosInstance.interceptors.response.use(
-//     (response) => {
-//         return response;
-//     },
-//     (error) => {
-//         const customError: HttpError = {
-//             ...error,
-//             message: error.response?.data?.message,
-//             statusCode: error.response?.status,
-//         };
-
-//         return Promise.reject(customError);
-//     },
-// );
-
 // Map refine operators to API operators
 const mapOperator = (operator: CrudOperators): string => {
     switch (operator) {

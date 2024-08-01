@@ -27,7 +27,6 @@ import { ColorModeContextProvider } from "./contexts/color-mode";
 import { AdministratorList } from "./pages/admin/administrators";
 import { ApprovalProcessingList, ApprovalProcessingListNew } from "./pages/admin/approval-processing";
 import { ForgotPassword } from "./pages/authentication/forgot-password";
-import { Landing } from "./pages/user/landing";
 import { Login } from "./pages/authentication/login";
 import { Register } from "./pages/authentication/register";
 import { authProviderAdmin } from "./providers/auth-provider-admin-api";
@@ -37,13 +36,6 @@ import { EPermissions } from "./providers/interface/permission-enum";
 import IPermission from "./providers/interface/permission";
 import { AdministratorEdit } from "./pages/admin/administrators/edit";
 import { AdministratorCreate } from "./pages/admin/administrators/create";
-import { MainSite } from "./pages/user/main";
-import { Privacy } from "./pages/user/privacy";
-import { Terms } from "./pages/user/terms";
-import { Copyrights } from "./pages/user/copyrights";
-import { FAQs } from "./pages/user/faqs";
-import { AboutUs } from "./pages/user/about-us";
-import { Information } from "./pages/user/information";
 import NoPermission from "./components/Common/NoPermissionPage";
 import { ApprovalProcessingCreate } from "./pages/admin/approval-processing/create";
 import { ApplicationList } from "./pages/admin/applications";
@@ -51,7 +43,7 @@ import { AddApplications } from "./pages/admin/applications/create";
 
 const Layout = () => {
     const location = useLocation();
-    if (location.pathname == "/") return null;
+    // if (location.pathname == "/") return null;
 
     return (
         <ThemedLayoutV2 Header={() => <Header sticky />} Sider={(props) => <CustomSider {...props} fixed />}>
@@ -71,7 +63,7 @@ const App: React.FC = () => {
 
     const RoleAccess = ({ allowPermission, outletElement }) => {
         if (allowPermission === undefined)
-            return <Navigate to="/admin/unauthorized" replace />;
+            return <Navigate to="/unauthorized" replace />;
 
         const userRole: IRole = JSON.parse(localStorage.getItem("role") || "{}");
         const userPermissions: Array<IPermission> = userRole?.permissions;
@@ -84,7 +76,7 @@ const App: React.FC = () => {
 
         if (hasPermission)
             return outletElement;
-        return <Navigate to="/admin/unauthorized" replace />;
+        return <Navigate to="/unauthorized" replace />;
     };
 
     const i18nProvider = {
@@ -113,85 +105,73 @@ const App: React.FC = () => {
                                 resources={[
                                     {
                                         name: "approval-processing",
-                                        list: "/admin/approval-processing",
-                                        // create: "/admin/approval-processing/create",
-                                        // edit: "/admin/approval-processing/edit/:id",
-                                        show: "/admin/approval-processing/:id",
+                                        list: "/approval-processing",
+                                        // create: "/-========/ edit: "/approval-processing/edit/:id",
+                                        show: "/approval-processing/:id",
                                         meta: {
                                             canDelete: true
                                         },
                                         options: {
                                             label: t("APPROVAL_PROCESSING.LABEL"),
-                                            route: "/admin/approval-processing"
+                                            route: "/approval-processing"
                                         },
                                         icon: <AppstoreOutlined twoToneColor="C2282AFF" />
                                     },
                                     {
                                         name: "administrators",
-                                        list: "/admin/administrators",
-                                        create: "/admin/administrators/create",
-                                        edit: "/admin/administrators/edit/:id",
-                                        // show: "/admin/administrators/:id",
+                                        list: "/administrators",
+                                        create: "/administrators/create",
+                                        edit: "/administrators/edit/:id",
+                                        // show: "/administrators/:id",
                                         meta: {
                                             canDelete: true
                                         },
                                         options: {
                                             label: t("ADMINISTRATORS.LABEL"),
-                                            route: "/admin/applications"
+                                            route: "/administrators"
                                         },
                                         icon: <BookOutlined twoToneColor="C2282AFF" />
                                     },
                                     {
                                         name: "applications",
-                                        list: "/admin/applications",
-                                        create: "/admin/applications/create",
-                                        edit: "/admin/applications/edit/:id",
-                                        show: "/admin/applications/:id",
+                                        list: "/applications",
+                                        create: "/applications/create",
+                                        edit: "/applications/edit/:id",
+                                        show: "/applications/:id",
                                         meta: {
                                             canDelete: true
                                         },
                                         options: {
                                             label: t("APPLICATIONS.LABEL"),
-                                            route: "/admin/administrators"
+                                            route: "/applications"
                                         },
                                         icon: <UsergroupAddOutlined twoToneColor="C2282AFF" />
                                     }
                                 ]}
                                 routerProvider={routerBindings}
                             >
-                                <DocumentTitleHandler />
+                                {/* <DocumentTitleHandler /> */}
                                 <Routes>
-                                    <Route element={<Landing />} index path="/" />
-                                    <Route element={<MainSite />} index path="/main" />
-                                    <Route element={<Privacy />} index path="/privacy" />
-                                    <Route element={<Terms />} index path="/terms" />
-                                    <Route element={<AboutUs />} index path="/about" />
-                                    <Route element={<Copyrights />} index path="/copyrights" />
-                                    <Route element={<FAQs
-                                    />} index path="/faqs" />
-
-                                    <Route element={<Information
-                                    />} index path="/information" />
+                                    <Route path="/" element={<NavigateToResource resource="approval-processing" />} index />
                                     <Route
                                         element={
                                             <Authenticated
-                                                fallback={<CatchAllNavigate to="/admin/login" />}
+                                                fallback={<CatchAllNavigate to="/login" />}
                                                 key="authenticated-inner"
                                             >
                                                 <Layout />
                                             </Authenticated>
                                         }
                                     >
-                                        <Route element={<NavigateToResource resource="approval-processing" />} index />
-                                        <Route element={<RoleAccess allowPermission={EPermissions.ViewApprovalProcessing} outletElement={<Outlet />} />} path="/admin/approval-processing">
+                                        {/* <Route path="/" element={<NavigateToResource resource="approval-processing" />} index /> */}
+                                        <Route element={<RoleAccess allowPermission={EPermissions.ViewApprovalProcessing} outletElement={<Outlet />} />} path="/approval-processing">
                                             <Route element={<ApprovalProcessingListNew />} index />
-                                            {/* <Route path="create" element={<RoleAccess allowPermission={EPermissions.AddApplications} outletElement={<ApprovalProcessingCreate />} />} /> */}
                                         </Route>
-                                        <Route element={<RoleAccess allowPermission={EPermissions.ViewApplications} outletElement={<Outlet />} />} path="/admin/applications">
+                                        <Route element={<RoleAccess allowPermission={EPermissions.ViewApplications} outletElement={<Outlet />} />} path="/applications">
                                             <Route element={<ApplicationList />} index />
                                             <Route path="create" element={<RoleAccess allowPermission={EPermissions.AddApplications} outletElement={<AddApplications />} />} />
                                         </Route>
-                                        <Route path="/admin/administrators" element={<RoleAccess allowPermission={EPermissions.ViewAdministrators} outletElement={<Outlet />} />}>
+                                        <Route path="/administrators" element={<RoleAccess allowPermission={EPermissions.ViewAdministrators} outletElement={<Outlet />} />}>
                                             <Route element={<AdministratorList />} index />
 
                                             <Route path="create" element={<RoleAccess allowPermission={EPermissions.AddAdministrations} outletElement={<AdministratorCreate />} />} />
@@ -200,10 +180,10 @@ const App: React.FC = () => {
                                         </Route>
                                         <Route
                                             element={<NavigateToResource resource="approval-processing" />}
-                                            path="/admin/*"
+                                            path="/*"
                                         />
-                                        <Route element={<NoPermission />} path="/admin/unauthorized" />
-                                        <Route element={<ErrorComponent />} path="/admin/*" />
+                                        <Route element={<NoPermission />} path="/unauthorized" />
+                                        <Route element={<ErrorComponent />} path="/*" />
                                     </Route>
                                     <Route
                                         element={
@@ -212,13 +192,12 @@ const App: React.FC = () => {
                                             </Authenticated>
                                         }
                                     />
-                                    <Route element={<Login />} path="/admin/login" />
-                                    <Route element={<Register />} path="/admin/register" />
-                                    <Route element={<ForgotPassword />} path="/admin/forgot-password" />
+                                    <Route element={<Login />} path="/login" />
+                                    <Route element={<Register />} path="/register" />
+                                    <Route element={<ForgotPassword />} path="/forgot-password" />
                                 </Routes>
                                 <RefineKbar />
                                 <UnsavedChangesNotifier />
-                                <DocumentTitleHandler />
                             </Refine>
 
                             {/* <DevtoolsPanel /> */}

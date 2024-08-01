@@ -17,7 +17,7 @@ import preferredWorkImg from "@asset/base/preferred-work.svg";
 import styles from "@asset/styles.module.css";
 import { useApiUrl, useCustom, useNotification, useOne } from "@refinedev/core";
 import { ModalComp } from "@src/components/Layout/ModalComp";
-import { Applications } from "@src/utils/applications";
+// import { Applications } from "@src/utils/applications";
 import { Avatar, Button, Col, Flex, Modal, Row, Typography, Input } from "antd";
 import httpCommon from "@api/http-common-api";
 import IGeneralResponse from "@src/providers/interface/general-response";

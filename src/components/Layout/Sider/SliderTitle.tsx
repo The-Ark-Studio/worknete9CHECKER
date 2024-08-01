@@ -28,7 +28,7 @@ export const CustomTitle: React.FC<RefineLayoutThemedTitleProps> = ({
                 textDecoration: "none",
                 marginLeft: "-1vw"
             }}
-            to="/admin/approval-processings"
+            to="/approval-processing"
         >
             {/* <Space
                 style={{
@@ -77,9 +77,9 @@ export const CustomTitle: React.FC<RefineLayoutThemedTitleProps> = ({
                 <Avatar alt="e9-logo"
                     className={styles.header_e9_logo}
                     src={E9Logo}
-                    onClick={() => window.open("/main", '_blank', "noopener,noreferrer")}
+                    onClick={() => window.open("/", '_blank', "noopener,noreferrer")}
                 />
-                <div style={{ width: "22vw" }} onClick={() => window.open("/main", '_blank', "noopener,noreferrer")}>
+                <div style={{ width: "22vw" }} onClick={() => window.open("/", '_blank', "noopener,noreferrer")}>
                     <Typography className={styles.header_sub_title}>{t("DASHBOARD.SUB_TITLE")}</Typography>
                     <Typography className={styles.header_title}>{t("SYSTEM_NAME")}</Typography>
                 </div>
