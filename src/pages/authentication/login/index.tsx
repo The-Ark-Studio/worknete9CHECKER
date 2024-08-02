@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-import { AuthPage } from "@comp/Layout/Authentication/BasicLayout";
+import { AuthPage } from "@src/components/Layout/BasicLayout";
 // import { AuthPage } from "@refinedev/antd";
 import { Flex } from "antd";
 

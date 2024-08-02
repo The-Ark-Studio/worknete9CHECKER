@@ -15,7 +15,7 @@ import image from "@asset/bg-auth.jpeg";
 import styles from "@asset/styles.module.css";
 import { LoginPage } from "@src/components/Layout/Authentication/Login/login-page";
 import { useTranslation } from "react-i18next";
-import { Footer } from "../FooterLayout";
+import { Footer } from "../Authentication/FooterLayout";
 // import { Language } from "../../../languages";
 import { useGetLocale, useSetLocale } from "@refinedev/core";
 
