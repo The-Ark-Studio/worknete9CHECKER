@@ -13,9 +13,9 @@ import { Col, Row } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import image from "@asset/bg-auth.jpeg";
 import styles from "@asset/styles.module.css";
-import { LoginPage } from "@src/components/Layout/Authentication/Login/login-page";
+import { LoginPage } from "@src/components/Layout/Login";
 import { useTranslation } from "react-i18next";
-import { Footer } from "../Authentication/FooterLayout";
+import { Footer } from "@comp/Layout/FooterLayout";
 // import { Language } from "../../../languages";
 import { useGetLocale, useSetLocale } from "@refinedev/core";
 
