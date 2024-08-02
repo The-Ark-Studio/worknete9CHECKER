@@ -13,6 +13,7 @@ import "@refinedev/antd/dist/reset.css";
 
 import { AppstoreOutlined, BookOutlined, UsergroupAddOutlined } from "@ant-design/icons";
 import routerBindings, {
+    CatchAllNavigate,
     DocumentTitleHandler,
     NavigateToResource,
     UnsavedChangesNotifier
@@ -20,7 +21,8 @@ import routerBindings, {
 import { App as AntdApp } from "antd";
 import { useTranslation } from "react-i18next";
 import { BrowserRouter, Outlet, Route, Routes, Navigate, useLocation } from "react-router-dom";
-import { CatchAllNavigate } from "@comp/Layout/Authentication/CatchAllNavigate";
+// import { CatchAllNavigate } from "@comp/Layout/Authentication/CatchAllNavigate";
+
 import { Header } from "@comp/Layout/Header";
 import { CustomSider } from "@comp/Layout/Sider";
 import { ColorModeContextProvider } from "./contexts/color-mode";
