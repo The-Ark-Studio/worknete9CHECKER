@@ -21,7 +21,7 @@ const { dependencies, devDependencies, name, version } = pkg;
 // This env prefix will impact application entirely, please carefully use.
 const ENV_PREFIX = "EHM";
 const ENV_DIR = "env";
-const FALLBACK_PORT = 8888;
+const FALLBACK_PORT = 3002;
 const PLATFORM = process.platform;
 const API_URL = "/api/ehm";
 // Read all environment variable configuration files to process.env

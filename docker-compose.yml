@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  e9-checker:
+    image: 'e9-checker'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: e9-checker
+    volumes:
+      - .:/app/e9checker
+      - /app/e9checker/node_modules
+    environment:
+      NODE_ENV: development
+    ports:
+      - "3002:3002"
+    command: [ "pnpm", "dev" ]

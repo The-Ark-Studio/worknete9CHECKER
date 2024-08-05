@@ -1,37 +1,27 @@
 # This Dockerfile uses `serve` npm package to serve the static files with node process.
-# You can find the Dockerfile for nginx in the following link:
-# https://github.com/refinedev/dockerfiles/blob/main/vite/Dockerfile.nginx
-FROM refinedev/node:18 AS base
+# Base image
+FROM node:20 as build
 
-FROM base as deps
+# Install pnpm
+RUN npm install -g pnpm@9.1.1
 
-COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* .npmrc* ./
+# Set PNPM_HOME and add it to PATH
+ENV PNPM_HOME=/root/.pnpm
+ENV PATH=$PNPM_HOME:$PATH
 
-RUN \
-  if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
-  elif [ -f package-lock.json ]; then npm ci; \
-  elif [ -f pnpm-lock.yaml ]; then yarn global add pnpm && pnpm i --frozen-lockfile; \
-  else echo "Lockfile not found." && exit 1; \
-  fi
+# Set working directory
+WORKDIR /app/e9checker
 
-FROM base as builder
+# Install dependencies
+COPY package.json ./
+COPY pnpm-lock.yaml ./
+RUN pnpm install
 
-ENV NODE_ENV production
-
-COPY --from=deps /app/refine/node_modules ./node_modules
-
+# Copy source code
 COPY . .
 
-RUN npm run build
+# Expose the port the app runs on
+EXPOSE 3002
 
-FROM base as runner
-
-ENV NODE_ENV production
-
-RUN npm install -g serve
-
-COPY --from=builder /app/refine/dist ./
-
-USER refine
-
-CMD ["serve"]
+# Start the application
+CMD ["pnpm", "dev"]
